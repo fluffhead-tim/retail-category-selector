@@ -1,0 +1,19 @@
+from typing import List, Optional, Dict, Any
+from pydantic import BaseModel, Field
+
+class ItemInput(BaseModel):
+    sku: str
+    name: str
+    brand: Optional[str] = None
+    description: Optional[str] = None
+    image_url: Optional[str] = None
+    attributes: Dict[str, Any] = Field(default_factory=dict)
+
+class MarketplaceCategoryResult(BaseModel):
+    marketplace: str
+    category_name: str
+    category_id: str
+
+class CategorizationResponse(BaseModel):
+    sku: str
+    categories: List[MarketplaceCategoryResult]

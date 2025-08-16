@@ -1,0 +1,21 @@
+{
+  "name": "Root",
+  "id": "root",
+  "children": [
+    {
+      "name": "Category One",
+      "id": "cat-1",
+      "children": [
+        { "name": "Category One > Leaf A", "id": "cat-1-a" },
+        { "name": "Category One > Leaf B", "id": "cat-1-b" }
+      ]
+    },
+    {
+      "name": "Category Two",
+      "id": "cat-2",
+      "children": [
+        { "name": "Category Two > Leaf A", "id": "cat-2-a" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "marketplaces": [
+    {
+      "name": "Marketplace A",
+      "taxonomy_file": "data/taxonomies/marketplaceA.json",
+      "id_field": "id",
+      "name_field": "name"
+    },
+    {
+      "name": "Marketplace B",
+      "taxonomy_file": "data/taxonomies/marketplaceB.json",
+      "id_field": "id",
+      "name_field": "name"
+    },
+    {
+      "name": "Marketplace C",
+      "taxonomy_file": "data/taxonomies/marketplaceC.json",
+      "id_field": "id",
+      "name_field": "name"
+    },
+    {
+      "name": "Marketplace D",
+      "taxonomy_file": "data/taxonomies/marketplaceD.json",
+      "id_field": "id",
+      "name_field": "name"
+    }
+  ]
+}

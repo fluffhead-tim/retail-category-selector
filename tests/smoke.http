@@ -1,0 +1,18 @@
+### Health check
+GET http://127.0.0.1:5000/health
+
+### Categorize sample item
+POST http://127.0.0.1:5000/categorize
+Content-Type: application/json
+
+{
+  "sku": "SKU-123",
+  "name": "Wireless Mouse",
+  "brand": "Logi",
+  "description": "Ergonomic 6-button wireless mouse with USB receiver",
+  "image_url": null,
+  "attributes": {
+    "color": "black",
+    "connectivity": "wireless"
+  }
+}
