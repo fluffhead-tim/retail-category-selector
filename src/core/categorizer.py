@@ -6,14 +6,13 @@ from ..config import MODEL_PROVIDER, OPENAI_API_KEY, OPENAI_MODEL, ANTHROPIC_API
 # NOTE: Stubbed. Wire up to OpenAI/Anthropic later.
 # Receives: item details, marketplace name, and its taxonomy JSON.
 # Returns: best leaf (name + id).
-
-def choose_category_for_marketplace(item: ItemInput, marketplace_name: str, taxonomy: Dict[str, Any]) -> MarketplaceCategoryResult:\n    leaf = _first_leaf_node(taxonomy) or {"name": "UNMAPPED", "id": "N/A"}
+def choose_category_for_marketplace(item: ItemInput, marketplace_name: str, taxonomy: Dict[str, Any]) -> MarketplaceCategoryResult:
+    leaf = _first_leaf_node(taxonomy) or {"name": "UNMAPPED", "id": "N/A"}
     return MarketplaceCategoryResult(
         marketplace=marketplace_name,
         category_name=leaf["name"],
         category_id=str(leaf["id"])
     )
-
 
 def _first_leaf_node(tree: Dict[str, Any]) -> Dict[str, Any] | None:
     def dfs(node):
