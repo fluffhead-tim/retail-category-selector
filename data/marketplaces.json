@@ -1,28 +1,16 @@
 {
   "marketplaces": [
     {
-      "name": "Marketplace A",
-      "taxonomy_file": "data/taxonomies/marketplaceA.json",
+      "name": "Tesco",
+      "taxonomy_file": "data/taxonomies/tesco.json",
       "id_field": "id",
-      "name_field": "name"
+      "name_field": "displayName"
     },
     {
-      "name": "Marketplace B",
-      "taxonomy_file": "data/taxonomies/marketplaceB.json",
-      "id_field": "id",
-      "name_field": "name"
-    },
-    {
-      "name": "Marketplace C",
-      "taxonomy_file": "data/taxonomies/marketplaceC.json",
-      "id_field": "id",
-      "name_field": "name"
-    },
-    {
-      "name": "Marketplace D",
-      "taxonomy_file": "data/taxonomies/marketplaceD.json",
-      "id_field": "id",
-      "name_field": "name"
+      "name": "B&Q",
+      "taxonomy_file": "data/taxonomies/BandQ.json",
+      "id_field": "code",
+      "name_field": "label"
     }
   ]
 }
