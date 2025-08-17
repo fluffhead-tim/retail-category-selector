@@ -20,15 +20,28 @@ def categorize():
     except (TypeError, ValidationError) as e:
         return jsonify({"error": "Invalid input", "details": str(e)}), 400
 
+    # only the loop body changes
     marketplaces = load_marketplaces()
     results = []
 
     for mp in marketplaces.get("marketplaces", []):
         name = mp["name"]
         taxonomy_path = mp["taxonomy_file"]
+        id_field = mp.get("id_field", "id")
+        name_field = mp.get("name_field", "name")
+        children_field = mp.get("children_field", "children")
+
         taxonomy = load_taxonomy(taxonomy_path)
-        result = choose_category_for_marketplace(item, name, taxonomy)
+        result = choose_category_for_marketplace(
+            item,
+            name,
+            taxonomy,
+            id_field=id_field,
+            name_field=name_field,
+            children_field=children_field,
+        )
         results.append(result.model_dump())
+
 
     resp = CategorizationResponse(sku=item.sku, categories=results)
     return jsonify(resp.model_dump()), 200
