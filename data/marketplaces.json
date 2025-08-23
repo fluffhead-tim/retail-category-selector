@@ -4,13 +4,43 @@
       "name": "Tesco",
       "taxonomy_file": "data/taxonomies/tesco.json",
       "id_field": "id",
-      "name_field": "displayName"
+      "name_field": "displayName",
+      "base_url": ""
     },
     {
       "name": "B&Q",
       "taxonomy_file": "data/taxonomies/BandQ.json",
       "id_field": "code",
-      "name_field": "label"
+      "name_field": "label",
+      "base_url": "https://mp-api-preprod.kingfisher.com"
+    },
+    {
+      "name": "SuperDrug",
+      "taxonomy_file": "data/taxonomies/superdrug.json",
+      "id_field": "id",
+      "name_field": "name",
+      "base_url": ""
+    },
+    {
+      "name": "Mountain Warehouse",
+      "taxonomy_file": "data/taxonomies/mountain_warehouse.json",
+      "id_field": "id",
+      "name_field": "name",
+      "base_url": ""
+    },
+    {
+      "name": "Debenhams",
+      "taxonomy_file": "data/taxonomies/debenhams.json",
+      "id_field": "id",
+      "name_field": "name",
+      "base_url": ""
+    },
+    {
+      "name": "Decathlon",
+      "taxonomy_file": "data/taxonomies/decathlon.json",
+      "id_field": "id",
+      "name_field": "name",
+      "base_url": "https://decathlonbelgium-preprod.mirakl.net"
     }
   ]
 }
