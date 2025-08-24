@@ -5,7 +5,7 @@
       "taxonomy_file": "data/taxonomies/tesco.json",
       "id_field": "id",
       "name_field": "displayName",
-      "base_url": "",
+      "base_url": "https://tesco.staging.marketplacer.com/graphql",
       "shop_id": ""
     },
     {
