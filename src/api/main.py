@@ -145,7 +145,7 @@ def categorize():
             }), 400
         mps = [target]
     else:
-        mps = all_mps
+        mps = all_mps 
 
     # For each marketplace: skip missing taxonomy file with a note; otherwise categorize
     results = []
@@ -182,5 +182,11 @@ def categorize():
     return jsonify(resp.model_dump()), 200
 
 
+# replace your existing block at the very bottom
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+    app.run(
+        host="0.0.0.0",
+        port=int(os.getenv("PORT", "8000")),
+        debug=False
+    )
