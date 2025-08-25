@@ -1,11 +1,18 @@
 # src/core/categorizer.py
 from typing import Dict, Any, List, Tuple
+import os
 import re
 
 from .models import ItemInput, MarketplaceCategoryResult
 from .loaders import load_prompt
-from .taxonomy import flatten_to_leaves
+from .taxonomy_store import flatten_to_leaves
 from .llm import pick_category_via_llm
+
+# --- config (tunable without redeploy) ---
+_SHORTLIST_MAX = int(os.getenv("SHORTLIST_MAX_PER_MKT", "300"))
+_MAX_NAME_CHARS = int(os.getenv("MAX_NAME_CHARS", "300"))
+_MAX_DESC_CHARS = int(os.getenv("MAX_DESC_CHARS", "2000"))
+_DEBUG = os.getenv("DEBUG", "").lower() in ("1", "true", "yes")
 
 # --- simple heuristic scoring for pre-filtering ---
 _WORD = re.compile(r"[A-Za-z0-9]+")
@@ -18,19 +25,35 @@ def _score_leaf(product_name: str, product_desc: str, leaf: Dict[str, Any]) -> f
     desc_kw = set(_keywords(product_desc))
     path = (leaf.get("path") or "") + " " + (leaf.get("name") or "")
     leaf_kw = set(_keywords(path))
-    # Weighted overlap: name words weigh more than description
+    # Weighted overlap: name words weigh more than description; slight depth bonus
     return 2.0 * len(name_kw & leaf_kw) + 1.0 * len(desc_kw & leaf_kw) + 0.1 * float(leaf.get("depth", 0))
 
-def _prefilter_candidates(item: ItemInput, leaves: List[Dict[str, Any]], top_k: int = 300) -> List[Dict[str, Any]]:
-    scored = []
-    name = item.name or ""
-    desc = item.description or ""
+def _prefilter_candidates(item: ItemInput, leaves: List[Dict[str, Any]], top_k: int) -> List[Dict[str, Any]]:
+    scored: List[Tuple[float, Dict[str, Any]]] = []
+    # Truncate to keep tokens in check
+    name = (item.name or "")[:_MAX_NAME_CHARS]
+    desc = (item.description or "")[:_MAX_DESC_CHARS]
     for leaf in leaves:
-        scored.append(( _score_leaf(name, desc, leaf), leaf ))
+        scored.append((_score_leaf(name, desc, leaf), leaf))
     scored.sort(key=lambda t: t[0], reverse=True)
-    return [leaf for _, leaf in scored[:top_k]]
+    return [leaf for _, leaf in scored[:max(1, top_k)]]
+
+def _index_candidates(cands: List[Dict[str, Any]]) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, List[Dict[str, Any]]]]:
+    by_id = {str(c["id"]): c for c in cands if "id" in c}
+    by_name = {}
+    for c in cands:
+        nm = str(c.get("name", "")).strip().lower()
+        by_name.setdefault(nm, []).append(c)
+    return by_id, by_name
+
+def _truncate(text: str, limit: int) -> str:
+    if not text:
+        return text
+    return text if len(text) <= limit else text[:limit]
 
 # --- main entry used by the API ---
+# ... existing imports & helpers ...
+
 def choose_category_for_marketplace(
     item: ItemInput,
     marketplace_name: str,
@@ -40,23 +63,35 @@ def choose_category_for_marketplace(
     name_field: str = "name",
     children_field: str = "children",
 ) -> MarketplaceCategoryResult:
-    # Load prompt
     system_prompt = load_prompt()
 
-    # Flatten leaves and pre-filter (controls tokens & cost)
     leaves = flatten_to_leaves(taxonomy, id_field=id_field, name_field=name_field, children_field=children_field)
     if not leaves:
-        return MarketplaceCategoryResult(marketplace=marketplace_name, category_name="UNMAPPED", category_id="N/A")
+        return MarketplaceCategoryResult(
+            marketplace=marketplace_name,
+            category_name="UNMAPPED",
+            category_id="N/A",
+            category_path="N/A",
+        )
 
-    candidates = _prefilter_candidates(item, leaves, top_k=300)
+    candidates = _prefilter_candidates(item, leaves, top_k=_SHORTLIST_MAX)
+    if not candidates:
+        return MarketplaceCategoryResult(
+            marketplace=marketplace_name,
+            category_name="UNMAPPED",
+            category_id="N/A",
+            category_path="N/A",
+        )
 
-    # Build payload for LLM (per marketplace to keep context small)
+    safe_name = _truncate(item.name or "", _MAX_NAME_CHARS)
+    safe_desc = _truncate(item.description or "", _MAX_DESC_CHARS)
+
     payload = {
         "product": {
             "sku": item.sku,
-            "name": item.name,
+            "name": safe_name,
             "brand": item.brand,
-            "description": item.description,
+            "description": safe_desc,
             "image_url": item.image_url,
             "attributes": item.attributes,
         },
@@ -66,9 +101,8 @@ def choose_category_for_marketplace(
             "name_field": name_field,
             "children_field": children_field,
         },
-        # Send only necessary fields for leaves
         "candidates": [
-            {"id": c["id"], "name": c["name"], "path": c["path"], "depth": c["depth"]}
+            {"id": str(c["id"]), "name": str(c["name"]), "path": str(c["path"]), "depth": int(c["depth"])}
             for c in candidates
         ],
         "output_format": {"category_id": "string", "category_name": "string"},
@@ -81,11 +115,36 @@ def choose_category_for_marketplace(
         ],
     }
 
-    # Ask LLM (if keys configured); otherwise fallback
     cat_id, cat_name, _raw = pick_category_via_llm(system_prompt, payload)
-    if cat_id and cat_name:
-        return MarketplaceCategoryResult(marketplace=marketplace_name, category_name=cat_name, category_id=cat_id)
 
-    # Fallback: choose top-scoring candidate deterministically
+    by_id, by_name = _index_candidates(payload["candidates"])
+    if cat_id and cat_name:
+        cand = by_id.get(str(cat_id))
+        if cand:
+            return MarketplaceCategoryResult(
+                marketplace=marketplace_name,
+                category_name=str(cand["name"]),
+                category_id=str(cand["id"]),
+                category_path=str(cand["path"]),
+            )
+        nm = str(cat_name).strip().lower()
+        name_matches = by_name.get(nm, [])
+        if name_matches:
+            chosen = name_matches[0]
+            return MarketplaceCategoryResult(
+                marketplace=marketplace_name,
+                category_name=str(chosen["name"]),
+                category_id=str(chosen["id"]),
+                category_path=str(chosen["path"]),
+            )
+
+    # Fallback: top-scoring candidate
     best = candidates[0]
-    return MarketplaceCategoryResult(marketplace=marketplace_name, category_name=str(best["name"]), category_id=str(best["id"]))
+    if _DEBUG:
+        print(f"[DEBUG] Fallback used for {item.sku} @ {marketplace_name}; candidates={len(candidates)}")
+    return MarketplaceCategoryResult(
+        marketplace=marketplace_name,
+        category_name=str(best["name"]),
+        category_id=str(best["id"]),
+        category_path=str(best["path"]),
+    )

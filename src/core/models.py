@@ -13,6 +13,8 @@ class MarketplaceCategoryResult(BaseModel):
     marketplace: str
     category_name: str
     category_id: str
+    category_path: str                 # <-- NEW (always present; "N/A" when unmapped or skipped)
+    note: Optional[str] = None         # (already added earlier)
 
 class CategorizationResponse(BaseModel):
     sku: str
