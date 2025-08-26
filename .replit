@@ -1,1 +1,13 @@
 run = "bash -lc 'pip install -r requirements.txt && gunicorn -k gthread -w 2 -b 0.0.0.0:$PORT src.api.main:app'"
+modules = ["python-3.12", "nix"]
+
+[deployment]
+run = ["sh", "-c", "bash -lc 'pip install -r requirements.txt && gunicorn -k gthread -w 2 -b 0.0.0.0:$PORT src.api.main:app'"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["libiconv", "libxcrypt", "rapidfuzz-cpp", "taskflow"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
