@@ -178,10 +178,19 @@ def categorize():
         )
         results.append(result.model_dump())
 
-    # Move sku into each category result
+    # Transform results to new format
+    categories = []
     for cat in results:
-        cat["sku"] = item.sku
-    resp = {"categories": results}
+        products_obj = {
+            "category_code": cat.get("category_id"),
+            "category_label": cat.get("category_name"),
+            "product_sku": item.sku,
+            "category_path": cat.get("category_path"),
+            "marketplace": cat.get("marketplace"),
+            "note": cat.get("note")
+        }
+        categories.append({"products": products_obj})
+    resp = {"categories": categories}
     return jsonify(resp), 200
 
 
