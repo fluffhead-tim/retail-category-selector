@@ -178,8 +178,11 @@ def categorize():
         )
         results.append(result.model_dump())
 
-    resp = CategorizationResponse(sku=item.sku, categories=results)
-    return jsonify(resp.model_dump()), 200
+    # Move sku into each category result
+    for cat in results:
+        cat["sku"] = item.sku
+    resp = {"categories": results}
+    return jsonify(resp), 200
 
 
 # replace your existing block at the very bottom
