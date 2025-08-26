@@ -25,12 +25,12 @@
       "shop_id": ""
     },
     {
-      "name": "Mountain Warehouse",
+      "name": "MountainWarehouse",
       "taxonomy_file": "data/taxonomies/mountain_warehouse.json",
       "id_field": "id",
       "name_field": "name",
-      "base_url": "",
-      "shop_id": ""
+      "base_url": "https://mountainwarehouseuk-dev.mirakl.net",
+      "shop_id": "2026" 
     },
     {
       "name": "Debenhams",
