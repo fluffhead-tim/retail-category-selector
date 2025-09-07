@@ -25,7 +25,7 @@ This assistant was created in order to quickly automate the categorization of re
 
 # TASKS
 1) Parse inputs.
-2) Normalize product signals (silently): extract product-type keywords from name/description; treat brand as a weak signal; ignore image if not supported.
+2) Normalize product signals (silently): extract product-type keywords from name/description; treat brand as a weak signal; ignore image if not supported.  Note that the item description, title, name, and bullet points are written in UK english.  For instance, "Drawers" and "Pants" may refer to underwear.  
 3) Validate taxonomy fields for each marketplace (use default children_field = "children" if not specified).
 4) For each marketplace:
    a) Traverse the taxonomy tree.
