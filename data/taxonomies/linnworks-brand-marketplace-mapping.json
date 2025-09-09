@@ -1,7 +1,7 @@
 [
   {
     "supplier": {
-      "CategoryID": "00000000-0000-0000-0000-000000000000",
+      "CategoryId": "00000000-0000-0000-0000-000000000000",
       "ProductCategoryId": 1,
       "CategoryName": "Default (for items missing or don't have a category listed below)",
       "Tesco": true,
@@ -15,7 +15,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "49f9defe-fae6-4993-8a96-10f48da4fe87",
+      "CategoryId": "49f9defe-fae6-4993-8a96-10f48da4fe87",
       "ProductCategoryId": 313,
       "CategoryName": "1883 Maison Routin",
       "Tesco": false,
@@ -29,7 +29,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "05c39d39-f985-4eca-bd47-18a6a81bd6f0",
+      "CategoryId": "05c39d39-f985-4eca-bd47-18a6a81bd6f0",
       "ProductCategoryId": 267,
       "CategoryName": "Alchemy",
       "Tesco": false,
@@ -43,7 +43,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a1de7c47-a2aa-4cf8-80e4-f0271ef735ae",
+      "CategoryId": "a1de7c47-a2aa-4cf8-80e4-f0271ef735ae",
       "ProductCategoryId": 418,
       "CategoryName": "Amelia Art Glass",
       "Tesco": true,
@@ -57,7 +57,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4c34ad3a-ac5a-4037-b8ec-3c14379204ce",
+      "CategoryId": "4c34ad3a-ac5a-4037-b8ec-3c14379204ce",
       "ProductCategoryId": 46,
       "CategoryName": "Angus & Oink",
       "Tesco": false,
@@ -71,7 +71,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3a1ca7cd-3353-4a86-b208-4967112f851c",
+      "CategoryId": "3a1ca7cd-3353-4a86-b208-4967112f851c",
       "ProductCategoryId": 61,
       "CategoryName": "Aromatize",
       "Tesco": true,
@@ -113,7 +113,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e5afe384-2a3c-4f4b-9b36-59a95145b569",
+      "CategoryId": "e5afe384-2a3c-4f4b-9b36-59a95145b569",
       "ProductCategoryId": 71,
       "CategoryName": "Arora Design",
       "Tesco": true,
@@ -127,7 +127,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "64b389a4-ec3f-47e5-9414-dea3e0c05b99",
+      "CategoryId": "64b389a4-ec3f-47e5-9414-dea3e0c05b99",
       "ProductCategoryId": 193,
       "CategoryName": "Art Hearts",
       "Tesco": true,
@@ -141,7 +141,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a39a6239-8bef-40f0-b720-587260ed3cfc",
+      "CategoryId": "a39a6239-8bef-40f0-b720-587260ed3cfc",
       "ProductCategoryId": 341,
       "CategoryName": "Art WOW",
       "Tesco": true,
@@ -155,7 +155,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d3c085cf-8cb2-416c-8207-fcceaac8f3a4",
+      "CategoryId": "d3c085cf-8cb2-416c-8207-fcceaac8f3a4",
       "ProductCategoryId": 220,
       "CategoryName": "Ashleigh & Burwood",
       "Tesco": false,
@@ -169,7 +169,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "65cb663d-c564-4c5c-8d24-9a0e483e9693",
+      "CategoryId": "65cb663d-c564-4c5c-8d24-9a0e483e9693",
       "ProductCategoryId": 122,
       "CategoryName": "Ass Kickin Hot Sauce",
       "Tesco": true,
@@ -183,7 +183,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0bc9ecf7-d75c-4418-b726-bbaa8c794f5b",
+      "CategoryId": "0bc9ecf7-d75c-4418-b726-bbaa8c794f5b",
       "ProductCategoryId": 398,
       "CategoryName": "Aurora",
       "Tesco": true,
@@ -197,7 +197,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a17a5421-43a8-4094-aca5-341f6ef07cea",
+      "CategoryId": "a17a5421-43a8-4094-aca5-341f6ef07cea",
       "ProductCategoryId": 314,
       "CategoryName": "AutoPot",
       "Tesco": false,
@@ -211,7 +211,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "250c93c3-b0a9-4db5-ac45-e085ff5ddc1a",
+      "CategoryId": "250c93c3-b0a9-4db5-ac45-e085ff5ddc1a",
       "ProductCategoryId": 195,
       "CategoryName": "Ava & I",
       "Tesco": true,
@@ -225,7 +225,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4ada1438-1719-45ba-b293-32612c704b9d",
+      "CategoryId": "4ada1438-1719-45ba-b293-32612c704b9d",
       "ProductCategoryId": 435,
       "CategoryName": "Balefire",
       "Tesco": false,
@@ -239,7 +239,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "94ea55ff-e8a4-4fa5-b84d-0bf5a1bfedea",
+      "CategoryId": "94ea55ff-e8a4-4fa5-b84d-0bf5a1bfedea",
       "ProductCategoryId": 346,
       "CategoryName": "Bare Kind",
       "Tesco": false,
@@ -253,7 +253,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c6b45b11-d332-49e4-ae9e-62d7dbdec700",
+      "CategoryId": "c6b45b11-d332-49e4-ae9e-62d7dbdec700",
       "ProductCategoryId": 78,
       "CategoryName": "BBQ Gourmet",
       "Tesco": false,
@@ -267,7 +267,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e6cb7588-9243-4a2e-b81e-28c2c8405ee6",
+      "CategoryId": "e6cb7588-9243-4a2e-b81e-28c2c8405ee6",
       "ProductCategoryId": 365,
       "CategoryName": "Beast Mug",
       "Tesco": true,
@@ -281,7 +281,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "417038e0-48f4-4178-99be-61f1ab08c570",
+      "CategoryId": "417038e0-48f4-4178-99be-61f1ab08c570",
       "ProductCategoryId": 76,
       "CategoryName": "Beatrix Potter (Peter Rabbit)",
       "Tesco": false,
@@ -295,7 +295,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "223f09f6-656d-4fc2-8aa4-227b4ff92f97",
+      "CategoryId": "223f09f6-656d-4fc2-8aa4-227b4ff92f97",
       "ProductCategoryId": 253,
       "CategoryName": "Beaumont",
       "Tesco": true,
@@ -309,7 +309,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "57b88821-8ace-4082-9006-468f7b4fb136",
+      "CategoryId": "57b88821-8ace-4082-9006-468f7b4fb136",
       "ProductCategoryId": 271,
       "CategoryName": "Beer Buddies",
       "Tesco": false,
@@ -323,7 +323,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "8185b159-a319-4a2e-9596-43263325894c",
+      "CategoryId": "8185b159-a319-4a2e-9596-43263325894c",
       "ProductCategoryId": 56,
       "CategoryName": "Benaya",
       "Tesco": true,
@@ -337,7 +337,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "765d7ce6-e364-4512-b48e-3ee86f437fa3",
+      "CategoryId": "765d7ce6-e364-4512-b48e-3ee86f437fa3",
       "ProductCategoryId": 392,
       "CategoryName": "Big Ginger Sauce Co",
       "Tesco": false,
@@ -351,7 +351,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9b9755ea-6470-4638-8bbc-9a251f57da96",
+      "CategoryId": "9b9755ea-6470-4638-8bbc-9a251f57da96",
       "ProductCategoryId": 289,
       "CategoryName": "Blazing Foods",
       "Tesco": false,
@@ -365,7 +365,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "fb9df271-9dd1-4e66-8039-d9beeb340e68",
+      "CategoryId": "fb9df271-9dd1-4e66-8039-d9beeb340e68",
       "ProductCategoryId": 186,
       "CategoryName": "Bling2O",
       "Tesco": true,
@@ -398,7 +398,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e016eb1c-e9d9-4876-95ab-1255bbbf7629",
+      "CategoryId": "e016eb1c-e9d9-4876-95ab-1255bbbf7629",
       "ProductCategoryId": 389,
       "CategoryName": "Blonde Beards",
       "Tesco": false,
@@ -412,7 +412,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "54120a14-777d-4581-b429-0258c715829a",
+      "CategoryId": "54120a14-777d-4581-b429-0258c715829a",
       "ProductCategoryId": 4,
       "CategoryName": "Blossoms",
       "Tesco": false,
@@ -426,7 +426,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "368fc2a2-1cfa-4ef1-a4dc-52db216160ef",
+      "CategoryId": "368fc2a2-1cfa-4ef1-a4dc-52db216160ef",
       "ProductCategoryId": 356,
       "CategoryName": "Bolle Safety",
       "Tesco": false,
@@ -440,7 +440,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "11f6886a-2f67-48e8-8ade-b9c3c1309cc3",
+      "CategoryId": "11f6886a-2f67-48e8-8ade-b9c3c1309cc3",
       "ProductCategoryId": 153,
       "CategoryName": "Bomb Cosmetics",
       "Tesco": true,
@@ -454,7 +454,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "808eea16-7296-4bc5-aed1-131f9c2b4a9e",
+      "CategoryId": "808eea16-7296-4bc5-aed1-131f9c2b4a9e",
       "ProductCategoryId": 343,
       "CategoryName": "Bored Sheep Shop",
       "Tesco": true,
@@ -468,7 +468,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "415470fd-a8d4-40fc-94da-b3fca7e12582",
+      "CategoryId": "415470fd-a8d4-40fc-94da-b3fca7e12582",
       "ProductCategoryId": 318,
       "CategoryName": "Bowron Sheepskins",
       "Tesco": true,
@@ -482,7 +482,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "98c89838-f920-49ae-bf7a-83b23d2fad40",
+      "CategoryId": "98c89838-f920-49ae-bf7a-83b23d2fad40",
       "ProductCategoryId": 394,
       "CategoryName": "Boxer Gifts",
       "Tesco": true,
@@ -496,7 +496,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b8b04d2f-8085-4583-8cf8-6c3ca3ff3c00",
+      "CategoryId": "b8b04d2f-8085-4583-8cf8-6c3ca3ff3c00",
       "ProductCategoryId": 345,
       "CategoryName": "Boxt Socks",
       "Tesco": false,
@@ -510,7 +510,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3abf4788-a3ba-47bf-aa98-4ce6b3ba394e",
+      "CategoryId": "3abf4788-a3ba-47bf-aa98-4ce6b3ba394e",
       "ProductCategoryId": 361,
       "CategoryName": "Bravado",
       "Tesco": false,
@@ -524,7 +524,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "de023261-a421-4be9-a735-18464f2b6662",
+      "CategoryId": "de023261-a421-4be9-a735-18464f2b6662",
       "ProductCategoryId": 20,
       "CategoryName": "Bud Ducks",
       "Tesco": true,
@@ -538,7 +538,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e8b80105-57a7-4bbd-aa89-c2032ed38824",
+      "CategoryId": "e8b80105-57a7-4bbd-aa89-c2032ed38824",
       "ProductCategoryId": 160,
       "CategoryName": "Bugzz",
       "Tesco": true,
@@ -552,7 +552,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6480ad92-95b6-4da7-871c-0f61c5e8039b",
+      "CategoryId": "6480ad92-95b6-4da7-871c-0f61c5e8039b",
       "ProductCategoryId": 13,
       "CategoryName": "Bugzz Promo",
       "Tesco": true,
@@ -566,7 +566,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ec90a79f-ebfa-4ab7-b2b9-434f538ad5e3",
+      "CategoryId": "ec90a79f-ebfa-4ab7-b2b9-434f538ad5e3",
       "ProductCategoryId": 57,
       "CategoryName": "Built NY",
       "Tesco": true,
@@ -580,7 +580,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "bff5411d-2375-4c76-9400-0a22c1f41240",
+      "CategoryId": "bff5411d-2375-4c76-9400-0a22c1f41240",
       "ProductCategoryId": 351,
       "CategoryName": "C J Wildlife",
       "Tesco": true,
@@ -594,7 +594,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b94682c8-cfbe-48a2-93d0-04918ad1a2f9",
+      "CategoryId": "b94682c8-cfbe-48a2-93d0-04918ad1a2f9",
       "ProductCategoryId": 396,
       "CategoryName": "Cabaia",
       "Tesco": true,
@@ -608,7 +608,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0a150592-531d-4c8a-8291-8e24aa41813b",
+      "CategoryId": "0a150592-531d-4c8a-8291-8e24aa41813b",
       "ProductCategoryId": 422,
       "CategoryName": "Candlelight",
       "Tesco": true,
@@ -622,7 +622,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "96380ea8-336f-479c-b617-a1b66a2ff755",
+      "CategoryId": "96380ea8-336f-479c-b617-a1b66a2ff755",
       "ProductCategoryId": 307,
       "CategoryName": "Canova Home & Fragrance",
       "Tesco": true,
@@ -636,7 +636,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "69adff94-4c58-4a04-875d-b028824739de",
+      "CategoryId": "69adff94-4c58-4a04-875d-b028824739de",
       "ProductCategoryId": 317,
       "CategoryName": "Carat Shop",
       "Tesco": true,
@@ -650,7 +650,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "11f6f29a-35a3-497f-98e6-c4a6713e250a",
+      "CategoryId": "11f6f29a-35a3-497f-98e6-c4a6713e250a",
       "ProductCategoryId": 166,
       "CategoryName": "Chilli Jam Man",
       "Tesco": false,
@@ -664,7 +664,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "717c6ef3-89e6-49dc-87e4-e1d7a2d95948",
+      "CategoryId": "717c6ef3-89e6-49dc-87e4-e1d7a2d95948",
       "ProductCategoryId": 281,
       "CategoryName": "Chiltern Publishing",
       "Tesco": true,
@@ -678,7 +678,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e2cf972b-4127-4c12-ab49-b339594a9f42",
+      "CategoryId": "e2cf972b-4127-4c12-ab49-b339594a9f42",
       "ProductCategoryId": 285,
       "CategoryName": "Choc On Choc",
       "Tesco": false,
@@ -692,7 +692,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3286ce48-5ca8-43b1-9967-3f62e8102e97",
+      "CategoryId": "3286ce48-5ca8-43b1-9967-3f62e8102e97",
       "ProductCategoryId": 305,
       "CategoryName": "Churchill China",
       "Tesco": true,
@@ -706,7 +706,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f76b704d-f63f-45f4-ac49-39a40ca8ffdc",
+      "CategoryId": "f76b704d-f63f-45f4-ac49-39a40ca8ffdc",
       "ProductCategoryId": 371,
       "CategoryName": "Chuug",
       "Tesco": false,
@@ -720,7 +720,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "cbb20d72-19e2-422d-9afa-1318d7420388",
+      "CategoryId": "cbb20d72-19e2-422d-9afa-1318d7420388",
       "ProductCategoryId": 340,
       "CategoryName": "Club Green",
       "Tesco": true,
@@ -734,7 +734,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "fcddff4a-81ab-4b01-b406-e882171d78f2",
+      "CategoryId": "fcddff4a-81ab-4b01-b406-e882171d78f2",
       "ProductCategoryId": 393,
       "CategoryName": "Coach House Partners",
       "Tesco": true,
@@ -748,7 +748,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b1cb24cf-1d2c-4616-810a-45f5948a759a",
+      "CategoryId": "b1cb24cf-1d2c-4616-810a-45f5948a759a",
       "ProductCategoryId": 58,
       "CategoryName": "Cockney Spaniel",
       "Tesco": false,
@@ -762,7 +762,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "cdea8196-1c96-4228-8b02-043d7947921b",
+      "CategoryId": "cdea8196-1c96-4228-8b02-043d7947921b",
       "ProductCategoryId": 427,
       "CategoryName": "Coney Island Saucery",
       "Tesco": false,
@@ -776,7 +776,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "32cd42a3-dadf-4046-ad47-52d5b7d4c9e6",
+      "CategoryId": "32cd42a3-dadf-4046-ad47-52d5b7d4c9e6",
       "ProductCategoryId": 362,
       "CategoryName": "Cotswold Fayre",
       "Tesco": false,
@@ -800,7 +800,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7dac3485-1260-4435-816d-9af3bff6296c",
+      "CategoryId": "7dac3485-1260-4435-816d-9af3bff6296c",
       "ProductCategoryId": 123,
       "CategoryName": "Cottage Delight",
       "Tesco": false,
@@ -814,7 +814,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4cf12f80-b6dd-4867-af59-69ceb904c6cf",
+      "CategoryId": "4cf12f80-b6dd-4867-af59-69ceb904c6cf",
       "ProductCategoryId": 84,
       "CategoryName": "Cow Parade",
       "Tesco": true,
@@ -828,7 +828,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4b288cf0-169b-4ed1-96f2-b832fb3eb5a6",
+      "CategoryId": "4b288cf0-169b-4ed1-96f2-b832fb3eb5a6",
       "ProductCategoryId": 367,
       "CategoryName": "Craggi",
       "Tesco": false,
@@ -842,7 +842,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c75dfcbb-9472-4bfc-8477-9c83e5462785",
+      "CategoryId": "c75dfcbb-9472-4bfc-8477-9c83e5462785",
       "ProductCategoryId": 126,
       "CategoryName": "Crazy Bastard Sauce",
       "Tesco": false,
@@ -856,7 +856,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9657beae-163d-4d18-93a4-ea25e183148f",
+      "CategoryId": "9657beae-163d-4d18-93a4-ea25e183148f",
       "ProductCategoryId": 207,
       "CategoryName": "Cressco",
       "Tesco": false,
@@ -880,7 +880,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ff1c6117-6647-4376-82d0-70fd964e8e3a",
+      "CategoryId": "ff1c6117-6647-4376-82d0-70fd964e8e3a",
       "ProductCategoryId": 353,
       "CategoryName": "Crest Medical",
       "Tesco": true,
@@ -931,7 +931,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "99d297b9-62b3-4958-928a-1a1d73922a5f",
+      "CategoryId": "99d297b9-62b3-4958-928a-1a1d73922a5f",
       "ProductCategoryId": 240,
       "CategoryName": "Crevel",
       "Tesco": false,
@@ -945,7 +945,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "8c731593-edc2-4894-9b13-9b598350f05d",
+      "CategoryId": "8c731593-edc2-4894-9b13-9b598350f05d",
       "ProductCategoryId": 124,
       "CategoryName": "Cucamelon",
       "Tesco": false,
@@ -959,7 +959,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f1beadcb-391c-48e4-b83c-6717fe8df982",
+      "CategoryId": "f1beadcb-391c-48e4-b83c-6717fe8df982",
       "ProductCategoryId": 268,
       "CategoryName": "Cyril's Soap Shed",
       "Tesco": false,
@@ -973,7 +973,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6e1b2005-bae8-4b0f-a6cb-8c1acfcb27d6",
+      "CategoryId": "6e1b2005-bae8-4b0f-a6cb-8c1acfcb27d6",
       "ProductCategoryId": 111,
       "CategoryName": "Da Bomb",
       "Tesco": false,
@@ -987,7 +987,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9b743b7a-6cd0-4642-879e-25be5edc4661",
+      "CategoryId": "9b743b7a-6cd0-4642-879e-25be5edc4661",
       "ProductCategoryId": 29,
       "CategoryName": "Daddy Cool",
       "Tesco": false,
@@ -1001,7 +1001,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "462a5775-bf44-4212-bb56-2fa58ad45a40",
+      "CategoryId": "462a5775-bf44-4212-bb56-2fa58ad45a40",
       "ProductCategoryId": 354,
       "CategoryName": "Dalton Safety",
       "Tesco": false,
@@ -1015,7 +1015,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4e3f0e66-b824-4824-8d37-894e9bcfd901",
+      "CategoryId": "4e3f0e66-b824-4824-8d37-894e9bcfd901",
       "ProductCategoryId": 385,
       "CategoryName": "Darlac",
       "Tesco": false,
@@ -1029,7 +1029,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "77953cc0-6f03-467c-947a-40f5fb9f28ab",
+      "CategoryId": "77953cc0-6f03-467c-947a-40f5fb9f28ab",
       "ProductCategoryId": 331,
       "CategoryName": "David Fischhoff",
       "Tesco": true,
@@ -1043,7 +1043,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6ff4e1bc-1149-46b0-a339-bca7ff303dbd",
+      "CategoryId": "6ff4e1bc-1149-46b0-a339-bca7ff303dbd",
       "ProductCategoryId": 324,
       "CategoryName": "David Mason Design",
       "Tesco": false,
@@ -1057,7 +1057,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "daa054eb-9bb9-4983-b02e-188b7c31a0f2",
+      "CategoryId": "daa054eb-9bb9-4983-b02e-188b7c31a0f2",
       "ProductCategoryId": 282,
       "CategoryName": "Delights Direct",
       "Tesco": true,
@@ -1071,7 +1071,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5022c20e-634a-4c4a-bb17-16b736ffeb79",
+      "CategoryId": "5022c20e-634a-4c4a-bb17-16b736ffeb79",
       "ProductCategoryId": 296,
       "CategoryName": "Demdaco",
       "Tesco": true,
@@ -1085,7 +1085,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "594d699a-fa1d-4ba0-bc2a-b003d122491a",
+      "CategoryId": "594d699a-fa1d-4ba0-bc2a-b003d122491a",
       "ProductCategoryId": 407,
       "CategoryName": "DevilDog Sauces",
       "Tesco": false,
@@ -1099,7 +1099,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "42474dd0-da72-48a9-bc92-5b99c1544c99",
+      "CategoryId": "42474dd0-da72-48a9-bc92-5b99c1544c99",
       "ProductCategoryId": 72,
       "CategoryName": "Dexam",
       "Tesco": true,
@@ -1141,7 +1141,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f0f13787-be20-40f2-865e-65715500441c",
+      "CategoryId": "f0f13787-be20-40f2-865e-65715500441c",
       "ProductCategoryId": 82,
       "CategoryName": "Disney Figurines",
       "Tesco": true,
@@ -1155,7 +1155,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c172a093-6071-47ab-90cd-b9e87a6953ec",
+      "CategoryId": "c172a093-6071-47ab-90cd-b9e87a6953ec",
       "ProductCategoryId": 155,
       "CategoryName": "DKB",
       "Tesco": true,
@@ -1197,7 +1197,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "143b3267-e30e-47f0-a07a-a2e7a9f19e34",
+      "CategoryId": "143b3267-e30e-47f0-a07a-a2e7a9f19e34",
       "ProductCategoryId": 270,
       "CategoryName": "Dorest Chilli Shop",
       "Tesco": false,
@@ -1211,7 +1211,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0768d3c2-ea36-451e-a78b-c46b97880587",
+      "CategoryId": "0768d3c2-ea36-451e-a78b-c46b97880587",
       "ProductCategoryId": 165,
       "CategoryName": "Dr Seuss",
       "Tesco": true,
@@ -1225,7 +1225,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3b900d5f-90c2-4031-825f-c03b2f07dff4",
+      "CategoryId": "3b900d5f-90c2-4031-825f-c03b2f07dff4",
       "ProductCategoryId": 344,
       "CategoryName": "Dutch Imports",
       "Tesco": true,
@@ -1249,7 +1249,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "edea0cb7-79e7-4d21-9a6a-c2f4be5814da",
+      "CategoryId": "edea0cb7-79e7-4d21-9a6a-c2f4be5814da",
       "ProductCategoryId": 375,
       "CategoryName": "East of India",
       "Tesco": false,
@@ -1263,7 +1263,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0011b4df-eb49-4130-a9ad-33f2dd2392cf",
+      "CategoryId": "0011b4df-eb49-4130-a9ad-33f2dd2392cf",
       "ProductCategoryId": 306,
       "CategoryName": "Eat My Socks",
       "Tesco": false,
@@ -1277,7 +1277,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "591ef7de-5402-4cbb-9840-45f52448c778",
+      "CategoryId": "591ef7de-5402-4cbb-9840-45f52448c778",
       "ProductCategoryId": 252,
       "CategoryName": "Edding",
       "Tesco": false,
@@ -1291,7 +1291,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "52017786-f895-473d-9b3e-901c82c15f7a",
+      "CategoryId": "52017786-f895-473d-9b3e-901c82c15f7a",
       "ProductCategoryId": 118,
       "CategoryName": "Edu Sci",
       "Tesco": true,
@@ -1315,7 +1315,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5a0cb4ae-7889-41e2-abfd-d98721844051",
+      "CategoryId": "5a0cb4ae-7889-41e2-abfd-d98721844051",
       "ProductCategoryId": 388,
       "CategoryName": "El Jefe Hot Sauce",
       "Tesco": false,
@@ -1329,7 +1329,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7a3c4170-6f8b-428d-b662-5703fe7d0964",
+      "CategoryId": "7a3c4170-6f8b-428d-b662-5703fe7d0964",
       "ProductCategoryId": 405,
       "CategoryName": "Elijah's Xtreme Gourmet Foods",
       "Tesco": false,
@@ -1343,7 +1343,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6367eade-2254-44d3-b044-a1f83af15d38",
+      "CategoryId": "6367eade-2254-44d3-b044-a1f83af15d38",
       "ProductCategoryId": 284,
       "CategoryName": "Emily Victoria Candles",
       "Tesco": true,
@@ -1357,7 +1357,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "474c646f-f78b-4083-9108-cdfa91c3c508",
+      "CategoryId": "474c646f-f78b-4083-9108-cdfa91c3c508",
       "ProductCategoryId": 316,
       "CategoryName": "Enesco",
       "Tesco": true,
@@ -1371,7 +1371,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d7cc3bcc-1e99-4ce4-a043-831f2dce2371",
+      "CategoryId": "d7cc3bcc-1e99-4ce4-a043-831f2dce2371",
       "ProductCategoryId": 100,
       "CategoryName": "English Soap Company",
       "Tesco": false,
@@ -1385,7 +1385,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "24e81bd2-07c8-4247-b6de-1afa9f11eebf",
+      "CategoryId": "24e81bd2-07c8-4247-b6de-1afa9f11eebf",
       "ProductCategoryId": 244,
       "CategoryName": "Fine Confectionery",
       "Tesco": false,
@@ -1399,7 +1399,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c3033b46-d883-42c6-bee9-b55f8b2c302a",
+      "CategoryId": "c3033b46-d883-42c6-bee9-b55f8b2c302a",
       "ProductCategoryId": 439,
       "CategoryName": "First Ascent",
       "Tesco": true,
@@ -1423,7 +1423,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f4253e3b-256c-4a07-a871-5f27bed8533c",
+      "CategoryId": "f4253e3b-256c-4a07-a871-5f27bed8533c",
       "ProductCategoryId": 73,
       "CategoryName": "Floss & Rock",
       "Tesco": true,
@@ -1437,7 +1437,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "92434c13-6ff3-4feb-87ca-ae2e87491f97",
+      "CategoryId": "92434c13-6ff3-4feb-87ca-ae2e87491f97",
       "ProductCategoryId": 297,
       "CategoryName": "Football Town",
       "Tesco": false,
@@ -1451,7 +1451,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0689eb3e-b084-41a7-b95d-347755fa5097",
+      "CategoryId": "0689eb3e-b084-41a7-b95d-347755fa5097",
       "ProductCategoryId": 42,
       "CategoryName": "Frank Ross",
       "Tesco": true,
@@ -1465,7 +1465,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "95804d4c-88c7-416c-a1d5-b532dfe2d1f1",
+      "CategoryId": "95804d4c-88c7-416c-a1d5-b532dfe2d1f1",
       "ProductCategoryId": 232,
       "CategoryName": "Funnybones",
       "Tesco": false,
@@ -1516,7 +1516,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "21e5bd0a-222d-4153-94bb-f8817ee62b78",
+      "CategoryId": "21e5bd0a-222d-4153-94bb-f8817ee62b78",
       "ProductCategoryId": 249,
       "CategoryName": "Garden Pack",
       "Tesco": false,
@@ -1530,7 +1530,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "79deab69-8163-422f-9d99-b445d7cea5cf",
+      "CategoryId": "79deab69-8163-422f-9d99-b445d7cea5cf",
       "ProductCategoryId": 149,
       "CategoryName": "Gardman",
       "Tesco": false,
@@ -1599,7 +1599,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c2efc5a7-164b-421b-8f30-188742fcee75",
+      "CategoryId": "c2efc5a7-164b-421b-8f30-188742fcee75",
       "ProductCategoryId": 423,
       "CategoryName": "Garland",
       "Tesco": false,
@@ -1632,7 +1632,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b4c6e012-d8e5-4127-824a-fcd8edd5a891",
+      "CategoryId": "b4c6e012-d8e5-4127-824a-fcd8edd5a891",
       "ProductCategoryId": 419,
       "CategoryName": "Gentlemans Hardware",
       "Tesco": true,
@@ -1656,7 +1656,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2725f88b-46bb-4fd6-8447-40fc7b331f08",
+      "CategoryId": "2725f88b-46bb-4fd6-8447-40fc7b331f08",
       "ProductCategoryId": 227,
       "CategoryName": "Gift of Oil",
       "Tesco": false,
@@ -1670,7 +1670,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e56edad7-68ed-4e23-adb5-495974a830da",
+      "CategoryId": "e56edad7-68ed-4e23-adb5-495974a830da",
       "ProductCategoryId": 60,
       "CategoryName": "Gift Republic",
       "Tesco": true,
@@ -1684,7 +1684,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5fa10779-2d27-400e-86e2-26c552030d74",
+      "CategoryId": "5fa10779-2d27-400e-86e2-26c552030d74",
       "ProductCategoryId": 31,
       "CategoryName": "Ginology",
       "Tesco": true,
@@ -1698,7 +1698,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "dfd7b85c-8f05-4450-843c-77df626a6486",
+      "CategoryId": "dfd7b85c-8f05-4450-843c-77df626a6486",
       "ProductCategoryId": 399,
       "CategoryName": "GM Garden and Home",
       "Tesco": true,
@@ -1731,7 +1731,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "89a456a2-059c-420e-9358-5810d4f8f404",
+      "CategoryId": "89a456a2-059c-420e-9358-5810d4f8f404",
       "ProductCategoryId": 404,
       "CategoryName": "Golden West Speciality Foods",
       "Tesco": false,
@@ -1745,7 +1745,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6b9d90ab-954d-429c-9b2d-2b901202dc53",
+      "CategoryId": "6b9d90ab-954d-429c-9b2d-2b901202dc53",
       "ProductCategoryId": 288,
       "CategoryName": "Good Luck Sock",
       "Tesco": false,
@@ -1759,7 +1759,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0a9f677d-b350-4951-84b3-303d000bbfaa",
+      "CategoryId": "0a9f677d-b350-4951-84b3-303d000bbfaa",
       "ProductCategoryId": 39,
       "CategoryName": "Goose Creek",
       "Tesco": false,
@@ -1773,7 +1773,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7125574f-8890-473e-8f21-fb96b4056c30",
+      "CategoryId": "7125574f-8890-473e-8f21-fb96b4056c30",
       "ProductCategoryId": 219,
       "CategoryName": "Grim Reaper Foods LTD",
       "Tesco": false,
@@ -1787,7 +1787,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ede937e6-fe29-4d47-8e9a-c41d6cbd3a3b",
+      "CategoryId": "ede937e6-fe29-4d47-8e9a-c41d6cbd3a3b",
       "ProductCategoryId": 347,
       "CategoryName": "Growth Technology",
       "Tesco": true,
@@ -1801,7 +1801,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "75081028-d851-4bf4-b61d-cfef2154cf02",
+      "CategoryId": "75081028-d851-4bf4-b61d-cfef2154cf02",
       "ProductCategoryId": 175,
       "CategoryName": "Happy Socks",
       "Tesco": false,
@@ -1815,7 +1815,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2d79fdb6-db10-4c28-bf94-8fd9ef8a013b",
+      "CategoryId": "2d79fdb6-db10-4c28-bf94-8fd9ef8a013b",
       "ProductCategoryId": 115,
       "CategoryName": "Harry Potter",
       "Tesco": true,
@@ -1829,7 +1829,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c5885065-56bb-45ac-a0e1-fd691fcb9541",
+      "CategoryId": "c5885065-56bb-45ac-a0e1-fd691fcb9541",
       "ProductCategoryId": 433,
       "CategoryName": "Harvey Maps",
       "Tesco": true,
@@ -1843,7 +1843,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3392970d-397e-44ec-a3ab-3396f0c94b80",
+      "CategoryId": "3392970d-397e-44ec-a3ab-3396f0c94b80",
       "ProductCategoryId": 41,
       "CategoryName": "Heathcote & Ivory",
       "Tesco": true,
@@ -1857,7 +1857,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "cb0cd19c-c064-49c6-b884-c6ad51a1e58a",
+      "CategoryId": "cb0cd19c-c064-49c6-b884-c6ad51a1e58a",
       "ProductCategoryId": 411,
       "CategoryName": "Hellfire Hot Sauce Inc",
       "Tesco": false,
@@ -1871,7 +1871,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "81d8c507-5a50-4818-8a36-5a74673d6a3a",
+      "CategoryId": "81d8c507-5a50-4818-8a36-5a74673d6a3a",
       "ProductCategoryId": 383,
       "CategoryName": "Heriot Hott",
       "Tesco": false,
@@ -1885,7 +1885,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7eae3109-25f8-4837-bc68-6b605c9bd13a",
+      "CategoryId": "7eae3109-25f8-4837-bc68-6b605c9bd13a",
       "ProductCategoryId": 379,
       "CategoryName": "Hill Interiors",
       "Tesco": true,
@@ -1899,7 +1899,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "de13bd9c-6fbb-40da-a416-bddec58af6a9",
+      "CategoryId": "de13bd9c-6fbb-40da-a416-bddec58af6a9",
       "ProductCategoryId": 294,
       "CategoryName": "History & Heraldry",
       "Tesco": true,
@@ -1913,7 +1913,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0045ab3a-488f-48e1-86d5-9b6e54022115",
+      "CategoryId": "0045ab3a-488f-48e1-86d5-9b6e54022115",
       "ProductCategoryId": 384,
       "CategoryName": "Horseshoe Brand",
       "Tesco": false,
@@ -1927,7 +1927,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "de5ce313-71b2-4f42-83db-621fb7b49897",
+      "CategoryId": "de5ce313-71b2-4f42-83db-621fb7b49897",
       "ProductCategoryId": 77,
       "CategoryName": "Hot Headz",
       "Tesco": false,
@@ -2023,7 +2023,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "da2c9b7d-846c-4554-b1cd-548fc60b99c6",
+      "CategoryId": "da2c9b7d-846c-4554-b1cd-548fc60b99c6",
       "ProductCategoryId": 408,
       "CategoryName": "Hot N Saucy",
       "Tesco": false,
@@ -2037,7 +2037,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0fe73f8c-6f61-4603-8d6d-2923067aa2e1",
+      "CategoryId": "0fe73f8c-6f61-4603-8d6d-2923067aa2e1",
       "ProductCategoryId": 33,
       "CategoryName": "IHR",
       "Tesco": true,
@@ -2051,7 +2051,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9eac6780-36cf-44b9-9dff-1b74db9d9e14",
+      "CategoryId": "9eac6780-36cf-44b9-9dff-1b74db9d9e14",
       "ProductCategoryId": 368,
       "CategoryName": "IMS",
       "Tesco": true,
@@ -2075,7 +2075,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f5b59e0c-670d-4718-9d3e-15e3f35b47be",
+      "CategoryId": "f5b59e0c-670d-4718-9d3e-15e3f35b47be",
       "ProductCategoryId": 19,
       "CategoryName": "Intelex",
       "Tesco": false,
@@ -2099,7 +2099,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b78a56a7-5899-4759-a8dd-33e16c3305e9",
+      "CategoryId": "b78a56a7-5899-4759-a8dd-33e16c3305e9",
       "ProductCategoryId": 300,
       "CategoryName": "Isle Of Skye",
       "Tesco": false,
@@ -2113,7 +2113,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b2829ec5-6f69-491e-b2af-b5fcf2e44538",
+      "CategoryId": "b2829ec5-6f69-491e-b2af-b5fcf2e44538",
       "ProductCategoryId": 397,
       "CategoryName": "Ivyline",
       "Tesco": true,
@@ -2127,7 +2127,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1760bef6-60c6-4b9e-97f3-bcc255cf11f8",
+      "CategoryId": "1760bef6-60c6-4b9e-97f3-bcc255cf11f8",
       "ProductCategoryId": 238,
       "CategoryName": "Izzy and Oliver",
       "Tesco": true,
@@ -2141,7 +2141,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ce08fd52-67d1-4cc9-aadd-d1eeb6e69459",
+      "CategoryId": "ce08fd52-67d1-4cc9-aadd-d1eeb6e69459",
       "ProductCategoryId": 426,
       "CategoryName": "Jampot's Hot Sauce",
       "Tesco": false,
@@ -2155,7 +2155,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "292234d2-98a4-4ebe-a51a-cf1fbbab6cbe",
+      "CategoryId": "292234d2-98a4-4ebe-a51a-cf1fbbab6cbe",
       "ProductCategoryId": 173,
       "CategoryName": "Jardinopia",
       "Tesco": true,
@@ -2233,7 +2233,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c7771618-4195-4ba3-8079-9bee0e87350d",
+      "CategoryId": "c7771618-4195-4ba3-8079-9bee0e87350d",
       "ProductCategoryId": 360,
       "CategoryName": "JD's Hot Honey",
       "Tesco": false,
@@ -2247,7 +2247,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "66996b1b-1a72-414d-be1f-b8587cf818aa",
+      "CategoryId": "66996b1b-1a72-414d-be1f-b8587cf818aa",
       "ProductCategoryId": 312,
       "CategoryName": "Jekyil & Hide",
       "Tesco": false,
@@ -2261,7 +2261,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b7ec4db0-a74f-49a3-b7b7-a7af0f4d9310",
+      "CategoryId": "b7ec4db0-a74f-49a3-b7b7-a7af0f4d9310",
       "ProductCategoryId": 133,
       "CategoryName": "Jex",
       "Tesco": false,
@@ -2275,7 +2275,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6ddc7c84-d28e-4aa4-8d4f-68130f451171",
+      "CategoryId": "6ddc7c84-d28e-4aa4-8d4f-68130f451171",
       "ProductCategoryId": 327,
       "CategoryName": "Joe Davies",
       "Tesco": true,
@@ -2353,7 +2353,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7a09483e-349b-4043-a791-d9539692b3a9",
+      "CategoryId": "7a09483e-349b-4043-a791-d9539692b3a9",
       "ProductCategoryId": 185,
       "CategoryName": "Jordan's Skinny Mixes",
       "Tesco": false,
@@ -2367,7 +2367,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "bbaace0d-8d89-46ad-977f-53cdc216ff6a",
+      "CategoryId": "bbaace0d-8d89-46ad-977f-53cdc216ff6a",
       "ProductCategoryId": 277,
       "CategoryName": "Journals Of A Lifetime",
       "Tesco": true,
@@ -2381,7 +2381,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f881641b-536d-4930-85f9-a88f704786ec",
+      "CategoryId": "f881641b-536d-4930-85f9-a88f704786ec",
       "ProductCategoryId": 329,
       "CategoryName": "Joya Socks",
       "Tesco": false,
@@ -2395,7 +2395,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5e5f81d0-00a4-48de-a29e-439f15e4f55c",
+      "CategoryId": "5e5f81d0-00a4-48de-a29e-439f15e4f55c",
       "ProductCategoryId": 412,
       "CategoryName": "Karma Sauce",
       "Tesco": false,
@@ -2409,7 +2409,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c5879a9b-04c0-4cd5-bb5d-abd301f28be3",
+      "CategoryId": "c5879a9b-04c0-4cd5-bb5d-abd301f28be3",
       "ProductCategoryId": 250,
       "CategoryName": "Kent & Stowe",
       "Tesco": false,
@@ -2423,7 +2423,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2edebf4f-f344-4d82-8c81-89685939b2a4",
+      "CategoryId": "2edebf4f-f344-4d82-8c81-89685939b2a4",
       "ProductCategoryId": 107,
       "CategoryName": "Kidorable",
       "Tesco": false,
@@ -2437,7 +2437,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "47f9bc34-86b9-4caf-a951-739549faaf24",
+      "CategoryId": "47f9bc34-86b9-4caf-a951-739549faaf24",
       "ProductCategoryId": 93,
       "CategoryName": "Kikapu",
       "Tesco": false,
@@ -2461,7 +2461,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ea23afd5-3264-4683-bd90-702b0b68eea6",
+      "CategoryId": "ea23afd5-3264-4683-bd90-702b0b68eea6",
       "ProductCategoryId": 91,
       "CategoryName": "Kikkerland",
       "Tesco": true,
@@ -2475,7 +2475,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d2e061d5-0995-4f2d-8275-4c9e79f69c0f",
+      "CategoryId": "d2e061d5-0995-4f2d-8275-4c9e79f69c0f",
       "ProductCategoryId": 62,
       "CategoryName": "Kitchencraft",
       "Tesco": true,
@@ -2562,7 +2562,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "21ed28ac-3e36-4e4c-827e-53cb0d0dac98",
+      "CategoryId": "21ed28ac-3e36-4e4c-827e-53cb0d0dac98",
       "ProductCategoryId": 235,
       "CategoryName": "Kloche",
       "Tesco": true,
@@ -2576,7 +2576,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ae66155f-8454-4f44-819b-de85e8a296ea",
+      "CategoryId": "ae66155f-8454-4f44-819b-de85e8a296ea",
       "ProductCategoryId": 192,
       "CategoryName": "Lagoon",
       "Tesco": true,
@@ -2590,7 +2590,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5559eb7d-50ad-45b8-9709-53ce33b967f3",
+      "CategoryId": "5559eb7d-50ad-45b8-9709-53ce33b967f3",
       "ProductCategoryId": 377,
       "CategoryName": "Langs",
       "Tesco": true,
@@ -2604,7 +2604,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5aee2b8f-cf08-4835-968e-54b7d80cd4cd",
+      "CategoryId": "5aee2b8f-cf08-4835-968e-54b7d80cd4cd",
       "ProductCategoryId": 352,
       "CategoryName": "Laser Creations",
       "Tesco": false,
@@ -2618,7 +2618,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1b122a50-3a1a-4f4c-9b9a-e808f446a7d7",
+      "CategoryId": "1b122a50-3a1a-4f4c-9b9a-e808f446a7d7",
       "ProductCategoryId": 338,
       "CategoryName": "Leisuregrow",
       "Tesco": true,
@@ -2651,7 +2651,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "46342d2c-bd07-4c75-b8b8-a909085c6330",
+      "CategoryId": "46342d2c-bd07-4c75-b8b8-a909085c6330",
       "ProductCategoryId": 136,
       "CategoryName": "Lesser & Pavey",
       "Tesco": true,
@@ -2665,7 +2665,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "508827dc-bc6c-4cbc-b0ff-383be3c8a075",
+      "CategoryId": "508827dc-bc6c-4cbc-b0ff-383be3c8a075",
       "ProductCategoryId": 434,
       "CategoryName": "Lifemarque",
       "Tesco": true,
@@ -2707,7 +2707,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "34d20367-e3b3-4e6b-b0cf-27d44e5c3e49",
+      "CategoryId": "34d20367-e3b3-4e6b-b0cf-27d44e5c3e49",
       "ProductCategoryId": 309,
       "CategoryName": "Liquid Herbs",
       "Tesco": false,
@@ -2721,7 +2721,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ed4bbb46-33a3-4917-9ef6-3016b04417f5",
+      "CategoryId": "ed4bbb46-33a3-4917-9ef6-3016b04417f5",
       "ProductCategoryId": 37,
       "CategoryName": "Little Shop Of",
       "Tesco": true,
@@ -2735,7 +2735,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c0560bef-3f81-43f2-a7f0-167b2a4563a1",
+      "CategoryId": "c0560bef-3f81-43f2-a7f0-167b2a4563a1",
       "ProductCategoryId": 424,
       "CategoryName": "Little Soap Company",
       "Tesco": true,
@@ -2749,7 +2749,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "18a52454-0a49-473e-8eaf-bc644245f70e",
+      "CategoryId": "18a52454-0a49-473e-8eaf-bc644245f70e",
       "ProductCategoryId": 159,
       "CategoryName": "Little's",
       "Tesco": false,
@@ -2763,7 +2763,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "132c03ee-f007-4fe1-b07e-9c8bf588f0af",
+      "CategoryId": "132c03ee-f007-4fe1-b07e-9c8bf588f0af",
       "ProductCategoryId": 127,
       "CategoryName": "Lolita",
       "Tesco": true,
@@ -2777,7 +2777,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "91344273-9741-48eb-8e88-5598677fd65f",
+      "CategoryId": "91344273-9741-48eb-8e88-5598677fd65f",
       "ProductCategoryId": 264,
       "CategoryName": "Lovibond",
       "Tesco": false,
@@ -2791,7 +2791,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f681ca12-39b0-4f07-8574-de834be1d86a",
+      "CategoryId": "f681ca12-39b0-4f07-8574-de834be1d86a",
       "ProductCategoryId": 326,
       "CategoryName": "Lucky Pair",
       "Tesco": false,
@@ -2805,7 +2805,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "db4918ce-5571-419c-bcd6-db3834aa8588",
+      "CategoryId": "db4918ce-5571-419c-bcd6-db3834aa8588",
       "ProductCategoryId": 189,
       "CategoryName": "Lucy and Lolly",
       "Tesco": true,
@@ -2819,7 +2819,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d0ecdb61-5c41-4899-923f-cd73b572be7a",
+      "CategoryId": "d0ecdb61-5c41-4899-923f-cd73b572be7a",
       "ProductCategoryId": 401,
       "CategoryName": "Made Happy",
       "Tesco": true,
@@ -2833,7 +2833,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ee438300-bcc3-4872-ac20-ce35ae6ad40f",
+      "CategoryId": "ee438300-bcc3-4872-ac20-ce35ae6ad40f",
       "ProductCategoryId": 321,
       "CategoryName": "Manuscript",
       "Tesco": true,
@@ -2875,7 +2875,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7c9e1028-ecc5-4d61-8921-12ce22e104bf",
+      "CategoryId": "7c9e1028-ecc5-4d61-8921-12ce22e104bf",
       "ProductCategoryId": 228,
       "CategoryName": "Marriages",
       "Tesco": false,
@@ -2889,7 +2889,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "8143feec-89fe-4a68-92e1-9ce8838f9275",
+      "CategoryId": "8143feec-89fe-4a68-92e1-9ce8838f9275",
       "ProductCategoryId": 376,
       "CategoryName": "McGowan & Rutherford",
       "Tesco": true,
@@ -2913,7 +2913,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "87752038-b95e-4b2f-8fec-c984f365206a",
+      "CategoryId": "87752038-b95e-4b2f-8fec-c984f365206a",
       "ProductCategoryId": 380,
       "CategoryName": "Melinda's",
       "Tesco": false,
@@ -2927,7 +2927,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "660057ba-94de-4b4e-bde4-3ecc7de3c7fa",
+      "CategoryId": "660057ba-94de-4b4e-bde4-3ecc7de3c7fa",
       "ProductCategoryId": 390,
       "CategoryName": "Mexgrocer",
       "Tesco": false,
@@ -2969,7 +2969,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "95eadba2-c253-4a81-acdb-976b658899ff",
+      "CategoryId": "95eadba2-c253-4a81-acdb-976b658899ff",
       "ProductCategoryId": 303,
       "CategoryName": "Miko",
       "Tesco": false,
@@ -2983,7 +2983,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "65f70f73-d1e4-4236-8d73-f3f434455e01",
+      "CategoryId": "65f70f73-d1e4-4236-8d73-f3f434455e01",
       "ProductCategoryId": 214,
       "CategoryName": "Milford Collection",
       "Tesco": true,
@@ -2997,7 +2997,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2ba7b081-f54e-4cf6-b0c1-ee31a2fcccd3",
+      "CategoryId": "2ba7b081-f54e-4cf6-b0c1-ee31a2fcccd3",
       "ProductCategoryId": 403,
       "CategoryName": "Minster",
       "Tesco": true,
@@ -3011,7 +3011,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "431cdc2a-e907-45df-a212-74434ea795bb",
+      "CategoryId": "431cdc2a-e907-45df-a212-74434ea795bb",
       "ProductCategoryId": 283,
       "CategoryName": "Miss Sparrow",
       "Tesco": false,
@@ -3025,7 +3025,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f56c9e4c-b98c-47a8-9fa4-c61404cc3f1b",
+      "CategoryId": "f56c9e4c-b98c-47a8-9fa4-c61404cc3f1b",
       "ProductCategoryId": 366,
       "CategoryName": "MonkeyCave",
       "Tesco": true,
@@ -3039,7 +3039,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6e814d9c-3470-44de-a5b2-0a6e366c5c45",
+      "CategoryId": "6e814d9c-3470-44de-a5b2-0a6e366c5c45",
       "ProductCategoryId": 257,
       "CategoryName": "Mr & Mrs Fragrances",
       "Tesco": true,
@@ -3053,7 +3053,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "25dd8283-8935-4e13-99a7-1b460ca02a3e",
+      "CategoryId": "25dd8283-8935-4e13-99a7-1b460ca02a3e",
       "ProductCategoryId": 248,
       "CategoryName": "Mr. Fothergills",
       "Tesco": true,
@@ -3095,7 +3095,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1e9357ef-31b7-4f4d-a192-6e59b537d013",
+      "CategoryId": "1e9357ef-31b7-4f4d-a192-6e59b537d013",
       "ProductCategoryId": 386,
       "CategoryName": "Mulberry Studios",
       "Tesco": true,
@@ -3109,7 +3109,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "958a2b8b-14b8-45b3-b728-25c1237e3113",
+      "CategoryId": "958a2b8b-14b8-45b3-b728-25c1237e3113",
       "ProductCategoryId": 30,
       "CategoryName": "Multibuys",
       "Tesco": false,
@@ -3123,7 +3123,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "40fe8823-944d-4a06-9a71-e8fb7f8f9565",
+      "CategoryId": "40fe8823-944d-4a06-9a71-e8fb7f8f9565",
       "ProductCategoryId": 355,
       "CategoryName": "Murrays Health & Beauty",
       "Tesco": true,
@@ -3273,7 +3273,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f5bbf532-3e6b-41e0-832c-dd785f21b595",
+      "CategoryId": "f5bbf532-3e6b-41e0-832c-dd785f21b595",
       "ProductCategoryId": 191,
       "CategoryName": "Myne",
       "Tesco": false,
@@ -3287,7 +3287,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3334a5b2-c5fd-43de-9d6b-038499a3f311",
+      "CategoryId": "3334a5b2-c5fd-43de-9d6b-038499a3f311",
       "ProductCategoryId": 251,
       "CategoryName": "Nature's Melody",
       "Tesco": true,
@@ -3301,7 +3301,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ec228ffb-b352-4887-aa23-81cc8ade88e1",
+      "CategoryId": "ec228ffb-b352-4887-aa23-81cc8ade88e1",
       "ProductCategoryId": 373,
       "CategoryName": "Nauticalia",
       "Tesco": true,
@@ -3315,7 +3315,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6735ee60-e7ba-4b1c-99a6-f4c32f41d6d3",
+      "CategoryId": "6735ee60-e7ba-4b1c-99a6-f4c32f41d6d3",
       "ProductCategoryId": 416,
       "CategoryName": "Neil's Real Deal",
       "Tesco": false,
@@ -3329,7 +3329,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "68951b69-961f-4593-bcf0-758e6cf53fce",
+      "CategoryId": "68951b69-961f-4593-bcf0-758e6cf53fce",
       "ProductCategoryId": 322,
       "CategoryName": "Nemesis Now",
       "Tesco": true,
@@ -3343,7 +3343,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a2fc5355-9351-462e-b96f-6b79664dfc12",
+      "CategoryId": "a2fc5355-9351-462e-b96f-6b79664dfc12",
       "ProductCategoryId": 342,
       "CategoryName": "Neviti",
       "Tesco": true,
@@ -3357,7 +3357,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "88a23e20-aa89-4bca-942e-0862890d3cc4",
+      "CategoryId": "88a23e20-aa89-4bca-942e-0862890d3cc4",
       "ProductCategoryId": 311,
       "CategoryName": "NIO Cocktails",
       "Tesco": false,
@@ -3371,7 +3371,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "44e7918f-fa87-42b1-8126-a1dd3a9c19ee",
+      "CategoryId": "44e7918f-fa87-42b1-8126-a1dd3a9c19ee",
       "ProductCategoryId": 436,
       "CategoryName": "NORTHSTAR Brands",
       "Tesco": false,
@@ -3395,7 +3395,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9434c437-bd12-4482-bbfe-58e42f45acff",
+      "CategoryId": "9434c437-bd12-4482-bbfe-58e42f45acff",
       "ProductCategoryId": 320,
       "CategoryName": "Noxxiez",
       "Tesco": true,
@@ -3409,7 +3409,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7e44a6b2-5707-42b8-8eda-470a058b1647",
+      "CategoryId": "7e44a6b2-5707-42b8-8eda-470a058b1647",
       "ProductCategoryId": 381,
       "CategoryName": "Numskull",
       "Tesco": true,
@@ -3433,7 +3433,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "841b7bc0-1af6-432c-9c01-c70a1655f404",
+      "CategoryId": "841b7bc0-1af6-432c-9c01-c70a1655f404",
       "ProductCategoryId": 168,
       "CategoryName": "O'Donnell Moonshine",
       "Tesco": false,
@@ -3447,7 +3447,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9cbff05e-b373-4431-af45-b73eace058ed",
+      "CategoryId": "9cbff05e-b373-4431-af45-b73eace058ed",
       "ProductCategoryId": 152,
       "CategoryName": "Old Stock",
       "Tesco": false,
@@ -3461,7 +3461,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "38636f9c-10e0-4d83-abf0-ae73804d1594",
+      "CategoryId": "38636f9c-10e0-4d83-abf0-ae73804d1594",
       "ProductCategoryId": 144,
       "CategoryName": "OOh! Chocolata",
       "Tesco": false,
@@ -3475,7 +3475,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f049eb83-2882-4cb7-86e5-e5659df7147c",
+      "CategoryId": "f049eb83-2882-4cb7-86e5-e5659df7147c",
       "ProductCategoryId": 428,
       "CategoryName": "Ooly",
       "Tesco": true,
@@ -3489,7 +3489,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1f2357b7-2fce-49c3-96b1-5c091444416f",
+      "CategoryId": "1f2357b7-2fce-49c3-96b1-5c091444416f",
       "ProductCategoryId": 421,
       "CategoryName": "Otter House",
       "Tesco": true,
@@ -3503,7 +3503,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d25166cd-83b7-4b00-bed9-0bfada9127d7",
+      "CategoryId": "d25166cd-83b7-4b00-bed9-0bfada9127d7",
       "ProductCategoryId": 236,
       "CategoryName": "Our Name Is Mud",
       "Tesco": true,
@@ -3517,7 +3517,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "fcbf3c4f-d129-4fa5-98ba-fae5fc388c08",
+      "CategoryId": "fcbf3c4f-d129-4fa5-98ba-fae5fc388c08",
       "ProductCategoryId": 217,
       "CategoryName": "Pain Is Good",
       "Tesco": false,
@@ -3531,7 +3531,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e17a09f2-2162-4d91-b782-3e3d0d87124f",
+      "CategoryId": "e17a09f2-2162-4d91-b782-3e3d0d87124f",
       "ProductCategoryId": 48,
       "CategoryName": "Patchwork",
       "Tesco": false,
@@ -3545,7 +3545,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "91d8ee16-0574-4549-be82-da8fd28687e5",
+      "CategoryId": "91d8ee16-0574-4549-be82-da8fd28687e5",
       "ProductCategoryId": 432,
       "CategoryName": "Peggy Wilkins",
       "Tesco": false,
@@ -3559,7 +3559,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6c0adb84-bd3b-4f6e-ad21-4840c62b9813",
+      "CategoryId": "6c0adb84-bd3b-4f6e-ad21-4840c62b9813",
       "ProductCategoryId": 59,
       "CategoryName": "Peppa Pig",
       "Tesco": true,
@@ -3573,7 +3573,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6162c7f1-293c-4fc6-9724-e64ff1f777e6",
+      "CategoryId": "6162c7f1-293c-4fc6-9724-e64ff1f777e6",
       "ProductCategoryId": 201,
       "CategoryName": "Perishable Discounted (< 3Mths)",
       "Tesco": false,
@@ -3587,7 +3587,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b2415bad-11e3-4c52-8e68-5509d297a39e",
+      "CategoryId": "b2415bad-11e3-4c52-8e68-5509d297a39e",
       "ProductCategoryId": 68,
       "CategoryName": "Perishable Out Date",
       "Tesco": false,
@@ -3601,7 +3601,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7675c17e-ce51-4f04-96b9-b6d56f691648",
+      "CategoryId": "7675c17e-ce51-4f04-96b9-b6d56f691648",
       "ProductCategoryId": 150,
       "CategoryName": "Perishable Reduced (< 2Mths)",
       "Tesco": false,
@@ -3615,7 +3615,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "95ce3b1f-662c-454c-8d90-9a3b71ec55b0",
+      "CategoryId": "95ce3b1f-662c-454c-8d90-9a3b71ec55b0",
       "ProductCategoryId": 357,
       "CategoryName": "Perry",
       "Tesco": true,
@@ -3629,7 +3629,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "997397b1-9fd8-4d2c-abe5-5e8b1e1d6dfe",
+      "CategoryId": "997397b1-9fd8-4d2c-abe5-5e8b1e1d6dfe",
       "ProductCategoryId": 425,
       "CategoryName": "Peter Pauper Press",
       "Tesco": true,
@@ -3643,7 +3643,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3084c41c-ace8-4dc7-a175-6e8fdfb31e8e",
+      "CategoryId": "3084c41c-ace8-4dc7-a175-6e8fdfb31e8e",
       "ProductCategoryId": 406,
       "CategoryName": "PexPeppers",
       "Tesco": false,
@@ -3657,7 +3657,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c8fa09f3-8f9f-4f45-9d95-5a135d01695a",
+      "CategoryId": "c8fa09f3-8f9f-4f45-9d95-5a135d01695a",
       "ProductCategoryId": 350,
       "CategoryName": "Philip Stamp & Co Ltd",
       "Tesco": true,
@@ -3681,7 +3681,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ac1222f1-0410-4f8a-9e4a-ae7ee1dc472b",
+      "CategoryId": "ac1222f1-0410-4f8a-9e4a-ae7ee1dc472b",
       "ProductCategoryId": 301,
       "CategoryName": "Piccolo",
       "Tesco": true,
@@ -3695,7 +3695,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c947b9d2-e071-4dcf-8fab-abf5042fb59e",
+      "CategoryId": "c947b9d2-e071-4dcf-8fab-abf5042fb59e",
       "ProductCategoryId": 139,
       "CategoryName": "Pinkster Gin",
       "Tesco": false,
@@ -3709,7 +3709,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a75f6852-d5e7-4a69-be93-e45f53c4dc3a",
+      "CategoryId": "a75f6852-d5e7-4a69-be93-e45f53c4dc3a",
       "ProductCategoryId": 369,
       "CategoryName": "POM Collection",
       "Tesco": true,
@@ -3723,7 +3723,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "dc1ca332-977c-4b4e-913d-15488493cef2",
+      "CategoryId": "dc1ca332-977c-4b4e-913d-15488493cef2",
       "ProductCategoryId": 310,
       "CategoryName": "Portmeirion",
       "Tesco": true,
@@ -3737,7 +3737,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "63b600bc-9eb8-4671-8754-ff6f603a45f5",
+      "CategoryId": "63b600bc-9eb8-4671-8754-ff6f603a45f5",
       "ProductCategoryId": 223,
       "CategoryName": "Portsmouth Distillery Co",
       "Tesco": false,
@@ -3751,7 +3751,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6c33c315-8c6e-4932-923f-e90a1515e1a6",
+      "CategoryId": "6c33c315-8c6e-4932-923f-e90a1515e1a6",
       "ProductCategoryId": 261,
       "CategoryName": "Potters Crouch",
       "Tesco": true,
@@ -3765,7 +3765,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3385c137-3649-4df1-a248-70d026630089",
+      "CategoryId": "3385c137-3649-4df1-a248-70d026630089",
       "ProductCategoryId": 241,
       "CategoryName": "Pottery Crafts",
       "Tesco": true,
@@ -3798,7 +3798,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "8fda9574-96b9-403b-aeb5-4f12180aeeb3",
+      "CategoryId": "8fda9574-96b9-403b-aeb5-4f12180aeeb3",
       "ProductCategoryId": 415,
       "CategoryName": "PowAir Nature Ltd",
       "Tesco": true,
@@ -3812,7 +3812,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "80ba6cf6-2cfd-4d21-8e5d-edb98b57f1c3",
+      "CategoryId": "80ba6cf6-2cfd-4d21-8e5d-edb98b57f1c3",
       "ProductCategoryId": 330,
       "CategoryName": "Powder Design",
       "Tesco": true,
@@ -3826,7 +3826,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2dacb78c-e2a6-4821-a2ea-53f06f426d28",
+      "CategoryId": "2dacb78c-e2a6-4821-a2ea-53f06f426d28",
       "ProductCategoryId": 274,
       "CategoryName": "Premier Decorations",
       "Tesco": true,
@@ -3840,7 +3840,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "164f3ca2-91be-41e7-b145-6f24f45a833f",
+      "CategoryId": "164f3ca2-91be-41e7-b145-6f24f45a833f",
       "ProductCategoryId": 89,
       "CategoryName": "PROMO Kidorable",
       "Tesco": true,
@@ -3854,7 +3854,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "195b0de9-461b-4afc-ae9f-e789b2571513",
+      "CategoryId": "195b0de9-461b-4afc-ae9f-e789b2571513",
       "ProductCategoryId": 203,
       "CategoryName": "Psycho Juice",
       "Tesco": false,
@@ -3868,7 +3868,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7944d2e0-5a9c-4805-8652-212b23dc0ce6",
+      "CategoryId": "7944d2e0-5a9c-4805-8652-212b23dc0ce6",
       "ProductCategoryId": 348,
       "CategoryName": "Puzzle Post",
       "Tesco": true,
@@ -3882,7 +3882,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "15fbf967-2e5a-401a-832f-33f9de6b9cfa",
+      "CategoryId": "15fbf967-2e5a-401a-832f-33f9de6b9cfa",
       "ProductCategoryId": 409,
       "CategoryName": "Quotable",
       "Tesco": true,
@@ -3896,7 +3896,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "cc60676d-64ee-4493-93fe-24ba18431770",
+      "CategoryId": "cc60676d-64ee-4493-93fe-24ba18431770",
       "ProductCategoryId": 336,
       "CategoryName": "Raijmakers",
       "Tesco": false,
@@ -3910,7 +3910,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b079a0a0-a64a-43c6-8bdc-7845e5ed0244",
+      "CategoryId": "b079a0a0-a64a-43c6-8bdc-7845e5ed0244",
       "ProductCategoryId": 272,
       "CategoryName": "Rapesco",
       "Tesco": true,
@@ -3924,7 +3924,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "14bb2cc0-a06b-45e3-b54b-27a4bbe153f1",
+      "CategoryId": "14bb2cc0-a06b-45e3-b54b-27a4bbe153f1",
       "ProductCategoryId": 32,
       "CategoryName": "Reduced Stock",
       "Tesco": false,
@@ -3938,7 +3938,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9cf45df4-a96d-456d-b22f-d55bc066efad",
+      "CategoryId": "9cf45df4-a96d-456d-b22f-d55bc066efad",
       "ProductCategoryId": 179,
       "CategoryName": "Resaco",
       "Tesco": false,
@@ -3952,7 +3952,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f85788e3-298d-4928-a795-03299bfffa80",
+      "CategoryId": "f85788e3-298d-4928-a795-03299bfffa80",
       "ProductCategoryId": 337,
       "CategoryName": "Rico Designs",
       "Tesco": true,
@@ -3966,7 +3966,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4cd952bc-f91b-485e-901e-4d3166bfefbe",
+      "CategoryId": "4cd952bc-f91b-485e-901e-4d3166bfefbe",
       "ProductCategoryId": 402,
       "CategoryName": "Robert Frederick",
       "Tesco": true,
@@ -3980,7 +3980,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "27459620-1163-4cd0-8cb9-d2e4e2026cfc",
+      "CategoryId": "27459620-1163-4cd0-8cb9-d2e4e2026cfc",
       "ProductCategoryId": 276,
       "CategoryName": "Robotime",
       "Tesco": true,
@@ -3994,7 +3994,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e01b3522-21a4-4bf4-913b-8604764fd9f7",
+      "CategoryId": "e01b3522-21a4-4bf4-913b-8604764fd9f7",
       "ProductCategoryId": 229,
       "CategoryName": "Rosewood",
       "Tesco": true,
@@ -4008,7 +4008,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d879c7d3-cb6c-4474-b9ca-6270d977186d",
+      "CategoryId": "d879c7d3-cb6c-4474-b9ca-6270d977186d",
       "ProductCategoryId": 364,
       "CategoryName": "Royal County Products",
       "Tesco": true,
@@ -4022,7 +4022,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "db2243a2-4278-4f9e-993d-829443be3afc",
+      "CategoryId": "db2243a2-4278-4f9e-993d-829443be3afc",
       "ProductCategoryId": 319,
       "CategoryName": "RSW",
       "Tesco": true,
@@ -4036,7 +4036,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "28ab278c-9865-415a-bd75-00f803bfc748",
+      "CategoryId": "28ab278c-9865-415a-bd75-00f803bfc748",
       "ProductCategoryId": 2,
       "CategoryName": "Safety Knife Company",
       "Tesco": false,
@@ -4050,7 +4050,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "99bfc68b-6938-43ab-be5d-86750c260b88",
+      "CategoryId": "99bfc68b-6938-43ab-be5d-86750c260b88",
       "ProductCategoryId": 104,
       "CategoryName": "Sass and Belle",
       "Tesco": true,
@@ -4064,7 +4064,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a616de83-67db-47ee-a211-1b9d25c8885c",
+      "CategoryId": "a616de83-67db-47ee-a211-1b9d25c8885c",
       "ProductCategoryId": 382,
       "CategoryName": "Sauce Leopard",
       "Tesco": false,
@@ -4078,7 +4078,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2e9c95aa-4bdd-482e-ae4c-1e2d09083ce4",
+      "CategoryId": "2e9c95aa-4bdd-482e-ae4c-1e2d09083ce4",
       "ProductCategoryId": 23,
       "CategoryName": "Sauce Shop",
       "Tesco": false,
@@ -4092,7 +4092,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6b16ff4a-2a71-4a4e-a38f-2028abed5511",
+      "CategoryId": "6b16ff4a-2a71-4a4e-a38f-2028abed5511",
       "ProductCategoryId": 25,
       "CategoryName": "SaucyBitch",
       "Tesco": false,
@@ -4106,7 +4106,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a8534321-a769-4557-bc0f-2662af58b02b",
+      "CategoryId": "a8534321-a769-4557-bc0f-2662af58b02b",
       "ProductCategoryId": 438,
       "CategoryName": "Savir Foods",
       "Tesco": false,
@@ -4120,7 +4120,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "36d296b1-9fbc-46f6-a588-2a2d5d1c7858",
+      "CategoryId": "36d296b1-9fbc-46f6-a588-2a2d5d1c7858",
       "ProductCategoryId": 275,
       "CategoryName": "Scottish Fine Soaps Company",
       "Tesco": true,
@@ -4134,7 +4134,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "79005d9a-8922-4cd3-a946-686bcfe1106f",
+      "CategoryId": "79005d9a-8922-4cd3-a946-686bcfe1106f",
       "ProductCategoryId": 414,
       "CategoryName": "Scruffs",
       "Tesco": true,
@@ -4148,7 +4148,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "04310014-c713-4d03-890e-b6f36d1f9eed",
+      "CategoryId": "04310014-c713-4d03-890e-b6f36d1f9eed",
       "ProductCategoryId": 151,
       "CategoryName": "SealSkinz",
       "Tesco": true,
@@ -4162,7 +4162,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b15344ae-1e72-41c1-b99d-536da9ed8709",
+      "CategoryId": "b15344ae-1e72-41c1-b99d-536da9ed8709",
       "ProductCategoryId": 66,
       "CategoryName": "Seasoned Pioneers",
       "Tesco": true,
@@ -4176,7 +4176,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "d4885f3b-a0a9-4d20-8ad6-a541e79111bd",
+      "CategoryId": "d4885f3b-a0a9-4d20-8ad6-a541e79111bd",
       "ProductCategoryId": 358,
       "CategoryName": "Seed Pantry",
       "Tesco": false,
@@ -4190,7 +4190,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a3abaf01-63ee-4f65-a1a8-ea8def9b1117",
+      "CategoryId": "a3abaf01-63ee-4f65-a1a8-ea8def9b1117",
       "ProductCategoryId": 260,
       "CategoryName": "Seed Ranch Flavour",
       "Tesco": false,
@@ -4204,7 +4204,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "a9106a76-0b1b-46b8-a2db-24ecc219241c",
+      "CategoryId": "a9106a76-0b1b-46b8-a2db-24ecc219241c",
       "ProductCategoryId": 299,
       "CategoryName": "Seedball",
       "Tesco": true,
@@ -4218,7 +4218,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "74f07070-15c3-4a70-8ad8-76c5c9db07b6",
+      "CategoryId": "74f07070-15c3-4a70-8ad8-76c5c9db07b6",
       "ProductCategoryId": 95,
       "CategoryName": "Seedlip",
       "Tesco": true,
@@ -4232,7 +4232,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f7b1bb70-0577-4c47-b6b1-d6bb0fd4c234",
+      "CategoryId": "f7b1bb70-0577-4c47-b6b1-d6bb0fd4c234",
       "ProductCategoryId": 184,
       "CategoryName": "Selfie Clothing",
       "Tesco": true,
@@ -4246,7 +4246,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "43295bb3-76bc-4330-b2fc-bb45d766fd2c",
+      "CategoryId": "43295bb3-76bc-4330-b2fc-bb45d766fd2c",
       "ProductCategoryId": 157,
       "CategoryName": "Sharon Nowlan",
       "Tesco": true,
@@ -4260,7 +4260,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ac174cfb-a474-45f2-ae5c-3b9e49c66162",
+      "CategoryId": "ac174cfb-a474-45f2-ae5c-3b9e49c66162",
       "ProductCategoryId": 308,
       "CategoryName": "Shearer Candles",
       "Tesco": true,
@@ -4274,7 +4274,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3afa06bb-8726-4a25-a4a8-973ce300991c",
+      "CategoryId": "3afa06bb-8726-4a25-a4a8-973ce300991c",
       "ProductCategoryId": 293,
       "CategoryName": "Sic Sock",
       "Tesco": false,
@@ -4288,7 +4288,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "7f3b5e5a-6a60-4983-9c37-db3475cd8369",
+      "CategoryId": "7f3b5e5a-6a60-4983-9c37-db3475cd8369",
       "ProductCategoryId": 188,
       "CategoryName": "Sienna Glass",
       "Tesco": true,
@@ -4302,7 +4302,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "dd4f66a1-d255-43e5-8e65-b6c9736b422d",
+      "CategoryId": "dd4f66a1-d255-43e5-8e65-b6c9736b422d",
       "ProductCategoryId": 325,
       "CategoryName": "SIGG",
       "Tesco": true,
@@ -4316,7 +4316,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6da9b344-b369-4c7e-a935-b03dcc9d489c",
+      "CategoryId": "6da9b344-b369-4c7e-a935-b03dcc9d489c",
       "ProductCategoryId": 400,
       "CategoryName": "Signare",
       "Tesco": true,
@@ -4330,7 +4330,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "64c007b6-e32e-448c-91c5-94e19ab0d871",
+      "CategoryId": "64c007b6-e32e-448c-91c5-94e19ab0d871",
       "ProductCategoryId": 287,
       "CategoryName": "SIL Interiors",
       "Tesco": true,
@@ -4344,7 +4344,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "469a2e66-99df-44f2-beeb-4d084831e134",
+      "CategoryId": "469a2e66-99df-44f2-beeb-4d084831e134",
       "ProductCategoryId": 378,
       "CategoryName": "Silva",
       "Tesco": true,
@@ -4358,7 +4358,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "018a162b-bdd6-4789-8325-010283899e9c",
+      "CategoryId": "018a162b-bdd6-4789-8325-010283899e9c",
       "ProductCategoryId": 391,
       "CategoryName": "Simmons",
       "Tesco": false,
@@ -4372,7 +4372,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "077d3765-18db-404d-b91c-fb56407f033b",
+      "CategoryId": "077d3765-18db-404d-b91c-fb56407f033b",
       "ProductCategoryId": 218,
       "CategoryName": "Sixtrees",
       "Tesco": true,
@@ -4386,7 +4386,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "aa7c3a34-4e77-4c61-b790-9011dba62345",
+      "CategoryId": "aa7c3a34-4e77-4c61-b790-9011dba62345",
       "ProductCategoryId": 117,
       "CategoryName": "SJA",
       "Tesco": true,
@@ -4400,7 +4400,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "228490c8-2b28-4227-8d0d-74908a91b566",
+      "CategoryId": "228490c8-2b28-4227-8d0d-74908a91b566",
       "ProductCategoryId": 94,
       "CategoryName": "Skinny Food",
       "Tesco": true,
@@ -4414,7 +4414,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "63882271-7ff1-42e6-a0d4-40269419a6e0",
+      "CategoryId": "63882271-7ff1-42e6-a0d4-40269419a6e0",
       "ProductCategoryId": 430,
       "CategoryName": "Slap Ya Mama",
       "Tesco": false,
@@ -4428,7 +4428,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9b986203-4f13-4f13-8996-9d56621d6df0",
+      "CategoryId": "9b986203-4f13-4f13-8996-9d56621d6df0",
       "ProductCategoryId": 262,
       "CategoryName": "Smart Garden Products",
       "Tesco": true,
@@ -4442,7 +4442,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9aa377b5-4ed7-4421-ab12-5f676f835865",
+      "CategoryId": "9aa377b5-4ed7-4421-ab12-5f676f835865",
       "ProductCategoryId": 74,
       "CategoryName": "Smuggle Your Booze",
       "Tesco": true,
@@ -4456,7 +4456,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "beb9bf9d-09b8-4c92-8e00-20e43410178d",
+      "CategoryId": "beb9bf9d-09b8-4c92-8e00-20e43410178d",
       "ProductCategoryId": 304,
       "CategoryName": "Snippers",
       "Tesco": false,
@@ -4470,7 +4470,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c468bb9e-eeab-4cec-87c8-a7172a325b93",
+      "CategoryId": "c468bb9e-eeab-4cec-87c8-a7172a325b93",
       "ProductCategoryId": 315,
       "CategoryName": "SnowTime",
       "Tesco": true,
@@ -4484,7 +4484,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c74dc917-09f7-44e8-9f3c-5b085ab46f19",
+      "CategoryId": "c74dc917-09f7-44e8-9f3c-5b085ab46f19",
       "ProductCategoryId": 255,
       "CategoryName": "Soake",
       "Tesco": true,
@@ -4498,7 +4498,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e9e6a8a9-f383-485b-b6d7-6033e0430418",
+      "CategoryId": "e9e6a8a9-f383-485b-b6d7-6033e0430418",
       "ProductCategoryId": 286,
       "CategoryName": "Socksmith",
       "Tesco": false,
@@ -4512,7 +4512,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b8d6463c-a5f2-4423-bacc-4dbc6be05386",
+      "CategoryId": "b8d6463c-a5f2-4423-bacc-4dbc6be05386",
       "ProductCategoryId": 298,
       "CategoryName": "Solid Cologne UK",
       "Tesco": true,
@@ -4526,7 +4526,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "59051411-7ec5-4322-bdcc-50dcc337a16b",
+      "CategoryId": "59051411-7ec5-4322-bdcc-50dcc337a16b",
       "ProductCategoryId": 280,
       "CategoryName": "SOP International",
       "Tesco": false,
@@ -4540,7 +4540,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5a6ebfef-fc80-4c38-b879-cff502f2b8f9",
+      "CategoryId": "5a6ebfef-fc80-4c38-b879-cff502f2b8f9",
       "ProductCategoryId": 176,
       "CategoryName": "Spaceform",
       "Tesco": true,
@@ -4554,7 +4554,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "785e9ae4-7dc1-4d4b-98ca-ced0583e7b58",
+      "CategoryId": "785e9ae4-7dc1-4d4b-98ca-ced0583e7b58",
       "ProductCategoryId": 437,
       "CategoryName": "Spicy Shark",
       "Tesco": false,
@@ -4568,7 +4568,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f05b273f-5dbd-4c6c-b01f-c5bd366a79ac",
+      "CategoryId": "f05b273f-5dbd-4c6c-b01f-c5bd366a79ac",
       "ProductCategoryId": 334,
       "CategoryName": "Steve-O",
       "Tesco": false,
@@ -4582,7 +4582,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e53b0222-723a-48f6-88ea-d35a83978a8f",
+      "CategoryId": "e53b0222-723a-48f6-88ea-d35a83978a8f",
       "ProductCategoryId": 323,
       "CategoryName": "Stovax",
       "Tesco": false,
@@ -4596,7 +4596,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3ed7be99-7bfe-44e7-b53d-1ae464bef757",
+      "CategoryId": "3ed7be99-7bfe-44e7-b53d-1ae464bef757",
       "ProductCategoryId": 431,
       "CategoryName": "Straits",
       "Tesco": true,
@@ -4610,7 +4610,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f4fba81f-f51b-4321-b309-8cd8413ca0b2",
+      "CategoryId": "f4fba81f-f51b-4321-b309-8cd8413ca0b2",
       "ProductCategoryId": 112,
       "CategoryName": "Suck UK",
       "Tesco": false,
@@ -4624,7 +4624,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "6edcb7ae-18af-4b19-a905-15ce06e183f4",
+      "CategoryId": "6edcb7ae-18af-4b19-a905-15ce06e183f4",
       "ProductCategoryId": 18,
       "CategoryName": "Suki Gifts",
       "Tesco": true,
@@ -4638,7 +4638,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "52752be3-e0b1-4e72-a3ba-42ccb1138fe6",
+      "CategoryId": "52752be3-e0b1-4e72-a3ba-42ccb1138fe6",
       "ProductCategoryId": 266,
       "CategoryName": "SureShot BV",
       "Tesco": false,
@@ -4652,7 +4652,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ec680179-6ed3-4e01-80f8-ae4457069ffb",
+      "CategoryId": "ec680179-6ed3-4e01-80f8-ae4457069ffb",
       "ProductCategoryId": 263,
       "CategoryName": "Swole Panda",
       "Tesco": false,
@@ -4666,7 +4666,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c9891db9-40ea-497a-81d0-a575cece2c03",
+      "CategoryId": "c9891db9-40ea-497a-81d0-a575cece2c03",
       "ProductCategoryId": 130,
       "CategoryName": "TableTop Multi Buy",
       "Tesco": false,
@@ -4680,7 +4680,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1d3ed0ac-56b1-4938-b419-d5d49df7fcda",
+      "CategoryId": "1d3ed0ac-56b1-4938-b419-d5d49df7fcda",
       "ProductCategoryId": 328,
       "CategoryName": "Taylor's Bulbs",
       "Tesco": true,
@@ -4694,7 +4694,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "da597d46-4978-4b65-ad9e-48f7d649ea4a",
+      "CategoryId": "da597d46-4978-4b65-ad9e-48f7d649ea4a",
       "ProductCategoryId": 225,
       "CategoryName": "The Garlic Farm",
       "Tesco": false,
@@ -4708,7 +4708,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f71afa4e-945e-4c51-bf56-64b898af5298",
+      "CategoryId": "f71afa4e-945e-4c51-bf56-64b898af5298",
       "ProductCategoryId": 81,
       "CategoryName": "The Grinch",
       "Tesco": true,
@@ -4722,7 +4722,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "50b71c83-866c-4ed2-8f16-01c06e7bc956",
+      "CategoryId": "50b71c83-866c-4ed2-8f16-01c06e7bc956",
       "ProductCategoryId": 339,
       "CategoryName": "The Somerset Toiletry Co",
       "Tesco": true,
@@ -4736,7 +4736,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "02cf7efe-b4c2-42c1-9a26-a40a84a85cbe",
+      "CategoryId": "02cf7efe-b4c2-42c1-9a26-a40a84a85cbe",
       "ProductCategoryId": 359,
       "CategoryName": "The Treat Kitchen",
       "Tesco": false,
@@ -4750,7 +4750,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "72f19458-4711-42ea-b083-1cf645f5381a",
+      "CategoryId": "72f19458-4711-42ea-b083-1cf645f5381a",
       "ProductCategoryId": 374,
       "CategoryName": "The Wheat Bag Company",
       "Tesco": true,
@@ -4764,7 +4764,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "01e4dc10-2d89-4a24-ac30-d40b1a86f185",
+      "CategoryId": "01e4dc10-2d89-4a24-ac30-d40b1a86f185",
       "ProductCategoryId": 332,
       "CategoryName": "Toasted Crumpet Designs",
       "Tesco": false,
@@ -4778,7 +4778,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "07ec8148-b786-40f0-ab03-e8bd55486f08",
+      "CategoryId": "07ec8148-b786-40f0-ab03-e8bd55486f08",
       "ProductCategoryId": 206,
       "CategoryName": "Tobar",
       "Tesco": true,
@@ -4792,7 +4792,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1bc5b65a-cbd8-46d4-87a2-187c4b6a0006",
+      "CategoryId": "1bc5b65a-cbd8-46d4-87a2-187c4b6a0006",
       "ProductCategoryId": 395,
       "CategoryName": "Tom Chambers",
       "Tesco": true,
@@ -4806,7 +4806,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f0c8ac6a-8069-4bee-a2ad-d3d07004c266",
+      "CategoryId": "f0c8ac6a-8069-4bee-a2ad-d3d07004c266",
       "ProductCategoryId": 258,
       "CategoryName": "Torasan",
       "Tesco": false,
@@ -4820,7 +4820,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "77179919-76fe-4bf2-a7f7-ce3b5d4adeae",
+      "CategoryId": "77179919-76fe-4bf2-a7f7-ce3b5d4adeae",
       "ProductCategoryId": 387,
       "CategoryName": "Truff",
       "Tesco": false,
@@ -4834,7 +4834,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "9845c8b5-2a60-4c7c-87df-f46378347d18",
+      "CategoryId": "9845c8b5-2a60-4c7c-87df-f46378347d18",
       "ProductCategoryId": 349,
       "CategoryName": "TWS Trading",
       "Tesco": true,
@@ -4848,7 +4848,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "908b59ab-b527-4e55-bb44-2b8174012857",
+      "CategoryId": "908b59ab-b527-4e55-bb44-2b8174012857",
       "ProductCategoryId": 34,
       "CategoryName": "United Oddsocks",
       "Tesco": false,
@@ -4862,7 +4862,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "4627966b-c04b-4af3-8fa1-919c6251f752",
+      "CategoryId": "4627966b-c04b-4af3-8fa1-919c6251f752",
       "ProductCategoryId": 234,
       "CategoryName": "University Games",
       "Tesco": true,
@@ -4876,7 +4876,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "abd272bc-6f61-4a76-a5e6-8baa96312672",
+      "CategoryId": "abd272bc-6f61-4a76-a5e6-8baa96312672",
       "ProductCategoryId": 246,
       "CategoryName": "Unwins",
       "Tesco": true,
@@ -4890,7 +4890,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f6278efe-3bf0-4fb7-ad35-4576f7de213b",
+      "CategoryId": "f6278efe-3bf0-4fb7-ad35-4576f7de213b",
       "ProductCategoryId": 254,
       "CategoryName": "Upper Canada",
       "Tesco": true,
@@ -4995,7 +4995,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "8f482f04-da78-4c08-bbed-8e759de5bcb6",
+      "CategoryId": "8f482f04-da78-4c08-bbed-8e759de5bcb6",
       "ProductCategoryId": 114,
       "CategoryName": "Village Candle",
       "Tesco": true,
@@ -5009,7 +5009,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "5790a1c9-31e9-4866-87ec-7ccb6d7dcad8",
+      "CategoryId": "5790a1c9-31e9-4866-87ec-7ccb6d7dcad8",
       "ProductCategoryId": 413,
       "CategoryName": "Volcanic Dino Sauce",
       "Tesco": false,
@@ -5023,7 +5023,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1d0160bf-b683-4c1f-828e-a8eb5521278d",
+      "CategoryId": "1d0160bf-b683-4c1f-828e-a8eb5521278d",
       "ProductCategoryId": 134,
       "CategoryName": "Walden Farms",
       "Tesco": false,
@@ -5037,7 +5037,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "3a5fe219-8767-46eb-9161-7b8fd7699828",
+      "CategoryId": "3a5fe219-8767-46eb-9161-7b8fd7699828",
       "ProductCategoryId": 259,
       "CategoryName": "Wax Lyrical",
       "Tesco": true,
@@ -5051,7 +5051,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "e6f00828-c888-49bb-834f-4b49428a68d7",
+      "CategoryId": "e6f00828-c888-49bb-834f-4b49428a68d7",
       "ProductCategoryId": 370,
       "CategoryName": "Weymouth 51",
       "Tesco": false,
@@ -5065,7 +5065,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "72820749-dcb8-425f-a785-4db505584f11",
+      "CategoryId": "72820749-dcb8-425f-a785-4db505584f11",
       "ProductCategoryId": 291,
       "CategoryName": "What A Pickle",
       "Tesco": false,
@@ -5079,7 +5079,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f5cc602d-0b2f-48fc-8dc5-21117a5b79df",
+      "CategoryId": "f5cc602d-0b2f-48fc-8dc5-21117a5b79df",
       "ProductCategoryId": 26,
       "CategoryName": "Widdop",
       "Tesco": true,
@@ -5093,7 +5093,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0df575d8-e2c4-47cf-9287-89895b6947fc",
+      "CategoryId": "0df575d8-e2c4-47cf-9287-89895b6947fc",
       "ProductCategoryId": 429,
       "CategoryName": "Wild Things",
       "Tesco": true,
@@ -5107,7 +5107,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "cc59cb7e-31b5-40da-8986-6e62eb12bd11",
+      "CategoryId": "cc59cb7e-31b5-40da-8986-6e62eb12bd11",
       "ProductCategoryId": 335,
       "CategoryName": "Wilderkitchen",
       "Tesco": false,
@@ -5121,7 +5121,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "b5217bbb-b0ac-419f-b5be-34d781971c60",
+      "CategoryId": "b5217bbb-b0ac-419f-b5be-34d781971c60",
       "ProductCategoryId": 43,
       "CategoryName": "Wildlife World",
       "Tesco": true,
@@ -5135,7 +5135,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "ee01604e-5bce-46ec-84a5-1e6b42cbebc7",
+      "CategoryId": "ee01604e-5bce-46ec-84a5-1e6b42cbebc7",
       "ProductCategoryId": 24,
       "CategoryName": "Willow Tree",
       "Tesco": true,
@@ -5149,7 +5149,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f01a61c1-b12d-4e60-bd07-a885ba982487",
+      "CategoryId": "f01a61c1-b12d-4e60-bd07-a885ba982487",
       "ProductCategoryId": 273,
       "CategoryName": "Wilton Bradley",
       "Tesco": true,
@@ -5163,7 +5163,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f0d945dd-009b-4dda-80f4-a4af33ad8736",
+      "CategoryId": "f0d945dd-009b-4dda-80f4-a4af33ad8736",
       "ProductCategoryId": 129,
       "CategoryName": "Wiltshire Chilli Farm",
       "Tesco": false,
@@ -5177,7 +5177,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "0a569d3a-01d1-4d32-ae9d-ef0446579804",
+      "CategoryId": "0a569d3a-01d1-4d32-ae9d-ef0446579804",
       "ProductCategoryId": 420,
       "CategoryName": "Wit With Wisdom",
       "Tesco": true,
@@ -5191,7 +5191,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "94f5c2ed-d743-4d4b-944c-7c7ce0921351",
+      "CategoryId": "94f5c2ed-d743-4d4b-944c-7c7ce0921351",
       "ProductCategoryId": 230,
       "CategoryName": "Wolf Garten",
       "Tesco": true,
@@ -5205,7 +5205,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "22f9a13d-b6b0-44b1-8c18-835ad8e943c7",
+      "CategoryId": "22f9a13d-b6b0-44b1-8c18-835ad8e943c7",
       "ProductCategoryId": 101,
       "CategoryName": "Woodbridge",
       "Tesco": true,
@@ -5219,7 +5219,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "365f081d-58bc-4977-b6d0-8e584cc1dc0a",
+      "CategoryId": "365f081d-58bc-4977-b6d0-8e584cc1dc0a",
       "ProductCategoryId": 245,
       "CategoryName": "Woodstock Chimes",
       "Tesco": true,
@@ -5233,7 +5233,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "f40ca890-ae02-47eb-8615-fc7e10ac4900",
+      "CategoryId": "f40ca890-ae02-47eb-8615-fc7e10ac4900",
       "ProductCategoryId": 363,
       "CategoryName": "Woodtrick",
       "Tesco": true,
@@ -5247,7 +5247,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "2e49d1d2-efe2-41ec-957b-a6d2e1f6263c",
+      "CategoryId": "2e49d1d2-efe2-41ec-957b-a6d2e1f6263c",
       "ProductCategoryId": 132,
       "CategoryName": "WPL",
       "Tesco": true,
@@ -5261,7 +5261,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "424ad0d5-e95c-4540-b9bf-857131e10da8",
+      "CategoryId": "424ad0d5-e95c-4540-b9bf-857131e10da8",
       "ProductCategoryId": 102,
       "CategoryName": "Xpressions Gifts",
       "Tesco": true,
@@ -5275,7 +5275,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "11b78059-7c79-4947-b795-d1f92dfb1fdd",
+      "CategoryId": "11b78059-7c79-4947-b795-d1f92dfb1fdd",
       "ProductCategoryId": 410,
       "CategoryName": "Xystos",
       "Tesco": true,
@@ -5326,7 +5326,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "702406ce-6f3f-4283-9a4e-3ebb47936c04",
+      "CategoryId": "702406ce-6f3f-4283-9a4e-3ebb47936c04",
       "ProductCategoryId": 49,
       "CategoryName": "You're An Angel",
       "Tesco": true,
@@ -5340,7 +5340,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "c83f6a8a-086d-415f-94e6-c7a5232c2d90",
+      "CategoryId": "c83f6a8a-086d-415f-94e6-c7a5232c2d90",
       "ProductCategoryId": 169,
       "CategoryName": "Zaramama",
       "Tesco": false,
@@ -5354,7 +5354,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "1015e1ea-74b3-4e04-8736-21b725a2961a",
+      "CategoryId": "1015e1ea-74b3-4e04-8736-21b725a2961a",
       "ProductCategoryId": 417,
       "CategoryName": "Ziggle Baby",
       "Tesco": true,
@@ -5368,7 +5368,7 @@
   },
   {
     "supplier": {
-      "CategoryID": "aea5d13c-e57e-4d6d-bd1e-3937c269d863",
+      "CategoryId": "aea5d13c-e57e-4d6d-bd1e-3937c269d863",
       "ProductCategoryId": 44,
       "CategoryName": "ZZZZ",
       "Tesco": true,
