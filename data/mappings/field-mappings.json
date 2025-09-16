@@ -1,0 +1,476 @@
+{
+  "mappings": [
+    {
+      "Linnworks": "total_count",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "products.category_code",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "products.category_label",
+      "BandQ": "category"
+    },
+    {
+      "Linnworks": "products.product_id",
+      "BandQ": "product-id"
+    },
+    {
+      "Linnworks": "products.product_id_type",
+      "BandQ": "product-id-type"
+    },
+    {
+      "Linnworks": "products.product_sku",
+      "BandQ": "shop_sku"
+    },
+    {
+      "Linnworks": "products.product_title",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Quantity",
+      "BandQ": "quantity"
+    },
+    {
+      "Linnworks": "InOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Due",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "MinimumLevel",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Available",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "IsCompositeParent",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "ShippedSeparately",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "ItemNumber",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "ItemTitle",
+      "BandQ": "name"
+    },
+    {
+      "Linnworks": "BarcodeNumber",
+      "BandQ": "sku"
+    },
+    {
+      "Linnworks": "MetaData",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "IsVariationParent",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "isBatchedStockType",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "PurchasePrice",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "RetailPrice",
+      "BandQ": "price"
+    },
+    {
+      "Linnworks": "TaxRate",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "PostalServiceId",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "CategoryId",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "PackageGroupId",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Height",
+      "BandQ": "Product_height"
+    },
+    {
+      "Linnworks": "Width",
+      "BandQ": "Product_width"
+    },
+    {
+      "Linnworks": "Depth",
+      "BandQ": "Product_length"
+    },
+    {
+      "Linnworks": "Weight",
+      "BandQ": "Product_weight"
+    },
+    {
+      "Linnworks": "InventoryTrackingType",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "BatchNumberScanRequired",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "SerialNumberScanRequired",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "StockItemIntId",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image1Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image1FullSource",
+      "BandQ": "image_main_1"
+    },
+    {
+      "Linnworks": "Image1IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image1SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image2Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image2FullSource",
+      "BandQ": "image_secondary_1"
+    },
+    {
+      "Linnworks": "Image2IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image2SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image3Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image3FullSource",
+      "BandQ": "image_secondary_2"
+    },
+    {
+      "Linnworks": "Image3IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image3SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image4Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image4FullSource",
+      "BandQ": "image_secondary_3"
+    },
+    {
+      "Linnworks": "Image4IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image4SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image5Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image5FullSource",
+      "BandQ": "image_secondary_4"
+    },
+    {
+      "Linnworks": "Image5IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image5SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image6Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image6FullSource",
+      "BandQ": "image_secondary_5"
+    },
+    {
+      "Linnworks": "Image6IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image6SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image7Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image7FullSource",
+      "BandQ": "image_secondary_6"
+    },
+    {
+      "Linnworks": "Image7IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image7SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image8Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image8FullSource",
+      "BandQ": "image_secondary_7"
+    },
+    {
+      "Linnworks": "Image8IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image8SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image9Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image9FullSource",
+      "BandQ": "image_secondary_8"
+    },
+    {
+      "Linnworks": "Image9IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image9SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image10Source",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image10FullSource",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image10IsMain",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Image10SortOrder",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Description",
+      "BandQ": "Body Copy"
+    },
+    {
+      "Linnworks": "Price",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Bulletpoint1",
+      "BandQ": "Unique Selling Point 01"
+    },
+    {
+      "Linnworks": "Bulletpoint2",
+      "BandQ": "Unique Selling Point 02"
+    },
+    {
+      "Linnworks": "Bulletpoint3",
+      "BandQ": "Unique Selling Point 03"
+    },
+    {
+      "Linnworks": "Bulletpoint4",
+      "BandQ": "Unique Selling Point 04"
+    },
+    {
+      "Linnworks": "Bulletpoint5",
+      "BandQ": "Unique Selling Point 05"
+    },
+    {
+      "Linnworks": "Brand",
+      "BandQ": "Acquisition brand"
+    },
+    {
+      "Linnworks": "Country of Manufacture",
+      "BandQ": "Tech_Made in"
+    },
+    {
+      "Linnworks": "Design",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "EAN",
+      "BandQ": "ean"
+    },
+    {
+      "Linnworks": "Listing Description",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Location Type",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "MPN",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Tariff Code",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "bulletpoints",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "StockItemId",
+      "BandQ": ""
+    },
+    {
+      "Linnworks": "Core_Pack quantity",
+      "BandQ": "Core_Pack quantity"
+    },
+    {
+      "Linnworks": "Core_Pack type",
+      "BandQ": "Core_Pack type"
+    },
+    {
+      "Linnworks": "Key_Feature",
+      "BandQ": "Key_Feature"
+    },
+    {
+      "Linnworks": "Guarantee",
+      "BandQ": "Guarantee"
+    },
+    {
+      "Linnworks": "reach_verified",
+      "BandQ": "reach_verified"
+    },
+    {
+      "Linnworks": "contains_wood",
+      "BandQ": "contains_wood"
+    },
+    {
+      "Linnworks": "fsc_pecl_certified",
+      "BandQ": "fsc_pecl_certified"
+    },
+    {
+      "Linnworks": "Core_Product type",
+      "BandQ": "Core_Product type"
+    },
+    {
+      "Linnworks": "Size",
+      "BandQ": "Size"
+    },
+    {
+      "Linnworks": "Main Color",
+      "BandQ": "Vdesc_Colour"
+    },
+    {
+      "Linnworks": "Tech_Material",
+      "BandQ": "Tech_Material"
+    },
+    {
+      "Linnworks": "Location",
+      "BandQ": "Location"
+    },
+    {
+      "Linnworks": "Tech_Maximum burn time",
+      "BandQ": "Tech_Maximum burn time"
+    },
+    {
+      "Linnworks": "Use_Safety information",
+      "BandQ": "Use_Safety information"
+    },
+    {
+      "Linnworks": "state",
+      "BandQ": "state"
+    },
+    {
+      "Linnworks": "logistic-class",
+      "BandQ": "logistic-class"
+    },
+    {
+      "Linnworks": "pdf_product_guide",
+      "BandQ": "pdf_product_guide"
+    },
+    {
+      "Linnworks": "pdf_product_instruction_manual",
+      "BandQ": "pdf_product_instruction_manual"
+    },
+    {
+      "Linnworks": "pdf_safety_manual",
+      "BandQ": "pdf_safety_manual"
+    },
+    {
+      "Linnworks": "video",
+      "BandQ": "video"
+    },
+    {
+      "Linnworks": "Selling Copy",
+      "BandQ": "Selling Copy"
+    },
+    {
+      "Linnworks": "Legal_notices",
+      "BandQ": "Legal_notices"
+    },
+    {
+      "Linnworks": "Mirakl_ProductGroup_ID",
+      "BandQ": "Mirakl_ProductGroup_ID"
+    },
+    {
+      "Linnworks": "Core_Product type",
+      "BandQ": "Core_Product type"
+    },
+    {
+      "Linnworks": "Construction_type",
+      "BandQ": "Construction_type"
+    },
+    {
+      "Linnworks": "Type_Range",
+      "BandQ": "Type_Range"
+    },
+    {
+      "Linnworks": "Dim_Maximum height",
+      "BandQ": "Dim_Maximum height"
+    }
+  ]
+}
