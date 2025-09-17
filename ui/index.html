@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categorization Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#64748b',
+                        danger: '#dc2626',
+                        success: '#16a34a'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Header -->
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Product Categorization Demo</h1>
+            <p class="text-gray-600">Paste a product JSON description and select marketplaces to see categorization results.</p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Input Section -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Product Input</h2>
+                
+                <!-- JSON Input -->
+                <div class="mb-4">
+                    <label for="jsonInput" class="block text-sm font-medium text-gray-700 mb-2">
+                        Product JSON
+                    </label>
+                    <textarea 
+                        id="jsonInput" 
+                        rows="12" 
+                        class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent resize-vertical font-mono text-sm"
+                        placeholder="Paste your product JSON here..."
+                    ></textarea>
+                </div>
+
+                <!-- Marketplace Selection -->
+                <div class="mb-6">
+                    <label for="marketplaceSelect" class="block text-sm font-medium text-gray-700 mb-2">
+                        Marketplace
+                    </label>
+                    <select 
+                        id="marketplaceSelect" 
+                        class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent"
+                    >
+                        <option value="">All Marketplaces</option>
+                        <option value="Tesco">Tesco</option>
+                        <option value="BandQ">BandQ</option>
+                        <option value="SuperDrug">SuperDrug</option>
+                        <option value="MountainWarehouse">MountainWarehouse</option>
+                        <option value="Debenhams">Debenhams</option>
+                        <option value="Decathlon">Decathlon</option>
+                    </select>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex space-x-3">
+                    <button 
+                        id="categorizeBtn" 
+                        class="flex-1 bg-primary text-white py-3 px-6 rounded-md hover:bg-blue-700 focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors font-medium"
+                        onclick="categorizeProduct()"
+                    >
+                        Categorize
+                    </button>
+                    <button 
+                        id="resetBtn" 
+                        class="bg-gray-500 text-white py-3 px-6 rounded-md hover:bg-gray-600 focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-colors font-medium"
+                        onclick="resetForm()"
+                    >
+                        Reset
+                    </button>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loadingState" class="hidden mt-4 flex items-center justify-center">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                    <span class="ml-3 text-gray-600">Processing...</span>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Results</h2>
+                
+                <!-- Error Display -->
+                <div id="errorDisplay" class="hidden mb-4 p-4 bg-red-50 border border-red-200 rounded-md">
+                    <div class="flex">
+                        <div class="ml-3">
+                            <h3 class="text-sm font-medium text-red-800">Error</h3>
+                            <div id="errorMessage" class="mt-1 text-sm text-red-700"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Display -->
+                <div id="successDisplay" class="hidden mb-4 p-4 bg-green-50 border border-green-200 rounded-md">
+                    <div class="flex">
+                        <div class="ml-3">
+                            <h3 class="text-sm font-medium text-green-800">Success</h3>
+                            <div class="mt-1 text-sm text-green-700">Categorization completed successfully!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Output -->
+                <div id="resultsContainer" class="hidden">
+                    <div class="mb-3 flex items-center justify-between">
+                        <h3 class="text-lg font-medium text-gray-800">API Response</h3>
+                        <button 
+                            id="copyBtn" 
+                            onclick="copyResults()" 
+                            class="text-sm bg-gray-100 hover:bg-gray-200 px-3 py-1 rounded border transition-colors"
+                        >
+                            Copy JSON
+                        </button>
+                    </div>
+                    <pre id="resultsOutput" class="bg-gray-50 border border-gray-200 rounded-md p-4 text-sm font-mono overflow-auto max-h-96 whitespace-pre-wrap"></pre>
+                </div>
+
+                <!-- Empty State -->
+                <div id="emptyState" class="text-center py-12 text-gray-500">
+                    <svg class="mx-auto h-12 w-12 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    <p class="text-lg font-medium text-gray-900 mb-1">No results yet</p>
+                    <p class="text-gray-600">Enter product JSON and click "Categorize" to see results</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // API base URL - will be same origin since served from Flask
+        const API_BASE_URL = '';
+
+        // Global variable to store latest results
+        let latestResults = null;
+
+        /**
+         * Categorize product using the API
+         */
+        async function categorizeProduct() {
+            const jsonInput = document.getElementById('jsonInput').value.trim();
+            const marketplace = document.getElementById('marketplaceSelect').value;
+
+            // Validate input
+            if (!jsonInput) {
+                showError('Please enter product JSON data.');
+                return;
+            }
+
+            // Validate JSON format
+            let productData;
+            try {
+                productData = JSON.parse(jsonInput);
+            } catch (error) {
+                showError('Invalid JSON format. Please check your input and try again.');
+                return;
+            }
+
+            // Show loading state
+            setLoadingState(true);
+            hideMessages();
+
+            try {
+                // Build API URL
+                let apiUrl = '/categorize';
+                if (marketplace) {
+                    apiUrl += `?marketplace=${encodeURIComponent(marketplace)}`;
+                }
+
+                // Make API call
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(productData)
+                });
+
+                if (!response.ok) {
+                    // Try to get error details from response
+                    let errorMessage = `API request failed (${response.status})`;
+                    try {
+                        const errorData = await response.json();
+                        if (errorData.error) {
+                            errorMessage = errorData.error;
+                            if (errorData.details) {
+                                errorMessage += `: ${errorData.details}`;
+                            }
+                        }
+                    } catch (parseError) {
+                        // Use default error message if can't parse response
+                    }
+                    throw new Error(errorMessage);
+                }
+
+                const results = await response.json();
+                latestResults = results;
+                showResults(results);
+                showSuccess();
+
+            } catch (error) {
+                console.error('Error calling API:', error);
+                if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                    showError('Unable to connect to the API. Please make sure the server is running.');
+                } else {
+                    showError(error.message || 'An unexpected error occurred. Please try again.');
+                }
+            } finally {
+                setLoadingState(false);
+            }
+        }
+
+        /**
+         * Reset the form and results
+         */
+        function resetForm() {
+            document.getElementById('jsonInput').value = '';
+            document.getElementById('marketplaceSelect').value = '';
+            latestResults = null;
+            hideMessages();
+            hideResults();
+            showEmptyState();
+        }
+
+        /**
+         * Copy results to clipboard
+         */
+        async function copyResults() {
+            if (!latestResults) return;
+
+            try {
+                await navigator.clipboard.writeText(JSON.stringify(latestResults, null, 2));
+                // Brief visual feedback
+                const copyBtn = document.getElementById('copyBtn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = 'Copied!';
+                copyBtn.classList.add('bg-green-100', 'text-green-700');
+                copyBtn.classList.remove('bg-gray-100');
+                
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.classList.remove('bg-green-100', 'text-green-700');
+                    copyBtn.classList.add('bg-gray-100');
+                }, 2000);
+            } catch (error) {
+                console.error('Failed to copy:', error);
+            }
+        }
+
+        /**
+         * Show loading state
+         */
+        function setLoadingState(loading) {
+            const loadingState = document.getElementById('loadingState');
+            const categorizeBtn = document.getElementById('categorizeBtn');
+            
+            if (loading) {
+                loadingState.classList.remove('hidden');
+                categorizeBtn.disabled = true;
+                categorizeBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            } else {
+                loadingState.classList.add('hidden');
+                categorizeBtn.disabled = false;
+                categorizeBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+            }
+        }
+
+        /**
+         * Show error message
+         */
+        function showError(message) {
+            const errorDisplay = document.getElementById('errorDisplay');
+            const errorMessage = document.getElementById('errorMessage');
+            
+            errorMessage.textContent = message;
+            errorDisplay.classList.remove('hidden');
+        }
+
+        /**
+         * Show success message
+         */
+        function showSuccess() {
+            const successDisplay = document.getElementById('successDisplay');
+            successDisplay.classList.remove('hidden');
+        }
+
+        /**
+         * Hide all messages
+         */
+        function hideMessages() {
+            document.getElementById('errorDisplay').classList.add('hidden');
+            document.getElementById('successDisplay').classList.add('hidden');
+        }
+
+        /**
+         * Show results
+         */
+        function showResults(results) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            const resultsOutput = document.getElementById('resultsOutput');
+            const emptyState = document.getElementById('emptyState');
+            
+            resultsOutput.textContent = JSON.stringify(results, null, 2);
+            resultsContainer.classList.remove('hidden');
+            emptyState.classList.add('hidden');
+        }
+
+        /**
+         * Hide results
+         */
+        function hideResults() {
+            document.getElementById('resultsContainer').classList.add('hidden');
+        }
+
+        /**
+         * Show empty state
+         */
+        function showEmptyState() {
+            document.getElementById('emptyState').classList.remove('hidden');
+        }
+
+        // Allow Enter key in textarea to add new lines (prevent form submission)
+        document.getElementById('jsonInput').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.stopPropagation();
+            }
+        });
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + Enter to categorize
+            if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+                e.preventDefault();
+                categorizeProduct();
+            }
+            // Ctrl/Cmd + R to reset (prevent page refresh)
+            if ((e.ctrlKey || e.metaKey) && e.key === 'r') {
+                e.preventDefault();
+                resetForm();
+            }
+        });
+    </script>
+</body>
+</html>
