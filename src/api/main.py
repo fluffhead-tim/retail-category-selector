@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory, send_file
 from pydantic import ValidationError
 from ..config import (
     DATA_DIR,
@@ -95,6 +95,17 @@ def _map_external_item_to_iteminput(raw: Dict[str, Any]) -> ItemInput:
 
 
 app = Flask(__name__)
+
+# UI Routes - serve static files from ui/ directory
+@app.route('/')
+def index():
+    """Serve the main UI page"""
+    return send_file('../../ui/index.html')
+
+@app.route('/ui/<path:filename>')
+def ui_static(filename):
+    """Serve static files from ui directory"""
+    return send_from_directory('../../ui', filename)
 
 @app.get("/health")
 def health():
