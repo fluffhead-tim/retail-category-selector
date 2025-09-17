@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, send_from_directory, send_file
 from pydantic import ValidationError
+from pathlib import Path
 from ..config import (
     DATA_DIR,
     MARKETPLACES_FILE,
@@ -96,16 +97,19 @@ def _map_external_item_to_iteminput(raw: Dict[str, Any]) -> ItemInput:
 
 app = Flask(__name__)
 
+# Compute absolute path to UI directory
+ui_dir = Path(__file__).resolve().parents[2] / 'ui'
+
 # UI Routes - serve static files from ui/ directory
 @app.route('/')
 def index():
     """Serve the main UI page"""
-    return send_file('../../ui/index.html')
+    return send_file(ui_dir / 'index.html')
 
 @app.route('/ui/<path:filename>')
 def ui_static(filename):
     """Serve static files from ui directory"""
-    return send_from_directory('../../ui', filename)
+    return send_from_directory(ui_dir, filename)
 
 @app.get("/health")
 def health():
@@ -211,5 +215,6 @@ if __name__ == "__main__":
     app.run(
         host="0.0.0.0",
         port=int(os.getenv("PORT", "8000")),
-        debug=False
+        debug=False,
+        use_reloader=False
     )
