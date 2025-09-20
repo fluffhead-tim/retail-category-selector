@@ -1,476 +1,6455 @@
-{
-  "mappings": [
-    {
-      "Linnworks": "total_count",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "products.category_code",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "products.category_label",
-      "BandQ": "category"
-    },
-    {
-      "Linnworks": "products.product_id",
-      "BandQ": "product-id"
-    },
-    {
-      "Linnworks": "products.product_id_type",
-      "BandQ": "product-id-type"
-    },
-    {
-      "Linnworks": "products.product_sku",
-      "BandQ": "shop_sku"
-    },
-    {
-      "Linnworks": "products.product_title",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Quantity",
-      "BandQ": "quantity"
-    },
-    {
-      "Linnworks": "InOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Due",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "MinimumLevel",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Available",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "IsCompositeParent",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "ShippedSeparately",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "ItemNumber",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "ItemTitle",
-      "BandQ": "name"
-    },
-    {
-      "Linnworks": "BarcodeNumber",
-      "BandQ": "sku"
-    },
-    {
-      "Linnworks": "MetaData",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "IsVariationParent",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "isBatchedStockType",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "PurchasePrice",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "RetailPrice",
-      "BandQ": "price"
-    },
-    {
-      "Linnworks": "TaxRate",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "PostalServiceId",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "CategoryId",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "PackageGroupId",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Height",
-      "BandQ": "Product_height"
-    },
-    {
-      "Linnworks": "Width",
-      "BandQ": "Product_width"
-    },
-    {
-      "Linnworks": "Depth",
-      "BandQ": "Product_length"
-    },
-    {
-      "Linnworks": "Weight",
-      "BandQ": "Product_weight"
-    },
-    {
-      "Linnworks": "InventoryTrackingType",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "BatchNumberScanRequired",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "SerialNumberScanRequired",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "StockItemIntId",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image1Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image1FullSource",
-      "BandQ": "image_main_1"
-    },
-    {
-      "Linnworks": "Image1IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image1SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image2Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image2FullSource",
-      "BandQ": "image_secondary_1"
-    },
-    {
-      "Linnworks": "Image2IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image2SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image3Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image3FullSource",
-      "BandQ": "image_secondary_2"
-    },
-    {
-      "Linnworks": "Image3IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image3SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image4Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image4FullSource",
-      "BandQ": "image_secondary_3"
-    },
-    {
-      "Linnworks": "Image4IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image4SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image5Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image5FullSource",
-      "BandQ": "image_secondary_4"
-    },
-    {
-      "Linnworks": "Image5IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image5SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image6Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image6FullSource",
-      "BandQ": "image_secondary_5"
-    },
-    {
-      "Linnworks": "Image6IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image6SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image7Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image7FullSource",
-      "BandQ": "image_secondary_6"
-    },
-    {
-      "Linnworks": "Image7IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image7SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image8Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image8FullSource",
-      "BandQ": "image_secondary_7"
-    },
-    {
-      "Linnworks": "Image8IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image8SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image9Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image9FullSource",
-      "BandQ": "image_secondary_8"
-    },
-    {
-      "Linnworks": "Image9IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image9SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image10Source",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image10FullSource",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image10IsMain",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Image10SortOrder",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Description",
-      "BandQ": "Body Copy"
-    },
-    {
-      "Linnworks": "Price",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Bulletpoint1",
-      "BandQ": "Unique Selling Point 01"
-    },
-    {
-      "Linnworks": "Bulletpoint2",
-      "BandQ": "Unique Selling Point 02"
-    },
-    {
-      "Linnworks": "Bulletpoint3",
-      "BandQ": "Unique Selling Point 03"
-    },
-    {
-      "Linnworks": "Bulletpoint4",
-      "BandQ": "Unique Selling Point 04"
-    },
-    {
-      "Linnworks": "Bulletpoint5",
-      "BandQ": "Unique Selling Point 05"
-    },
-    {
-      "Linnworks": "Brand",
-      "BandQ": "Acquisition brand"
-    },
-    {
-      "Linnworks": "Country of Manufacture",
-      "BandQ": "Tech_Made in"
-    },
-    {
-      "Linnworks": "Design",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "EAN",
-      "BandQ": "ean"
-    },
-    {
-      "Linnworks": "Listing Description",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Location Type",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "MPN",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Tariff Code",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "bulletpoints",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "StockItemId",
-      "BandQ": ""
-    },
-    {
-      "Linnworks": "Core_Pack quantity",
-      "BandQ": "Core_Pack quantity"
-    },
-    {
-      "Linnworks": "Core_Pack type",
-      "BandQ": "Core_Pack type"
-    },
-    {
-      "Linnworks": "Key_Feature",
-      "BandQ": "Key_Feature"
-    },
-    {
-      "Linnworks": "Guarantee",
-      "BandQ": "Guarantee"
-    },
-    {
-      "Linnworks": "reach_verified",
-      "BandQ": "reach_verified"
-    },
-    {
-      "Linnworks": "contains_wood",
-      "BandQ": "contains_wood"
-    },
-    {
-      "Linnworks": "fsc_pecl_certified",
-      "BandQ": "fsc_pecl_certified"
-    },
-    {
-      "Linnworks": "Core_Product type",
-      "BandQ": "Core_Product type"
-    },
-    {
-      "Linnworks": "Size",
-      "BandQ": "Size"
-    },
-    {
-      "Linnworks": "Main Color",
-      "BandQ": "Vdesc_Colour"
-    },
-    {
-      "Linnworks": "Tech_Material",
-      "BandQ": "Tech_Material"
-    },
-    {
-      "Linnworks": "Location",
-      "BandQ": "Location"
-    },
-    {
-      "Linnworks": "Tech_Maximum burn time",
-      "BandQ": "Tech_Maximum burn time"
-    },
-    {
-      "Linnworks": "Use_Safety information",
-      "BandQ": "Use_Safety information"
-    },
-    {
-      "Linnworks": "state",
-      "BandQ": "state"
-    },
-    {
-      "Linnworks": "logistic-class",
-      "BandQ": "logistic-class"
-    },
-    {
-      "Linnworks": "pdf_product_guide",
-      "BandQ": "pdf_product_guide"
-    },
-    {
-      "Linnworks": "pdf_product_instruction_manual",
-      "BandQ": "pdf_product_instruction_manual"
-    },
-    {
-      "Linnworks": "pdf_safety_manual",
-      "BandQ": "pdf_safety_manual"
-    },
-    {
-      "Linnworks": "video",
-      "BandQ": "video"
-    },
-    {
-      "Linnworks": "Selling Copy",
-      "BandQ": "Selling Copy"
-    },
-    {
-      "Linnworks": "Legal_notices",
-      "BandQ": "Legal_notices"
-    },
-    {
-      "Linnworks": "Mirakl_ProductGroup_ID",
-      "BandQ": "Mirakl_ProductGroup_ID"
-    },
-    {
-      "Linnworks": "Core_Product type",
-      "BandQ": "Core_Product type"
-    },
-    {
-      "Linnworks": "Construction_type",
-      "BandQ": "Construction_type"
-    },
-    {
-      "Linnworks": "Type_Range",
-      "BandQ": "Type_Range"
-    },
-    {
-      "Linnworks": "Dim_Maximum height",
-      "BandQ": "Dim_Maximum height"
+[
+  {
+    "Linnworks": "total_count",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
     }
-  ]
-}
+  },
+  {
+    "Linnworks": "products.category_code",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "products.category_label",
+    "BandQ": {
+      "field": "category",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "product_category",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "category",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "products.product_id",
+    "BandQ": {
+      "field": "product-id",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "product-id",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "product-id",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "product-id",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "product-id",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "products.product_id_type",
+    "BandQ": {
+      "field": "product-id-type",
+      "default": "SHOP_SKU"
+    },
+    "DBZ": {
+      "field": "product-id-type",
+      "default": "SHOP_SKU"
+    },
+    "SuperDrug": {
+      "field": "product-id-type",
+      "default": "SHOP_SKU"
+    },
+    "MountainWarehouse": {
+      "field": "product-id-type",
+      "default": "SHOP_SKU"
+    },
+    "Decathlon": {
+      "field": "product-id-type",
+      "default": "SHOP_SKU"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "SHOP_SKU"
+    }
+  },
+  {
+    "Linnworks": "products.product_sku",
+    "BandQ": {
+      "field": "shop_sku",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "shop_sku",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "products.product_title",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Quantity",
+    "BandQ": {
+      "field": "quantity",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "InOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Due",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "MinimumLevel",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Available",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "IsCompositeParent",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "ShippedSeparately",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "ItemNumber",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "ItemTitle",
+    "BandQ": {
+      "field": "name",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "product_title",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "name [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Barcode",
+    "BandQ": {
+      "field": "sku",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "sku",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "sku",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "sku",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "sku",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "MetaData",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "IsVariationParent",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "isBatchedStockType",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "PurchasePrice",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "RetailPrice",
+    "BandQ": {
+      "field": "price",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "price",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "price",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "price",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "price",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "TaxRate",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "PostalServiceId",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "CategoryId",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "PackageGroupId",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Height",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "item_height",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "height",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Width",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "item_width",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "width",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Depth",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "item_length",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Weight",
+    "BandQ": {
+      "field": "Product_weight",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "item_weight",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "weight",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "InventoryTrackingType",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "BatchNumberScanRequired",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "SerialNumberScanRequired",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "StockItemIntId",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image1Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "swatch",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "swatch",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image1FullSource",
+    "BandQ": {
+      "field": "image_main_1",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "main_image",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "front",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image1IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image1SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image2Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image2FullSource",
+    "BandQ": {
+      "field": "image_secondary_1",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_1)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "back",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image2IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image2SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image3Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image3FullSource",
+    "BandQ": {
+      "field": "image_secondary_2",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_2)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "side",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image3IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image3SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image4Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image4FullSource",
+    "BandQ": {
+      "field": "image_secondary_3",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_3)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "extra",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image4IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image4SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image5Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image5FullSource",
+    "BandQ": {
+      "field": "image_secondary_4",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_4)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image5IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image5SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image6Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image6FullSource",
+    "BandQ": {
+      "field": "image_secondary_5",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_5)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image6IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image6SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image7Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image7FullSource",
+    "BandQ": {
+      "field": "image_secondary_6",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_6)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image7IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image7SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image8Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image8FullSource",
+    "BandQ": {
+      "field": "image_secondary_7",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_7)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image8IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image8SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image9Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image9FullSource",
+    "BandQ": {
+      "field": "image_secondary_8",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_8)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image9IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image9SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image10Source",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image10FullSource",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "image_(additional_9)",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image10IsMain",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Image10SortOrder",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Description",
+    "BandQ": {
+      "field": "Body Copy",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "long_description",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Price",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Bulletpoint1",
+    "BandQ": {
+      "field": "Unique Selling Point 01",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "otherFeatures [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Bulletpoint2",
+    "BandQ": {
+      "field": "Unique Selling Point 02",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Bulletpoint3",
+    "BandQ": {
+      "field": "Unique Selling Point 03",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Bulletpoint4",
+    "BandQ": {
+      "field": "Unique Selling Point 04",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Bulletpoint5",
+    "BandQ": {
+      "field": "Unique Selling Point 05",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Brand",
+    "BandQ": {
+      "field": "Acquisition brand",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "collection",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "brand",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Country of Manufacture",
+    "BandQ": {
+      "field": "Tech_Made in",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "country_of_origin",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Design",
+    "BandQ": {
+      "field": "Design",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "EAN",
+    "BandQ": {
+      "field": "ean",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "ean",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "ean",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "ean",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "ean",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Listing Description",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Location Type",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "MPN",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Tariff Code",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "bulletpoints",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "shortDescription [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "StockItemId",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Core_Pack quantity",
+      "default": "1"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "1"
+    },
+    "SuperDrug": {
+      "field": "contentSize",
+      "default": "1"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "1"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "1"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "1"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Core_Pack type",
+      "default": "Each"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "Each"
+    },
+    "SuperDrug": {
+      "field": "contentUnit",
+      "default": "Each"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "Each"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "Each"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "Each"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Key_Feature",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Guarantee",
+      "default": "STATUTORY"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "STATUTORY"
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": "STATUTORY"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "STATUTORY"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "STATUTORY"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "STATUTORY"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "reach_verified",
+      "default": "No"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "No"
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": "No"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "No"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "No"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "No"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "contains_wood",
+      "default": "No"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "No"
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": "No"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "No"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "No"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "No"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "fsc_pecl_certified",
+      "default": "No"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "No"
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": "No"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "No"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "No"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "No"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Core_Product type",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Size",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Main Color",
+    "BandQ": {
+      "field": "Vdesc_Colour",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "colour",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "colorDescription [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Main Color",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "colourfacet",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Tech_Material",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Location",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Tech_Maximum burn time",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Use_Safety information",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "state",
+      "default": "New"
+    },
+    "DBZ": {
+      "field": "state",
+      "default": "New"
+    },
+    "SuperDrug": {
+      "field": "state",
+      "default": "New"
+    },
+    "MountainWarehouse": {
+      "field": "state",
+      "default": "New"
+    },
+    "Decathlon": {
+      "field": "state",
+      "default": "New"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "New"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "logistic-class",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "logistic-class",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "pdf_product_guide",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "pdf_product_instruction_manual",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "pdf_safety_manual",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "video",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "youtubeVideo",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Selling Copy",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Legal_notices",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Mirakl_ProductGroup_ID",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Tech_Accessories",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Construction_type",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Type_Range",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Dim_Maximum height",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Manufacturer_Name",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_2023_Exempt",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_01",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_02",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_03",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_04",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_05",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_06",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_07",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_08",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_09",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "GPSR_Warn_Safety_Info_10",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Product_height",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Product_width",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Product_depth",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "Depth",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Vdesc_Effect",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Fragrance",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Dim_Life length",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Product_diameter",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "Fragrance_group",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "Occasion",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "occasion_none",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "description",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "description",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "description",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "description",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "description",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "internal-description",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "internal-description",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "internal-description",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "internal-description",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "internal-description",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "price-additional-info",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "price-additional-info",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "price-additional-info",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "price-additional-info",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "price-additional-info",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "quantity",
+      "default": "0"
+    },
+    "DBZ": {
+      "field": "quantity",
+      "default": "0"
+    },
+    "SuperDrug": {
+      "field": "quantity",
+      "default": "0"
+    },
+    "MountainWarehouse": {
+      "field": "quantity",
+      "default": "0"
+    },
+    "Decathlon": {
+      "field": "quantity",
+      "default": "0"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "0"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "min-quantity-alert",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "min-quantity-alert",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "min-quantity-alert",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "min-quantity-alert",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "min-quantity-alert",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "available-start-date",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "available-start-date",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "available-start-date",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "available-start-date",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "available-start-date",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "available-end-date",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "available-end-date",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "available-end-date",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "available-end-date",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "available-end-date",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "discount-price",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "discount-price",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "discount-price",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "discount-price",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "discount-price",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "discount-start-date",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "discount-start-date",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "discount-start-date",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "discount-start-date",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "discount-start-date",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "discount-end-date",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "discount-end-date",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "discount-end-date",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "discount-end-date",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "discount-end-date",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "leadtime-to-ship",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "leadtime-to-ship",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "update-delete",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "update-delete",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "update-delete",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "update-delete",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "update-delete",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "was-price",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "wasprice",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "price-establishment",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "was-price-expiry",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-responsible-person-name",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-address-line-1",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-address-line-2",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-city",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-county-district",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-post-code",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-country",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-email",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "gpsr-contact-form",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-1",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-1",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-2",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-2",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-3",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-3",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-4",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-4",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-5",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-5",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-6",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-6",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-7",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-7",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "base-material-name-8",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "packaging-weight-8",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "category2_homefragrance",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "details_and_care",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "ethics",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "fabrication_type",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": "Unisex"
+    },
+    "DBZ": {
+      "field": "gender",
+      "default": "Unisex"
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": "Unisex"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "Unisex"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "Unisex"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "Unisex"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "hs_code",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "multipack",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "Barcode",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "parent_product_id",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "preloved",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "preloved_condition_rating",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "range_home",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "returns",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": "One Size"
+    },
+    "DBZ": {
+      "field": "size_onesize",
+      "default": "One Size"
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": "One Size"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "One Size"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "One Size"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "One Size"
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "style_homefragrance",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "sustainability_detail",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "weee_status",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "allergenFree",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "colorCode",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "colorHexCode",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": "TRUE"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "TRUE"
+    },
+    "SuperDrug": {
+      "field": "enable-gift-messaging",
+      "default": "TRUE"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "TRUE"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "TRUE"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "TRUE"
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "ingredients [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "maxOrderQuantity",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "minOrderQuantity",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "oilFree",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "NEED SOURCE OR DEFAULT",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "parabenFree",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": "NO RESTRICTION"
+    },
+    "DBZ": {
+      "field": "",
+      "default": "NO RESTRICTION"
+    },
+    "SuperDrug": {
+      "field": "productRestriction",
+      "default": "NO RESTRICTION"
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": "NO RESTRICTION"
+    },
+    "Decathlon": {
+      "field": "",
+      "default": "NO RESTRICTION"
+    },
+    "Tesco": {
+      "field": "",
+      "default": "NO RESTRICTION"
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "uses [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "recyclingInfo [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "SPF [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "storage [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "informativeText1 [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "variantGroupCode",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "warnings [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "age [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "bodyArea [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "bodyArea [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "concernConditions [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "coverage [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "crueltyFree",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "dailyLivingAids [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "finish [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "fragranceScent [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "hairType [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "keyIngredient [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "mobilityAids [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "organic",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "productFormat [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "waxType [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "recyclable",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "sizeCode",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "refillableAtHomeOrInStore [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "recyclablePackaging [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "sustainablePalmOil [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "sustainablePaper [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "reuseable [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "recycledContent [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "vegan",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "skinTone [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  },
+  {
+    "Linnworks": "",
+    "BandQ": {
+      "field": "",
+      "default": ""
+    },
+    "DBZ": {
+      "field": "",
+      "default": ""
+    },
+    "SuperDrug": {
+      "field": "skinType [en_GB]",
+      "default": ""
+    },
+    "MountainWarehouse": {
+      "field": "",
+      "default": ""
+    },
+    "Decathlon": {
+      "field": "",
+      "default": ""
+    },
+    "Tesco": {
+      "field": "",
+      "default": ""
+    }
+  }
+]
