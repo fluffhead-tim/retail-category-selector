@@ -22,8 +22,14 @@ from ..config import (
     MODEL_PROVIDER,
     OPENAI_API_KEY,
     OPENAI_MODEL,
+    OPENAI_TEMPERATURE,
+    OPENAI_TOP_P,
+    OPENAI_MAX_TOKENS,
     ANTHROPIC_API_KEY,
     ANTHROPIC_MODEL,
+    ANTHROPIC_TEMPERATURE,
+    ANTHROPIC_TOP_P,
+    ANTHROPIC_MAX_TOKENS,
 )
 
 # ------------------------- parsing helpers ------------------------- #
@@ -105,10 +111,10 @@ def choose_with_openai(system_prompt: str, payload: Dict[str, Any]) -> Tuple[Opt
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_instructions + "\n\n" + json.dumps(payload, ensure_ascii=False)},
         ],
-        temperature=0,
-        top_p=0,
+        temperature=OPENAI_TEMPERATURE,
+        top_p=OPENAI_TOP_P,
         response_format={"type": "json_object"},
-        max_tokens=200,
+        max_tokens=OPENAI_MAX_TOKENS,
     )
 
     content = completion.choices[0].message.content or ""
@@ -133,6 +139,13 @@ def choose_with_anthropic(system_prompt: str, payload: Dict[str, Any]) -> Tuple[
         "No prose, no markdown."
     )
 
+    anthropic_params = {
+        "temperature": ANTHROPIC_TEMPERATURE,
+        "max_tokens": ANTHROPIC_MAX_TOKENS,
+    }
+    if ANTHROPIC_TOP_P is not None:
+        anthropic_params["top_p"] = ANTHROPIC_TOP_P
+
     msg = client.messages.create(
         model=ANTHROPIC_MODEL,
         system=system_prompt,
@@ -145,8 +158,7 @@ def choose_with_anthropic(system_prompt: str, payload: Dict[str, Any]) -> Tuple[
                 ],
             }
         ],
-        temperature=0,
-        max_tokens=300,
+        **anthropic_params,
     )
 
     # Concatenate text blocks
