@@ -48,7 +48,7 @@
                 </div>
 
                 <!-- Marketplace Selection -->
-                <div class="mb-6">
+                <div class="mb-4">
                     <label for="marketplaceSelect" class="block text-sm font-medium text-gray-700 mb-2">
                         Marketplace
                     </label>
@@ -64,6 +64,18 @@
                         <option value="Debenhams">Debenhams</option>
                         <option value="Decathlon">Decathlon</option>
                     </select>
+                </div>
+
+                <!-- Test Mode Checkbox -->
+                <div class="mb-6">
+                    <label class="flex items-center">
+                        <input 
+                            type="checkbox" 
+                            id="testModeCheckbox" 
+                            class="w-4 h-4 text-primary border-gray-300 rounded focus:ring-2 focus:ring-primary"
+                        >
+                        <span class="ml-2 text-sm font-medium text-gray-700">Test Mode</span>
+                    </label>
                 </div>
 
                 <!-- Action Buttons -->
@@ -176,10 +188,20 @@
             hideMessages();
 
             try {
-                // Build API URL
+                // Build API URL with query parameters
+                const testMode = document.getElementById('testModeCheckbox').checked;
                 let apiUrl = '/categorize';
+                const params = [];
+                
                 if (marketplace) {
-                    apiUrl += `?marketplace=${encodeURIComponent(marketplace)}`;
+                    params.push(`marketplace=${encodeURIComponent(marketplace)}`);
+                }
+                if (testMode) {
+                    params.push('test=true');
+                }
+                
+                if (params.length > 0) {
+                    apiUrl += '?' + params.join('&');
                 }
 
                 // Make API call
@@ -231,6 +253,7 @@
         function resetForm() {
             document.getElementById('jsonInput').value = '';
             document.getElementById('marketplaceSelect').value = '';
+            document.getElementById('testModeCheckbox').checked = false;
             latestResults = null;
             hideMessages();
             hideResults();
