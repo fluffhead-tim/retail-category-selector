@@ -62,6 +62,7 @@ def choose_category_for_marketplace(
     id_field: str = "id",
     name_field: str = "name",
     children_field: str = "children",
+    include_confidence: bool = False,
 ) -> MarketplaceCategoryResult:
     system_prompt = load_prompt()
 
@@ -114,8 +115,16 @@ def choose_category_for_marketplace(
             "Return ONLY JSON with keys: category_id, category_name.",
         ],
     }
+    if include_confidence:
+        payload["output_format"]["confidence"] = "number between 0 and 1"
+        payload["rules"].append("Return a confidence score between 0 and 1 indicating certainty.")
+        payload["rules"][-2] = "Return ONLY JSON with keys: category_id, category_name, confidence."
 
-    cat_id, cat_name, _raw = pick_category_via_llm(system_prompt, payload)
+    cat_id, cat_name, confidence, _raw = pick_category_via_llm(
+        system_prompt,
+        payload,
+        include_confidence=include_confidence,
+    )
 
     by_id, by_name = _index_candidates(payload["candidates"])
     if cat_id and cat_name:
@@ -126,6 +135,7 @@ def choose_category_for_marketplace(
                 category_name=str(cand["name"]),
                 category_id=str(cand["id"]),
                 category_path=str(cand["path"]),
+                confidence=confidence,
             )
         nm = str(cat_name).strip().lower()
         name_matches = by_name.get(nm, [])
@@ -136,6 +146,7 @@ def choose_category_for_marketplace(
                 category_name=str(chosen["name"]),
                 category_id=str(chosen["id"]),
                 category_path=str(chosen["path"]),
+                confidence=confidence,
             )
 
     # Fallback: top-scoring candidate

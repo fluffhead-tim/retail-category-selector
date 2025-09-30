@@ -2,15 +2,15 @@
 LLM adapter for per-marketplace category selection.
 
 Public API:
-    pick_category_via_llm(system_prompt: str, payload: Dict[str, Any])
-        -> Tuple[Optional[str], Optional[str], str]
+    pick_category_via_llm(system_prompt: str, payload: Dict[str, Any], *, include_confidence: bool = False)
+        -> Tuple[Optional[str], Optional[str], Optional[float], str]
 
 Behavior:
 - Sends your system prompt + a compact JSON payload describing the product
   and candidate leaves for a single marketplace.
 - Forces JSON responses where supported (OpenAI response_format=json_object).
 - Parses responses robustly (strips code fences, accepts slight variations).
-- Returns (category_id, category_name, raw_text). If parsing fails, returns (None, None, raw_text).
+- Returns (category_id, category_name, confidence, raw_text). If parsing fails, returns (None, None, None, raw_text).
 """
 
 from __future__ import annotations
@@ -60,9 +60,21 @@ def _try_parse_json(text: str) -> Optional[Dict[str, Any]]:
                 pass
         return None
 
-def _extract_category(parsed: Dict[str, Any]) -> Tuple[Optional[str], Optional[str]]:
+def _normalize_confidence(value: Any) -> Optional[float]:
+    try:
+        if value is None:
+            return None
+        conf = float(value)
+    except (TypeError, ValueError):
+        return None
+    if conf < 0.0 or conf > 1.0:
+        return None
+    return conf
+
+
+def _extract_category(parsed: Dict[str, Any]) -> Tuple[Optional[str], Optional[str], Optional[float]]:
     """
-    Accepts a few common shapes, returns (category_id, category_name) or (None, None).
+    Accepts a few common shapes, returns (category_id, category_name, confidence) or (None, None, None).
     Expected/ideal:
         {"category_id":"...", "category_name":"..."}
     Also tolerate:
@@ -70,40 +82,66 @@ def _extract_category(parsed: Dict[str, Any]) -> Tuple[Optional[str], Optional[s
         {"selections":[{"category_id":"...","category_name":"..."}]}  # take first
     """
     if not isinstance(parsed, dict):
-        return None, None
+        return None, None, None
 
     if "category_id" in parsed and "category_name" in parsed:
-        return str(parsed["category_id"]), str(parsed["category_name"])
+        return (
+            str(parsed["category_id"]),
+            str(parsed["category_name"]),
+            _normalize_confidence(parsed.get("confidence")),
+        )
 
     sel = parsed.get("selection")
     if isinstance(sel, dict) and "category_id" in sel and "category_name" in sel:
-        return str(sel["category_id"]), str(sel["category_name"])
+        return (
+            str(sel["category_id"]),
+            str(sel["category_name"]),
+            _normalize_confidence(sel.get("confidence")),
+        )
 
     sels = parsed.get("selections")
     if isinstance(sels, list) and sels:
         first = sels[0]
         if isinstance(first, dict) and "category_id" in first and "category_name" in first:
-            return str(first["category_id"]), str(first["category_name"])
+            return (
+                str(first["category_id"]),
+                str(first["category_name"]),
+                _normalize_confidence(first.get("confidence")),
+            )
 
-    return None, None
+    return None, None, None
 
 # ------------------------- providers ------------------------- #
 
-def choose_with_openai(system_prompt: str, payload: Dict[str, Any]) -> Tuple[Optional[str], Optional[str], str]:
+def choose_with_openai(
+    system_prompt: str,
+    payload: Dict[str, Any],
+    *,
+    include_confidence: bool = False,
+) -> Tuple[Optional[str], Optional[str], Optional[float], str]:
     """
     Call OpenAI Chat Completions with JSON-only response mode where supported.
-    Returns (category_id, category_name, raw_text).
+    Returns (category_id, category_name, confidence, raw_text).
     """
     from openai import OpenAI
 
     client = OpenAI(api_key=OPENAI_API_KEY)
 
-    user_instructions = (
-        "You MUST return ONLY a single JSON object with exactly these keys:\n"
-        '  - \"category_id\": string\n'
-        '  - \"category_name\": string\n'
-        "No markdown, no extra fields, no explanations.\n"
-    )
+    if include_confidence:
+        user_instructions = (
+            "You MUST return ONLY a single JSON object with exactly these keys:\n"
+            '  - \"category_id\": string\n'
+            '  - \"category_name\": string\n'
+            '  - \"confidence\": number between 0 and 1\n'
+            "No markdown, no extra fields, no explanations.\n"
+        )
+    else:
+        user_instructions = (
+            "You MUST return ONLY a single JSON object with exactly these keys:\n"
+            '  - \"category_id\": string\n'
+            '  - \"category_name\": string\n'
+            "No markdown, no extra fields, no explanations.\n"
+        )
 
     completion = client.chat.completions.create(
         model=OPENAI_MODEL,
@@ -119,25 +157,38 @@ def choose_with_openai(system_prompt: str, payload: Dict[str, Any]) -> Tuple[Opt
 
     content = completion.choices[0].message.content or ""
     parsed = _try_parse_json(content)
-    cat_id, cat_name = _extract_category(parsed or {})
+    cat_id, cat_name, confidence = _extract_category(parsed or {})
     if cat_id and cat_name:
-        return cat_id, cat_name, content
-    return None, None, content
+        return cat_id, cat_name, confidence, content
+    return None, None, None, content
 
-def choose_with_anthropic(system_prompt: str, payload: Dict[str, Any]) -> Tuple[Optional[str], Optional[str], str]:
+def choose_with_anthropic(
+    system_prompt: str,
+    payload: Dict[str, Any],
+    *,
+    include_confidence: bool = False,
+) -> Tuple[Optional[str], Optional[str], Optional[float], str]:
     """
     Call Anthropic Messages API. Anthropic does not have a strict JSON mode like OpenAI's,
     so we include strong instructions and then parse.
+    Returns (category_id, category_name, confidence, raw_text).
     """
     from anthropic import Anthropic
 
     client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
-    user_instructions = (
-        "Return ONLY a JSON object with exactly:\n"
-        '{\"category_id\": \"...\", \"category_name\": \"...\"}\n'
-        "No prose, no markdown."
-    )
+    if include_confidence:
+        user_instructions = (
+            "Return ONLY a JSON object with exactly:\n"
+            '{\"category_id\": \"...\", \"category_name\": \"...\", \"confidence\": number between 0 and 1}\n'
+            "No prose, no markdown."
+        )
+    else:
+        user_instructions = (
+            "Return ONLY a JSON object with exactly:\n"
+            '{\"category_id\": \"...\", \"category_name\": \"...\"}\n'
+            "No prose, no markdown."
+        )
 
     anthropic_params = {
         "temperature": ANTHROPIC_TEMPERATURE,
@@ -169,29 +220,34 @@ def choose_with_anthropic(system_prompt: str, payload: Dict[str, Any]) -> Tuple[
     content = "\n".join(content_parts).strip()
 
     parsed = _try_parse_json(content)
-    cat_id, cat_name = _extract_category(parsed or {})
+    cat_id, cat_name, confidence = _extract_category(parsed or {})
     if cat_id and cat_name:
-        return cat_id, cat_name, content
-    return None, None, content
+        return cat_id, cat_name, confidence, content
+    return None, None, None, content
 
 # ------------------------- public entrypoint ------------------------- #
 
-def pick_category_via_llm(system_prompt: str, payload: Dict[str, Any]) -> Tuple[Optional[str], Optional[str], str]:
+def pick_category_via_llm(
+    system_prompt: str,
+    payload: Dict[str, Any],
+    *,
+    include_confidence: bool = False,
+) -> Tuple[Optional[str], Optional[str], Optional[float], str]:
     """
-    Returns (category_id, category_name, raw_text) for a SINGLE marketplace,
+    Returns (category_id, category_name, confidence, raw_text) for a SINGLE marketplace,
     using whichever provider is configured via env (MODEL_PROVIDER).
 
     - If MODEL_PROVIDER=openai and OPENAI_API_KEY is set → OpenAI path.
     - If MODEL_PROVIDER=anthropic and ANTHROPIC_API_KEY is set → Anthropic path.
-    - If neither, returns (None, None, "").
+    - If neither, returns (None, None, None, "").
     """
     if MODEL_PROVIDER == "openai" and OPENAI_API_KEY:
         print("[LLM] Using OpenAI:", OPENAI_MODEL)
-        return choose_with_openai(system_prompt, payload)
+        return choose_with_openai(system_prompt, payload, include_confidence=include_confidence)
 
     if MODEL_PROVIDER == "anthropic" and ANTHROPIC_API_KEY:
         print("[LLM] Using Anthropic:", ANTHROPIC_MODEL)
-        return choose_with_anthropic(system_prompt, payload)
+        return choose_with_anthropic(system_prompt, payload, include_confidence=include_confidence)
 
     # No provider/keys configured
-    return None, None, ""
+    return None, None, None, ""

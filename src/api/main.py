@@ -147,6 +147,9 @@ def categorize():
     else:
         mps = all_mps 
 
+    test_flag = request.args.get("test", "false")
+    include_confidence = str(test_flag).lower() in ("1", "true", "yes")
+
     # For each marketplace: skip missing taxonomy file with a note; otherwise categorize
     results = []
     for mp in mps:
@@ -175,6 +178,7 @@ def categorize():
             id_field=id_field,
             name_field=name_field,
             children_field=children_field,
+            include_confidence=include_confidence,
         )
         results.append(result.model_dump())
 
@@ -189,6 +193,8 @@ def categorize():
             "marketplace": cat.get("marketplace"),
             "note": cat.get("note")
         }
+        if include_confidence:
+            products_obj["confidence"] = cat.get("confidence")
         categories.append({"products": products_obj})
     resp = {"categories": categories}
     return jsonify(resp), 200

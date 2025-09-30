@@ -14,6 +14,7 @@ class MarketplaceCategoryResult(BaseModel):
     category_name: str
     category_id: str
     category_path: str                 # <-- NEW (always present; "N/A" when unmapped or skipped)
+    confidence: Optional[float] = None # Optional confidence score from the LLM when test mode enabled
     note: Optional[str] = None         # (already added earlier)
 
 class CategorizationResponse(BaseModel):
