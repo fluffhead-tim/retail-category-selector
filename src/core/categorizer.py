@@ -158,4 +158,5 @@ def choose_category_for_marketplace(
         category_name=str(best["name"]),
         category_id=str(best["id"]),
         category_path=str(best["path"]),
+        confidence=confidence if include_confidence else None,
     )
