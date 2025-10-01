@@ -17,6 +17,13 @@ class MarketplaceCategoryResult(BaseModel):
     confidence: Optional[float] = None # Optional confidence score from the LLM when test mode enabled
     note: Optional[str] = None         # (already added earlier)
 
+class UsageInfo(BaseModel):
+    """Token usage information per marketplace when test mode is enabled"""
+    marketplace: str
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+
 class CategorizationResponse(BaseModel):
     sku: str
     categories: List[MarketplaceCategoryResult]

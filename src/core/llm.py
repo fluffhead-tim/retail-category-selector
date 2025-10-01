@@ -3,20 +3,38 @@ LLM adapter for per-marketplace category selection.
 
 Public API:
     pick_category_via_llm(system_prompt: str, payload: Dict[str, Any], *, include_confidence: bool = False)
-        -> Tuple[Optional[str], Optional[str], Optional[float], str]
+        -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]
 
 Behavior:
 - Sends your system prompt + a compact JSON payload describing the product
   and candidate leaves for a single marketplace.
 - Forces JSON responses where supported (OpenAI response_format=json_object).
 - Parses responses robustly (strips code fences, accepts slight variations).
-- Returns (category_id, category_name, confidence, raw_text). If parsing fails, returns (None, None, None, raw_text).
+- Returns (category_id, category_name, confidence, raw_text, usage_dict). 
+  If parsing fails, returns (None, None, None, raw_text, usage_dict).
+  usage_dict contains {prompt_tokens, completion_tokens, total_tokens}, defaults to zeros if unavailable.
 """
 
 from __future__ import annotations
 
 import json
 from typing import Any, Dict, Tuple, Optional
+
+def _extract_usage(usage_obj: Any) -> Dict[str, int]:
+    """Extract token usage from API response, return zeros if unavailable"""
+    try:
+        if hasattr(usage_obj, 'prompt_tokens') and hasattr(usage_obj, 'completion_tokens'):
+            prompt = int(usage_obj.prompt_tokens or 0)
+            completion = int(usage_obj.completion_tokens or 0)
+            total = int(getattr(usage_obj, 'total_tokens', prompt + completion))
+            return {
+                "prompt_tokens": prompt,
+                "completion_tokens": completion,
+                "total_tokens": total,
+            }
+    except Exception:
+        pass
+    return {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
 
 from ..config import (
     MODEL_PROVIDER,
@@ -118,10 +136,10 @@ def choose_with_openai(
     payload: Dict[str, Any],
     *,
     include_confidence: bool = False,
-) -> Tuple[Optional[str], Optional[str], Optional[float], str]:
+) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
     Call OpenAI Chat Completions with JSON-only response mode where supported.
-    Returns (category_id, category_name, confidence, raw_text).
+    Returns (category_id, category_name, confidence, raw_text, usage_dict).
     """
     from openai import OpenAI
 
@@ -156,22 +174,23 @@ def choose_with_openai(
     )
 
     content = completion.choices[0].message.content or ""
+    usage = _extract_usage(completion.usage)
     parsed = _try_parse_json(content)
     cat_id, cat_name, confidence = _extract_category(parsed or {})
     if cat_id and cat_name:
-        return cat_id, cat_name, confidence, content
-    return None, None, None, content
+        return cat_id, cat_name, confidence, content, usage
+    return None, None, None, content, usage
 
 def choose_with_anthropic(
     system_prompt: str,
     payload: Dict[str, Any],
     *,
     include_confidence: bool = False,
-) -> Tuple[Optional[str], Optional[str], Optional[float], str]:
+) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
     Call Anthropic Messages API. Anthropic does not have a strict JSON mode like OpenAI's,
     so we include strong instructions and then parse.
-    Returns (category_id, category_name, confidence, raw_text).
+    Returns (category_id, category_name, confidence, raw_text, usage_dict).
     """
     from anthropic import Anthropic
 
@@ -219,11 +238,12 @@ def choose_with_anthropic(
             content_parts.append(part.text)
     content = "\n".join(content_parts).strip()
 
+    usage = _extract_usage(msg.usage)
     parsed = _try_parse_json(content)
     cat_id, cat_name, confidence = _extract_category(parsed or {})
     if cat_id and cat_name:
-        return cat_id, cat_name, confidence, content
-    return None, None, None, content
+        return cat_id, cat_name, confidence, content, usage
+    return None, None, None, content, usage
 
 # ------------------------- public entrypoint ------------------------- #
 
@@ -232,14 +252,14 @@ def pick_category_via_llm(
     payload: Dict[str, Any],
     *,
     include_confidence: bool = False,
-) -> Tuple[Optional[str], Optional[str], Optional[float], str]:
+) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
-    Returns (category_id, category_name, confidence, raw_text) for a SINGLE marketplace,
+    Returns (category_id, category_name, confidence, raw_text, usage_dict) for a SINGLE marketplace,
     using whichever provider is configured via env (MODEL_PROVIDER).
 
     - If MODEL_PROVIDER=openai and OPENAI_API_KEY is set → OpenAI path.
     - If MODEL_PROVIDER=anthropic and ANTHROPIC_API_KEY is set → Anthropic path.
-    - If neither, returns (None, None, None, "").
+    - If neither, returns (None, None, None, "", {prompt_tokens:0, completion_tokens:0, total_tokens:0}).
     """
     if MODEL_PROVIDER == "openai" and OPENAI_API_KEY:
         print("[LLM] Using OpenAI:", OPENAI_MODEL)
@@ -250,4 +270,4 @@ def pick_category_via_llm(
         return choose_with_anthropic(system_prompt, payload, include_confidence=include_confidence)
 
     # No provider/keys configured
-    return None, None, None, ""
+    return None, None, None, "", {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}

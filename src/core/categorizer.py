@@ -63,9 +63,11 @@ def choose_category_for_marketplace(
     name_field: str = "name",
     children_field: str = "children",
     include_confidence: bool = False,
-) -> MarketplaceCategoryResult:
+) -> Tuple[MarketplaceCategoryResult, Dict[str, int]]:
     system_prompt = load_prompt()
 
+    zero_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+    
     leaves = flatten_to_leaves(taxonomy, id_field=id_field, name_field=name_field, children_field=children_field)
     if not leaves:
         return MarketplaceCategoryResult(
@@ -73,7 +75,7 @@ def choose_category_for_marketplace(
             category_name="UNMAPPED",
             category_id="N/A",
             category_path="N/A",
-        )
+        ), zero_usage
 
     candidates = _prefilter_candidates(item, leaves, top_k=_SHORTLIST_MAX)
     if not candidates:
@@ -82,7 +84,7 @@ def choose_category_for_marketplace(
             category_name="UNMAPPED",
             category_id="N/A",
             category_path="N/A",
-        )
+        ), zero_usage
 
     safe_name = _truncate(item.name or "", _MAX_NAME_CHARS)
     safe_desc = _truncate(item.description or "", _MAX_DESC_CHARS)
@@ -120,7 +122,7 @@ def choose_category_for_marketplace(
         payload["rules"].append("Return a confidence score between 0 and 1 indicating certainty.")
         payload["rules"][-2] = "Return ONLY JSON with keys: category_id, category_name, confidence."
 
-    cat_id, cat_name, confidence, _raw = pick_category_via_llm(
+    cat_id, cat_name, confidence, _raw, usage = pick_category_via_llm(
         system_prompt,
         payload,
         include_confidence=include_confidence,
@@ -136,7 +138,7 @@ def choose_category_for_marketplace(
                 category_id=str(cand["id"]),
                 category_path=str(cand["path"]),
                 confidence=confidence,
-            )
+            ), usage
         nm = str(cat_name).strip().lower()
         name_matches = by_name.get(nm, [])
         if name_matches:
@@ -147,7 +149,7 @@ def choose_category_for_marketplace(
                 category_id=str(chosen["id"]),
                 category_path=str(chosen["path"]),
                 confidence=confidence,
-            )
+            ), usage
 
     # Fallback: top-scoring candidate
     best = candidates[0]
@@ -159,4 +161,4 @@ def choose_category_for_marketplace(
         category_id=str(best["id"]),
         category_path=str(best["path"]),
         confidence=confidence if include_confidence else None,
-    )
+    ), usage

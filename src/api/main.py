@@ -10,7 +10,7 @@ from ..config import (
     OPENAI_API_KEY,
     ANTHROPIC_API_KEY,
 )
-from ..core.models import ItemInput, CategorizationResponse, MarketplaceCategoryResult
+from ..core.models import ItemInput, CategorizationResponse, MarketplaceCategoryResult, UsageInfo
 from ..core.loaders import load_marketplaces, load_taxonomy
 from ..core.categorizer import choose_category_for_marketplace
 import os
@@ -167,6 +167,7 @@ def categorize():
 
     # For each marketplace: skip missing taxonomy file with a note; otherwise categorize
     results = []
+    usage_list = []
     for mp in mps:
         name = mp["name"]
         taxonomy_path = mp["taxonomy_file"]
@@ -183,10 +184,18 @@ def categorize():
                 note=f"Skipped: taxonomy file not found at '{taxonomy_path}'"
             )
             results.append(missing.model_dump())
+            # Track zero usage for skipped marketplaces
+            if include_confidence:
+                usage_list.append(UsageInfo(
+                    marketplace=name,
+                    prompt_tokens=0,
+                    completion_tokens=0,
+                    total_tokens=0,
+                ))
             continue
 
         taxonomy = load_taxonomy(taxonomy_path)
-        result = choose_category_for_marketplace(
+        result, usage = choose_category_for_marketplace(
             item,
             name,
             taxonomy,
@@ -196,6 +205,14 @@ def categorize():
             include_confidence=include_confidence,
         )
         results.append(result.model_dump())
+        # Track usage per marketplace when test mode enabled
+        if include_confidence:
+            usage_list.append(UsageInfo(
+                marketplace=name,
+                prompt_tokens=usage.get("prompt_tokens", 0),
+                completion_tokens=usage.get("completion_tokens", 0),
+                total_tokens=usage.get("total_tokens", 0),
+            ))
 
     # Transform results to new format
     categories = []
@@ -211,7 +228,13 @@ def categorize():
         if include_confidence:
             products_obj["confidence"] = cat.get("confidence")
         categories.append({"products": products_obj})
+    
     resp = {"categories": categories}
+    
+    # Add usage array when test mode enabled
+    if include_confidence and usage_list:
+        resp["usage"] = [u.model_dump() for u in usage_list]
+    
     return jsonify(resp), 200
 
 
