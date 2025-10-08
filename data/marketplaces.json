@@ -9,12 +9,20 @@
       "shop_id": ""
     },
     {
-      "name": "BandQ",
+      "name": "BandQPreProd",
       "taxonomy_file": "data/taxonomies/BandQ.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://mp-api-preprod.kingfisher.com",
       "shop_id": "5568"
+    },
+    {
+      "name": "BandQ",
+      "taxonomy_file": "data/taxonomies/BandQProd.json",
+      "id_field": "code",
+      "name_field": "label",
+      "base_url": "https://marketplace.kingfisher.com",
+      "shop_id": "2207"
     },
     {
       "name": "SuperDrug",
