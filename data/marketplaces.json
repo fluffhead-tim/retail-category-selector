@@ -3,18 +3,10 @@
     {
       "name": "Tesco",
       "taxonomy_file": "data/taxonomies/tesco.json",
-      "id_field": "id",
-      "name_field": "displayName",
-      "base_url": "https://tesco.staging.marketplacer.com/graphql",
-      "shop_id": ""
-    },
-    {
-      "name": "BandQPreProd",
-      "taxonomy_file": "data/taxonomies/BandQ.json",
       "id_field": "code",
       "name_field": "label",
-      "base_url": "https://mp-api-preprod.kingfisher.com",
-      "shop_id": "5568"
+      "base_url": "https://tescouk-prod.mirakl.net",
+      "shop_id": "4567"
     },
     {
       "name": "BandQ",
@@ -27,34 +19,34 @@
     {
       "name": "SuperDrug",
       "taxonomy_file": "data/taxonomies/superdrug.json",
-      "id_field": "id",
-      "name_field": "name",
-      "base_url": "",
-      "shop_id": ""
+      "id_field": "code",
+      "name_field": "label",
+      "base_url": "https://superdrugnl-prod.mirakl.net",
+      "shop_id": "3584"
     },
     {
       "name": "MountainWarehouse",
       "taxonomy_file": "data/taxonomies/mountain_warehouse.json",
-      "id_field": "id",
-      "name_field": "name",
-      "base_url": "https://mountainwarehouseuk-dev.mirakl.net",
-      "shop_id": "2026" 
+      "id_field": "code",
+      "name_field": "label",
+      "base_url": "https://mountainwarehouseuk-prod.mirakl.net",
+      "shop_id": "3281" 
     },
     {
       "name": "Debenhams",
       "taxonomy_file": "data/taxonomies/debenhams.json",
-      "id_field": "id",
-      "name_field": "name",
-      "base_url": "",
-      "shop_id": ""
+      "id_field": "code",
+      "name_field": "label",
+      "base_url": "https://debenhamsuk-prod.mirakl.net",
+      "shop_id": "3543"
     },
     {
       "name": "Decathlon",
       "taxonomy_file": "data/taxonomies/decathlon.json",
-      "id_field": "id",
-      "name_field": "name",
-      "base_url": "https://decathlonbelgium-preprod.mirakl.net",
-      "shop_id": "2223"
+      "id_field": "code",
+      "name_field": "label",
+      "base_url": "https://marketplace-decathlon-eu.mirakl.net",
+      "shop_id": "14050"
     }
   ]
 }
