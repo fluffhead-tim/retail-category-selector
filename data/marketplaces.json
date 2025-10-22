@@ -2,7 +2,7 @@
   "marketplaces": [
     {
       "name": "Tesco",
-      "taxonomy_file": "data/taxonomies/tesco.json",
+      "taxonomy_file": "data/taxonomies/Tesco.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://tescouk-prod.mirakl.net",
@@ -10,7 +10,7 @@
     },
     {
       "name": "BandQ",
-      "taxonomy_file": "data/taxonomies/BandQProd.json",
+      "taxonomy_file": "data/taxonomies/BandQ.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://marketplace.kingfisher.com",
@@ -18,7 +18,7 @@
     },
     {
       "name": "SuperDrug",
-      "taxonomy_file": "data/taxonomies/superdrug.json",
+      "taxonomy_file": "data/taxonomies/SuperDrug.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://superdrugnl-prod.mirakl.net",
@@ -26,7 +26,7 @@
     },
     {
       "name": "MountainWarehouse",
-      "taxonomy_file": "data/taxonomies/mountain_warehouse.json",
+      "taxonomy_file": "data/taxonomies/MountainWarehouse.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://mountainwarehouseuk-prod.mirakl.net",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Debenhams",
-      "taxonomy_file": "data/taxonomies/debenhams.json",
+      "taxonomy_file": "data/taxonomies/Debenhams.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://debenhamsuk-prod.mirakl.net",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Decathlon",
-      "taxonomy_file": "data/taxonomies/decathlon.json",
+      "taxonomy_file": "data/taxonomies/Decathlon.json",
       "id_field": "code",
       "name_field": "label",
       "base_url": "https://marketplace-decathlon-eu.mirakl.net",
