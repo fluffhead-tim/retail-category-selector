@@ -1,1 +1,1 @@
-{"LinnworksColumn":"Id","Debenhams":{"field":"","default":""},"Tesco":{"field":"","default":""},"Decathlon":{"field":"","default":""},"MountainWarehouse":{"field":"","default":""},"SuperDrug":{"field":"","default":""},"BandQ":{"field":"","default":""}}
+{"LinnworksColumn":"IntId","Debenhams":{"field":"","default":""},"Tesco":{"field":"","default":""},"Decathlon":{"field":"","default":""},"MountainWarehouse":{"field":"","default":""},"SuperDrug":{"field":"","default":""},"BandQ":{"field":"","default":""}}
