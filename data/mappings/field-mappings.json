@@ -1,1 +1,1 @@
-{"LinnworksColumn":"InOrder","Debenhams":{"field":"","default":""},"Tesco":{"field":"","default":""},"Decathlon":{"field":"","default":""},"MountainWarehouse":{"field":"","default":""},"SuperDrug":{"field":"","default":""},"BandQ":{"field":"","default":""}}
+{"LinnworksColumn":"StockLevel","Debenhams":{"field":"Quantity","default":""},"Tesco":{"field":"","default":""},"Decathlon":{"field":"","default":""},"MountainWarehouse":{"field":"","default":""},"SuperDrug":{"field":"","default":""},"BandQ":{"field":"","default":""}}
