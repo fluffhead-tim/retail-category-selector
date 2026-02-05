@@ -1,15 +1,4454 @@
 [
   {
     "supplier": {
-      "CategoryId": "ce10d32e-6b38-4488-a8d3-4b3a97875263",
-      "ProductCategoryId": 454,
-      "CategoryName": "Donis Hot Sauce",
+      "CategoryId": "00000000-0000-0000-0000-000000000000",
+      "ProductCategoryId": 1,
+      "CategoryName": "Default (for items missing or don't have a category listed below)",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "49f9defe-fae6-4993-8a96-10f48da4fe87",
+      "ProductCategoryId": 313,
+      "CategoryName": "1883 Maison Routin",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "05c39d39-f985-4eca-bd47-18a6a81bd6f0",
+      "ProductCategoryId": 267,
+      "CategoryName": "Alchemy",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a1de7c47-a2aa-4cf8-80e4-f0271ef735ae",
+      "ProductCategoryId": 418,
+      "CategoryName": "Amelia Art Glass",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4c34ad3a-ac5a-4037-b8ec-3c14379204ce",
+      "ProductCategoryId": 46,
+      "CategoryName": "Angus & Oink",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3a1ca7cd-3353-4a86-b208-4967112f851c",
+      "ProductCategoryId": 61,
+      "CategoryName": "Aromatize",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Aroma",
+        "Michel Design Works",
+        "Woodbridge"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e5afe384-2a3c-4f4b-9b36-59a95145b569",
+      "ProductCategoryId": 71,
+      "CategoryName": "Arora Design",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "64b389a4-ec3f-47e5-9414-dea3e0c05b99",
+      "ProductCategoryId": 193,
+      "CategoryName": "Art Hearts",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a39a6239-8bef-40f0-b720-587260ed3cfc",
+      "ProductCategoryId": 341,
+      "CategoryName": "Art WOW",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d3c085cf-8cb2-416c-8207-fcceaac8f3a4",
+      "ProductCategoryId": 220,
+      "CategoryName": "Ashleigh & Burwood",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "65cb663d-c564-4c5c-8d24-9a0e483e9693",
+      "ProductCategoryId": 122,
+      "CategoryName": "Ass Kickin Hot Sauce",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0bc9ecf7-d75c-4418-b726-bbaa8c794f5b",
+      "ProductCategoryId": 398,
+      "CategoryName": "Aurora",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a17a5421-43a8-4094-aca5-341f6ef07cea",
+      "ProductCategoryId": 314,
+      "CategoryName": "AutoPot",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "250c93c3-b0a9-4db5-ac45-e085ff5ddc1a",
+      "ProductCategoryId": 195,
+      "CategoryName": "Ava & I",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4ada1438-1719-45ba-b293-32612c704b9d",
+      "ProductCategoryId": 435,
+      "CategoryName": "Balefire",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "94ea55ff-e8a4-4fa5-b84d-0bf5a1bfedea",
+      "ProductCategoryId": 346,
+      "CategoryName": "Bare Kind",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c6b45b11-d332-49e4-ae9e-62d7dbdec700",
+      "ProductCategoryId": 78,
+      "CategoryName": "BBQ Gourmet",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e6cb7588-9243-4a2e-b81e-28c2c8405ee6",
+      "ProductCategoryId": 365,
+      "CategoryName": "Beast Mug",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "417038e0-48f4-4178-99be-61f1ab08c570",
+      "ProductCategoryId": 76,
+      "CategoryName": "Beatrix Potter (Peter Rabbit)",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "223f09f6-656d-4fc2-8aa4-227b4ff92f97",
+      "ProductCategoryId": 253,
+      "CategoryName": "Beaumont",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "57b88821-8ace-4082-9006-468f7b4fb136",
+      "ProductCategoryId": 271,
+      "CategoryName": "Beer Buddies",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "8185b159-a319-4a2e-9596-43263325894c",
+      "ProductCategoryId": 56,
+      "CategoryName": "Benaya",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "765d7ce6-e364-4512-b48e-3ee86f437fa3",
+      "ProductCategoryId": 392,
+      "CategoryName": "Big Ginger Sauce Co",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9b9755ea-6470-4638-8bbc-9a251f57da96",
+      "ProductCategoryId": 289,
+      "CategoryName": "Blazing Foods",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "fb9df271-9dd1-4e66-8039-d9beeb340e68",
+      "ProductCategoryId": 186,
+      "CategoryName": "Bling2O",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": true,
+      "Decathlon": true,
+      "SubBrands": [
+        "Bling2O",
+        "Ocean Freedom"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e016eb1c-e9d9-4876-95ab-1255bbbf7629",
+      "ProductCategoryId": 389,
+      "CategoryName": "Blonde Beards",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "54120a14-777d-4581-b429-0258c715829a",
+      "ProductCategoryId": 4,
+      "CategoryName": "Blossoms",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "368fc2a2-1cfa-4ef1-a4dc-52db216160ef",
+      "ProductCategoryId": 356,
+      "CategoryName": "Bolle Safety",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "11f6886a-2f67-48e8-8ade-b9c3c1309cc3",
+      "ProductCategoryId": 153,
+      "CategoryName": "Bomb Cosmetics",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "808eea16-7296-4bc5-aed1-131f9c2b4a9e",
+      "ProductCategoryId": 343,
+      "CategoryName": "Bored Sheep Shop",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "415470fd-a8d4-40fc-94da-b3fca7e12582",
+      "ProductCategoryId": 318,
+      "CategoryName": "Bowron Sheepskins",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "98c89838-f920-49ae-bf7a-83b23d2fad40",
+      "ProductCategoryId": 394,
+      "CategoryName": "Boxer Gifts",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b8b04d2f-8085-4583-8cf8-6c3ca3ff3c00",
+      "ProductCategoryId": 345,
+      "CategoryName": "Boxt Socks",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3abf4788-a3ba-47bf-aa98-4ce6b3ba394e",
+      "ProductCategoryId": 361,
+      "CategoryName": "Bravado",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "de023261-a421-4be9-a735-18464f2b6662",
+      "ProductCategoryId": 20,
+      "CategoryName": "Bud Ducks",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e8b80105-57a7-4bbd-aa89-c2032ed38824",
+      "ProductCategoryId": 160,
+      "CategoryName": "Bugzz",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6480ad92-95b6-4da7-871c-0f61c5e8039b",
+      "ProductCategoryId": 13,
+      "CategoryName": "Bugzz Promo",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ec90a79f-ebfa-4ab7-b2b9-434f538ad5e3",
+      "ProductCategoryId": 57,
+      "CategoryName": "Built NY",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": true,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "bff5411d-2375-4c76-9400-0a22c1f41240",
+      "ProductCategoryId": 351,
+      "CategoryName": "C J Wildlife",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b94682c8-cfbe-48a2-93d0-04918ad1a2f9",
+      "ProductCategoryId": 396,
+      "CategoryName": "Cabaia",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0a150592-531d-4c8a-8291-8e24aa41813b",
+      "ProductCategoryId": 422,
+      "CategoryName": "Candlelight",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "96380ea8-336f-479c-b617-a1b66a2ff755",
+      "ProductCategoryId": 307,
+      "CategoryName": "Canova Home & Fragrance",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "69adff94-4c58-4a04-875d-b028824739de",
+      "ProductCategoryId": 317,
+      "CategoryName": "Carat Shop",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "11f6f29a-35a3-497f-98e6-c4a6713e250a",
+      "ProductCategoryId": 166,
+      "CategoryName": "Chilli Jam Man",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "717c6ef3-89e6-49dc-87e4-e1d7a2d95948",
+      "ProductCategoryId": 281,
+      "CategoryName": "Chiltern Publishing",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e2cf972b-4127-4c12-ab49-b339594a9f42",
+      "ProductCategoryId": 285,
+      "CategoryName": "Choc On Choc",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3286ce48-5ca8-43b1-9967-3f62e8102e97",
+      "ProductCategoryId": 305,
+      "CategoryName": "Churchill China",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f76b704d-f63f-45f4-ac49-39a40ca8ffdc",
+      "ProductCategoryId": 371,
+      "CategoryName": "Chuug",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cbb20d72-19e2-422d-9afa-1318d7420388",
+      "ProductCategoryId": 340,
+      "CategoryName": "Club Green",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "fcddff4a-81ab-4b01-b406-e882171d78f2",
+      "ProductCategoryId": 393,
+      "CategoryName": "Coach House Partners",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b1cb24cf-1d2c-4616-810a-45f5948a759a",
+      "ProductCategoryId": 58,
+      "CategoryName": "Cockney Spaniel",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cdea8196-1c96-4228-8b02-043d7947921b",
+      "ProductCategoryId": 427,
+      "CategoryName": "Coney Island Saucery",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "32cd42a3-dadf-4046-ad47-52d5b7d4c9e6",
+      "ProductCategoryId": 362,
+      "CategoryName": "Cotswold Fayre",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Aagrah"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7dac3485-1260-4435-816d-9af3bff6296c",
+      "ProductCategoryId": 123,
+      "CategoryName": "Cottage Delight",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4cf12f80-b6dd-4867-af59-69ceb904c6cf",
+      "ProductCategoryId": 84,
+      "CategoryName": "Cow Parade",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4b288cf0-169b-4ed1-96f2-b832fb3eb5a6",
+      "ProductCategoryId": 367,
+      "CategoryName": "Craggi",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c75dfcbb-9472-4bfc-8477-9c83e5462785",
+      "ProductCategoryId": 126,
+      "CategoryName": "Crazy Bastard Sauce",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9657beae-163d-4d18-93a4-ea25e183148f",
+      "ProductCategoryId": 207,
+      "CategoryName": "Cressco",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Aagrah"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ff1c6117-6647-4376-82d0-70fd964e8e3a",
+      "ProductCategoryId": 353,
+      "CategoryName": "Crest Medical",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Blue Dot",
+        "Microplast",
+        "Burn Kool",
+        "Biosafe"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "99d297b9-62b3-4958-928a-1a1d73922a5f",
+      "ProductCategoryId": 240,
+      "CategoryName": "Crevel",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "8c731593-edc2-4894-9b13-9b598350f05d",
+      "ProductCategoryId": 124,
+      "CategoryName": "Cucamelon",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f1beadcb-391c-48e4-b83c-6717fe8df982",
+      "ProductCategoryId": 268,
+      "CategoryName": "Cyril's Soap Shed",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6e1b2005-bae8-4b0f-a6cb-8c1acfcb27d6",
+      "ProductCategoryId": 111,
+      "CategoryName": "Da Bomb",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9b743b7a-6cd0-4642-879e-25be5edc4661",
+      "ProductCategoryId": 29,
+      "CategoryName": "Daddy Cool",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "462a5775-bf44-4212-bb56-2fa58ad45a40",
+      "ProductCategoryId": 354,
+      "CategoryName": "Dalton Safety",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4e3f0e66-b824-4824-8d37-894e9bcfd901",
+      "ProductCategoryId": 385,
+      "CategoryName": "Darlac",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "77953cc0-6f03-467c-947a-40f5fb9f28ab",
+      "ProductCategoryId": 331,
+      "CategoryName": "David Fischhoff",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6ff4e1bc-1149-46b0-a339-bca7ff303dbd",
+      "ProductCategoryId": 324,
+      "CategoryName": "David Mason Design",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "daa054eb-9bb9-4983-b02e-188b7c31a0f2",
+      "ProductCategoryId": 282,
+      "CategoryName": "Delights Direct",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5022c20e-634a-4c4a-bb17-16b736ffeb79",
+      "ProductCategoryId": 296,
+      "CategoryName": "Demdaco",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "594d699a-fa1d-4ba0-bc2a-b003d122491a",
+      "ProductCategoryId": 407,
+      "CategoryName": "DevilDog Sauces",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "42474dd0-da72-48a9-bc92-5b99c1544c99",
+      "ProductCategoryId": 72,
+      "CategoryName": "Dexam",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Scion",
+        "RHS",
+        "Chef'N"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f0f13787-be20-40f2-865e-65715500441c",
+      "ProductCategoryId": 82,
+      "CategoryName": "Disney Figurines",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c172a093-6071-47ab-90cd-b9e87a6953ec",
+      "ProductCategoryId": 155,
+      "CategoryName": "DKB",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Cole & Mason",
+        "Zyliss",
+        "Jamie Oliver"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "143b3267-e30e-47f0-a07a-a2e7a9f19e34",
+      "ProductCategoryId": 270,
+      "CategoryName": "Dorest Chilli Shop",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0768d3c2-ea36-451e-a78b-c46b97880587",
+      "ProductCategoryId": 165,
+      "CategoryName": "Dr Seuss",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3b900d5f-90c2-4031-825f-c03b2f07dff4",
+      "ProductCategoryId": 344,
+      "CategoryName": "Dutch Imports",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Sold as Gifts Direct 2 U Brand"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "edea0cb7-79e7-4d21-9a6a-c2f4be5814da",
+      "ProductCategoryId": 375,
+      "CategoryName": "East of India",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0011b4df-eb49-4130-a9ad-33f2dd2392cf",
+      "ProductCategoryId": 306,
+      "CategoryName": "Eat My Socks",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "591ef7de-5402-4cbb-9840-45f52448c778",
+      "ProductCategoryId": 252,
+      "CategoryName": "Edding",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "52017786-f895-473d-9b3e-901c82c15f7a",
+      "ProductCategoryId": 118,
+      "CategoryName": "Edu Sci",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Astronaut Space Food"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5a0cb4ae-7889-41e2-abfd-d98721844051",
+      "ProductCategoryId": 388,
+      "CategoryName": "El Jefe Hot Sauce",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7a3c4170-6f8b-428d-b662-5703fe7d0964",
+      "ProductCategoryId": 405,
+      "CategoryName": "Elijah's Xtreme Gourmet Foods",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6367eade-2254-44d3-b044-a1f83af15d38",
+      "ProductCategoryId": 284,
+      "CategoryName": "Emily Victoria Candles",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "474c646f-f78b-4083-9108-cdfa91c3c508",
+      "ProductCategoryId": 316,
+      "CategoryName": "Enesco",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d7cc3bcc-1e99-4ce4-a043-831f2dce2371",
+      "ProductCategoryId": 100,
+      "CategoryName": "English Soap Company",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "24e81bd2-07c8-4247-b6de-1afa9f11eebf",
+      "ProductCategoryId": 244,
+      "CategoryName": "Fine Confectionery",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c3033b46-d883-42c6-bee9-b55f8b2c302a",
+      "ProductCategoryId": 439,
+      "CategoryName": "First Ascent",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": true,
+      "SubBrands": [
+        "Pits & Bits"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f4253e3b-256c-4a07-a871-5f27bed8533c",
+      "ProductCategoryId": 73,
+      "CategoryName": "Floss & Rock",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "92434c13-6ff3-4feb-87ca-ae2e87491f97",
+      "ProductCategoryId": 297,
+      "CategoryName": "Football Town",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0689eb3e-b084-41a7-b95d-347755fa5097",
+      "ProductCategoryId": 42,
+      "CategoryName": "Frank Ross",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "95804d4c-88c7-416c-a1d5-b532dfe2d1f1",
+      "ProductCategoryId": 232,
+      "CategoryName": "Funnybones",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Geeta's",
+        "Demae",
+        "Dunn's River",
+        "Goldfish"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "21e5bd0a-222d-4153-94bb-f8817ee62b78",
+      "ProductCategoryId": 249,
+      "CategoryName": "Garden Pack",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "79deab69-8163-422f-9d99-b445d7cea5cf",
+      "ProductCategoryId": 149,
+      "CategoryName": "Gardman",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Deadfast",
+        "Nature's Haven",
+        "Westland",
+        "Peckish",
+        "Resolva",
+        "Growing Success"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c2efc5a7-164b-421b-8f30-188742fcee75",
+      "ProductCategoryId": 423,
+      "CategoryName": "Garland",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Worth Gardening",
+        "Garland"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b4c6e012-d8e5-4127-824a-fcd8edd5a891",
+      "ProductCategoryId": 419,
+      "CategoryName": "Gentlemans Hardware",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Paddywax"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2725f88b-46bb-4fd6-8447-40fc7b331f08",
+      "ProductCategoryId": 227,
+      "CategoryName": "Gift of Oil",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e56edad7-68ed-4e23-adb5-495974a830da",
+      "ProductCategoryId": 60,
+      "CategoryName": "Gift Republic",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5fa10779-2d27-400e-86e2-26c552030d74",
+      "ProductCategoryId": 31,
+      "CategoryName": "Ginology",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "dfd7b85c-8f05-4450-843c-77df626a6486",
+      "ProductCategoryId": 399,
+      "CategoryName": "GM Garden and Home",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Squelch",
+        "Bottlesoc"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "89a456a2-059c-420e-9358-5810d4f8f404",
+      "ProductCategoryId": 404,
+      "CategoryName": "Golden West Speciality Foods",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6b9d90ab-954d-429c-9b2d-2b901202dc53",
+      "ProductCategoryId": 288,
+      "CategoryName": "Good Luck Sock",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0a9f677d-b350-4951-84b3-303d000bbfaa",
+      "ProductCategoryId": 39,
+      "CategoryName": "Goose Creek",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7125574f-8890-473e-8f21-fb96b4056c30",
+      "ProductCategoryId": 219,
+      "CategoryName": "Grim Reaper Foods LTD",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ede937e6-fe29-4d47-8e9a-c41d6cbd3a3b",
+      "ProductCategoryId": 347,
+      "CategoryName": "Growth Technology",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "75081028-d851-4bf4-b61d-cfef2154cf02",
+      "ProductCategoryId": 175,
+      "CategoryName": "Happy Socks",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2d79fdb6-db10-4c28-bf94-8fd9ef8a013b",
+      "ProductCategoryId": 115,
+      "CategoryName": "Harry Potter",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c5885065-56bb-45ac-a0e1-fd691fcb9541",
+      "ProductCategoryId": 433,
+      "CategoryName": "Harvey Maps",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": true,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3392970d-397e-44ec-a3ab-3396f0c94b80",
+      "ProductCategoryId": 41,
+      "CategoryName": "Heathcote & Ivory",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cb0cd19c-c064-49c6-b884-c6ad51a1e58a",
+      "ProductCategoryId": 411,
+      "CategoryName": "Hellfire Hot Sauce Inc",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "81d8c507-5a50-4818-8a36-5a74673d6a3a",
+      "ProductCategoryId": 383,
+      "CategoryName": "Heriot Hott",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7eae3109-25f8-4837-bc68-6b605c9bd13a",
+      "ProductCategoryId": 379,
+      "CategoryName": "Hill Interiors",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "de13bd9c-6fbb-40da-a416-bddec58af6a9",
+      "ProductCategoryId": 294,
+      "CategoryName": "History & Heraldry",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0045ab3a-488f-48e1-86d5-9b6e54022115",
+      "ProductCategoryId": 384,
+      "CategoryName": "Horseshoe Brand",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "de5ce313-71b2-4f42-83db-621fb7b49897",
+      "ProductCategoryId": 77,
+      "CategoryName": "Hot Headz",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Mrs Renfro's",
+        "Yellowbird",
+        "Marie Sharp's",
+        "Secret Aardvark",
+        "Blair's",
+        "Dirty Dick's",
+        "Heartbeat",
+        "Bravado",
+        "Fat Cat"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "da2c9b7d-846c-4554-b1cd-548fc60b99c6",
+      "ProductCategoryId": 408,
+      "CategoryName": "Hot N Saucy",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0fe73f8c-6f61-4603-8d6d-2923067aa2e1",
+      "ProductCategoryId": 33,
+      "CategoryName": "IHR",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9eac6780-36cf-44b9-9dff-1b74db9d9e14",
+      "ProductCategoryId": 368,
+      "CategoryName": "IMS",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Andis"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f5b59e0c-670d-4718-9d3e-15e3f35b47be",
+      "ProductCategoryId": 19,
+      "CategoryName": "Intelex",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Warmies"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b78a56a7-5899-4759-a8dd-33e16c3305e9",
+      "ProductCategoryId": 300,
+      "CategoryName": "Isle Of Skye",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b2829ec5-6f69-491e-b2af-b5fcf2e44538",
+      "ProductCategoryId": 397,
+      "CategoryName": "Ivyline",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1760bef6-60c6-4b9e-97f3-bcc255cf11f8",
+      "ProductCategoryId": 238,
+      "CategoryName": "Izzy and Oliver",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ce08fd52-67d1-4cc9-aadd-d1eeb6e69459",
+      "ProductCategoryId": 426,
+      "CategoryName": "Jampot's Hot Sauce",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "292234d2-98a4-4ebe-a51a-cf1fbbab6cbe",
+      "ProductCategoryId": 173,
+      "CategoryName": "Jardinopia",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Jardinopia",
+        "Potty Feet",
+        "Pot Buddies",
+        "Cane Companions",
+        "101 Dalmations",
+        "Laura Ashley",
+        "Disney"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c7771618-4195-4ba3-8079-9bee0e87350d",
+      "ProductCategoryId": 360,
+      "CategoryName": "JD's Hot Honey",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "66996b1b-1a72-414d-be1f-b8587cf818aa",
+      "ProductCategoryId": 312,
+      "CategoryName": "Jekyil & Hide",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b7ec4db0-a74f-49a3-b7b7-a7af0f4d9310",
+      "ProductCategoryId": 133,
+      "CategoryName": "Jex",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6ddc7c84-d28e-4aa4-8d4f-68130f451171",
+      "ProductCategoryId": 327,
+      "CategoryName": "Joe Davies",
       "Tesco": true,
       "BandQ": true,
       "Debenhams": true,
       "SuperDrug": true,
       "MountainWarehouse": true,
       "Decathlon": true,
+      "SubBrands": [
+        "Joe Davies",
+        "Pot of Dreams",
+        "Nordic Lights",
+        "Snoozies",
+        "Moonlight",
+        "Feather & Grace",
+        "Village Pottery"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7a09483e-349b-4043-a791-d9539692b3a9",
+      "ProductCategoryId": 185,
+      "CategoryName": "Jordan's Skinny Mixes",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "bbaace0d-8d89-46ad-977f-53cdc216ff6a",
+      "ProductCategoryId": 277,
+      "CategoryName": "Journals Of A Lifetime",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f881641b-536d-4930-85f9-a88f704786ec",
+      "ProductCategoryId": 329,
+      "CategoryName": "Joya Socks",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5e5f81d0-00a4-48de-a29e-439f15e4f55c",
+      "ProductCategoryId": 412,
+      "CategoryName": "Karma Sauce",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c5879a9b-04c0-4cd5-bb5d-abd301f28be3",
+      "ProductCategoryId": 250,
+      "CategoryName": "Kent & Stowe",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2edebf4f-f344-4d82-8c81-89685939b2a4",
+      "ProductCategoryId": 107,
+      "CategoryName": "Kidorable",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "47f9bc34-86b9-4caf-a951-739549faaf24",
+      "ProductCategoryId": 93,
+      "CategoryName": "Kikapu",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Blure"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ea23afd5-3264-4683-bd90-702b0b68eea6",
+      "ProductCategoryId": 91,
+      "CategoryName": "Kikkerland",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d2e061d5-0995-4f2d-8275-4c9e79f69c0f",
+      "ProductCategoryId": 62,
+      "CategoryName": "Kitchencraft",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Maxwell & Williams",
+        "Barcraft",
+        "Chef'n",
+        "Swell",
+        "La Cafetiere",
+        "Built",
+        "Kitchencraft",
+        "VA"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "21ed28ac-3e36-4e4c-827e-53cb0d0dac98",
+      "ProductCategoryId": 235,
+      "CategoryName": "Kloche",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ae66155f-8454-4f44-819b-de85e8a296ea",
+      "ProductCategoryId": 192,
+      "CategoryName": "Lagoon",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5559eb7d-50ad-45b8-9709-53ce33b967f3",
+      "ProductCategoryId": 377,
+      "CategoryName": "Langs",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5aee2b8f-cf08-4835-968e-54b7d80cd4cd",
+      "ProductCategoryId": 352,
+      "CategoryName": "Laser Creations",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1b122a50-3a1a-4f4c-9b9a-e808f446a7d7",
+      "ProductCategoryId": 338,
+      "CategoryName": "Leisuregrow",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Petface",
+        "Animology"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "46342d2c-bd07-4c75-b8b8-a909085c6330",
+      "ProductCategoryId": 136,
+      "CategoryName": "Lesser & Pavey",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "508827dc-bc6c-4cbc-b0ff-383be3c8a075",
+      "ProductCategoryId": 434,
+      "CategoryName": "Lifemarque",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": true,
+      "SubBrands": [
+        "Lifesystems",
+        "Lifeventure",
+        "Little Life"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "34d20367-e3b3-4e6b-b0cf-27d44e5c3e49",
+      "ProductCategoryId": 309,
+      "CategoryName": "Liquid Herbs",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ed4bbb46-33a3-4917-9ef6-3016b04417f5",
+      "ProductCategoryId": 37,
+      "CategoryName": "Little Shop Of",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c0560bef-3f81-43f2-a7f0-167b2a4563a1",
+      "ProductCategoryId": 424,
+      "CategoryName": "Little Soap Company",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "18a52454-0a49-473e-8eaf-bc644245f70e",
+      "ProductCategoryId": 159,
+      "CategoryName": "Little's",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "132c03ee-f007-4fe1-b07e-9c8bf588f0af",
+      "ProductCategoryId": 127,
+      "CategoryName": "Lolita",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "91344273-9741-48eb-8e88-5598677fd65f",
+      "ProductCategoryId": 264,
+      "CategoryName": "Lovibond",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f681ca12-39b0-4f07-8574-de834be1d86a",
+      "ProductCategoryId": 326,
+      "CategoryName": "Lucky Pair",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "db4918ce-5571-419c-bcd6-db3834aa8588",
+      "ProductCategoryId": 189,
+      "CategoryName": "Lucy and Lolly",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d0ecdb61-5c41-4899-923f-cd73b572be7a",
+      "ProductCategoryId": 401,
+      "CategoryName": "Made Happy",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ee438300-bcc3-4872-ac20-ce35ae6ad40f",
+      "ProductCategoryId": 321,
+      "CategoryName": "Manuscript",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Lego",
+        "Sheaffer",
+        "Karin"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7c9e1028-ecc5-4d61-8921-12ce22e104bf",
+      "ProductCategoryId": 228,
+      "CategoryName": "Marriages",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "8143feec-89fe-4a68-92e1-9ce8838f9275",
+      "ProductCategoryId": 376,
+      "CategoryName": "McGowan & Rutherford",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Branded as Gifts Direct 2 U"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "87752038-b95e-4b2f-8fec-c984f365206a",
+      "ProductCategoryId": 380,
+      "CategoryName": "Melinda's",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "660057ba-94de-4b4e-bde4-3ecc7de3c7fa",
+      "ProductCategoryId": 390,
+      "CategoryName": "Mexgrocer",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Valentina",
+        "Cholula",
+        "El Yucateco"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "95eadba2-c253-4a81-acdb-976b658899ff",
+      "ProductCategoryId": 303,
+      "CategoryName": "Miko",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "65f70f73-d1e4-4236-8d73-f3f434455e01",
+      "ProductCategoryId": 214,
+      "CategoryName": "Milford Collection",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2ba7b081-f54e-4cf6-b0c1-ee31a2fcccd3",
+      "ProductCategoryId": 403,
+      "CategoryName": "Minster",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "431cdc2a-e907-45df-a212-74434ea795bb",
+      "ProductCategoryId": 283,
+      "CategoryName": "Miss Sparrow",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f56c9e4c-b98c-47a8-9fa4-c61404cc3f1b",
+      "ProductCategoryId": 366,
+      "CategoryName": "MonkeyCave",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6e814d9c-3470-44de-a5b2-0a6e366c5c45",
+      "ProductCategoryId": 257,
+      "CategoryName": "Mr & Mrs Fragrances",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "25dd8283-8935-4e13-99a7-1b460ca02a3e",
+      "ProductCategoryId": 248,
+      "CategoryName": "Mr. Fothergills",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "RHS Flowers",
+        "Johnsons",
+        "Mr Fothergills"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1e9357ef-31b7-4f4d-a192-6e59b537d013",
+      "ProductCategoryId": 386,
+      "CategoryName": "Mulberry Studios",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "958a2b8b-14b8-45b3-b728-25c1237e3113",
+      "ProductCategoryId": 30,
+      "CategoryName": "Multibuys",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "40fe8823-944d-4a06-9a71-e8fb7f8f9565",
+      "ProductCategoryId": 355,
+      "CategoryName": "Murrays Health & Beauty",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Wet Ones",
+        "NUK",
+        "Burt's Bees",
+        "Scholl",
+        "Altruist",
+        "Child's Farm",
+        "Calypso",
+        "Banana Boat",
+        "Sanctury Spa",
+        "Bayliss & Harding",
+        "Dr B",
+        "Tomme Tippee",
+        "Dr Teals",
+        "O'Keeffe's",
+        "Faith In Nature"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f5bbf532-3e6b-41e0-832c-dd785f21b595",
+      "ProductCategoryId": 191,
+      "CategoryName": "Myne",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3334a5b2-c5fd-43de-9d6b-038499a3f311",
+      "ProductCategoryId": 251,
+      "CategoryName": "Nature's Melody",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ec228ffb-b352-4887-aa23-81cc8ade88e1",
+      "ProductCategoryId": 373,
+      "CategoryName": "Nauticalia",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6735ee60-e7ba-4b1c-99a6-f4c32f41d6d3",
+      "ProductCategoryId": 416,
+      "CategoryName": "Neil's Real Deal",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "68951b69-961f-4593-bcf0-758e6cf53fce",
+      "ProductCategoryId": 322,
+      "CategoryName": "Nemesis Now",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a2fc5355-9351-462e-b96f-6b79664dfc12",
+      "ProductCategoryId": 342,
+      "CategoryName": "Neviti",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "88a23e20-aa89-4bca-942e-0862890d3cc4",
+      "ProductCategoryId": 311,
+      "CategoryName": "NIO Cocktails",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "44e7918f-fa87-42b1-8126-a1dd3a9c19ee",
+      "ProductCategoryId": 436,
+      "CategoryName": "NORTHSTAR Brands",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": false,
+      "SubBrands": [
+        "Theye"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9434c437-bd12-4482-bbfe-58e42f45acff",
+      "ProductCategoryId": 320,
+      "CategoryName": "Noxxiez",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7e44a6b2-5707-42b8-8eda-470a058b1647",
+      "ProductCategoryId": 381,
+      "CategoryName": "Numskull",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Tubbz"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "841b7bc0-1af6-432c-9c01-c70a1655f404",
+      "ProductCategoryId": 168,
+      "CategoryName": "O'Donnell Moonshine",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9cbff05e-b373-4431-af45-b73eace058ed",
+      "ProductCategoryId": 152,
+      "CategoryName": "Old Stock",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "38636f9c-10e0-4d83-abf0-ae73804d1594",
+      "ProductCategoryId": 144,
+      "CategoryName": "OOh! Chocolata",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f049eb83-2882-4cb7-86e5-e5659df7147c",
+      "ProductCategoryId": 428,
+      "CategoryName": "Ooly",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1f2357b7-2fce-49c3-96b1-5c091444416f",
+      "ProductCategoryId": 421,
+      "CategoryName": "Otter House",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d25166cd-83b7-4b00-bed9-0bfada9127d7",
+      "ProductCategoryId": 236,
+      "CategoryName": "Our Name Is Mud",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "fcbf3c4f-d129-4fa5-98ba-fae5fc388c08",
+      "ProductCategoryId": 217,
+      "CategoryName": "Pain Is Good",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e17a09f2-2162-4d91-b782-3e3d0d87124f",
+      "ProductCategoryId": 48,
+      "CategoryName": "Patchwork",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "91d8ee16-0574-4549-be82-da8fd28687e5",
+      "ProductCategoryId": 432,
+      "CategoryName": "Peggy Wilkins",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6c0adb84-bd3b-4f6e-ad21-4840c62b9813",
+      "ProductCategoryId": 59,
+      "CategoryName": "Peppa Pig",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6162c7f1-293c-4fc6-9724-e64ff1f777e6",
+      "ProductCategoryId": 201,
+      "CategoryName": "Perishable Discounted (< 3Mths)",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b2415bad-11e3-4c52-8e68-5509d297a39e",
+      "ProductCategoryId": 68,
+      "CategoryName": "Perishable Out Date",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7675c17e-ce51-4f04-96b9-b6d56f691648",
+      "ProductCategoryId": 150,
+      "CategoryName": "Perishable Reduced (< 2Mths)",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "95ce3b1f-662c-454c-8d90-9a3b71ec55b0",
+      "ProductCategoryId": 357,
+      "CategoryName": "Perry",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "997397b1-9fd8-4d2c-abe5-5e8b1e1d6dfe",
+      "ProductCategoryId": 425,
+      "CategoryName": "Peter Pauper Press",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3084c41c-ace8-4dc7-a175-6e8fdfb31e8e",
+      "ProductCategoryId": 406,
+      "CategoryName": "PexPeppers",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c8fa09f3-8f9f-4f45-9d95-5a135d01695a",
+      "ProductCategoryId": 350,
+      "CategoryName": "Philip Stamp & Co Ltd",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Thermoweb"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ac1222f1-0410-4f8a-9e4a-ae7ee1dc472b",
+      "ProductCategoryId": 301,
+      "CategoryName": "Piccolo",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c947b9d2-e071-4dcf-8fab-abf5042fb59e",
+      "ProductCategoryId": 139,
+      "CategoryName": "Pinkster Gin",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a75f6852-d5e7-4a69-be93-e45f53c4dc3a",
+      "ProductCategoryId": 369,
+      "CategoryName": "POM Collection",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "dc1ca332-977c-4b4e-913d-15488493cef2",
+      "ProductCategoryId": 310,
+      "CategoryName": "Portmeirion",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "63b600bc-9eb8-4671-8754-ff6f603a45f5",
+      "ProductCategoryId": 223,
+      "CategoryName": "Portsmouth Distillery Co",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6c33c315-8c6e-4932-923f-e90a1515e1a6",
+      "ProductCategoryId": 261,
+      "CategoryName": "Potters Crouch",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3385c137-3649-4df1-a248-70d026630089",
+      "ProductCategoryId": 241,
+      "CategoryName": "Pottery Crafts",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Thermoweb",
+        "Amaco"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "8fda9574-96b9-403b-aeb5-4f12180aeeb3",
+      "ProductCategoryId": 415,
+      "CategoryName": "PowAir Nature Ltd",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "80ba6cf6-2cfd-4d21-8e5d-edb98b57f1c3",
+      "ProductCategoryId": 330,
+      "CategoryName": "Powder Design",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2dacb78c-e2a6-4821-a2ea-53f06f426d28",
+      "ProductCategoryId": 274,
+      "CategoryName": "Premier Decorations",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "164f3ca2-91be-41e7-b145-6f24f45a833f",
+      "ProductCategoryId": 89,
+      "CategoryName": "PROMO Kidorable",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "195b0de9-461b-4afc-ae9f-e789b2571513",
+      "ProductCategoryId": 203,
+      "CategoryName": "Psycho Juice",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7944d2e0-5a9c-4805-8652-212b23dc0ce6",
+      "ProductCategoryId": 348,
+      "CategoryName": "Puzzle Post",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "15fbf967-2e5a-401a-832f-33f9de6b9cfa",
+      "ProductCategoryId": 409,
+      "CategoryName": "Quotable",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cc60676d-64ee-4493-93fe-24ba18431770",
+      "ProductCategoryId": 336,
+      "CategoryName": "Raijmakers",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b079a0a0-a64a-43c6-8bdc-7845e5ed0244",
+      "ProductCategoryId": 272,
+      "CategoryName": "Rapesco",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "14bb2cc0-a06b-45e3-b54b-27a4bbe153f1",
+      "ProductCategoryId": 32,
+      "CategoryName": "Reduced Stock",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9cf45df4-a96d-456d-b22f-d55bc066efad",
+      "ProductCategoryId": 179,
+      "CategoryName": "Resaco",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f85788e3-298d-4928-a795-03299bfffa80",
+      "ProductCategoryId": 337,
+      "CategoryName": "Rico Designs",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4cd952bc-f91b-485e-901e-4d3166bfefbe",
+      "ProductCategoryId": 402,
+      "CategoryName": "Robert Frederick",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "27459620-1163-4cd0-8cb9-d2e4e2026cfc",
+      "ProductCategoryId": 276,
+      "CategoryName": "Robotime",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e01b3522-21a4-4bf4-913b-8604764fd9f7",
+      "ProductCategoryId": 229,
+      "CategoryName": "Rosewood",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d879c7d3-cb6c-4474-b9ca-6270d977186d",
+      "ProductCategoryId": 364,
+      "CategoryName": "Royal County Products",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "db2243a2-4278-4f9e-993d-829443be3afc",
+      "ProductCategoryId": 319,
+      "CategoryName": "RSW",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "28ab278c-9865-415a-bd75-00f803bfc748",
+      "ProductCategoryId": 2,
+      "CategoryName": "Safety Knife Company",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "99bfc68b-6938-43ab-be5d-86750c260b88",
+      "ProductCategoryId": 104,
+      "CategoryName": "Sass and Belle",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a616de83-67db-47ee-a211-1b9d25c8885c",
+      "ProductCategoryId": 382,
+      "CategoryName": "Sauce Leopard",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2e9c95aa-4bdd-482e-ae4c-1e2d09083ce4",
+      "ProductCategoryId": 23,
+      "CategoryName": "Sauce Shop",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6b16ff4a-2a71-4a4e-a38f-2028abed5511",
+      "ProductCategoryId": 25,
+      "CategoryName": "SaucyBitch",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a8534321-a769-4557-bc0f-2662af58b02b",
+      "ProductCategoryId": 438,
+      "CategoryName": "Savir Foods",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "36d296b1-9fbc-46f6-a588-2a2d5d1c7858",
+      "ProductCategoryId": 275,
+      "CategoryName": "Scottish Fine Soaps Company",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "79005d9a-8922-4cd3-a946-686bcfe1106f",
+      "ProductCategoryId": 414,
+      "CategoryName": "Scruffs",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "04310014-c713-4d03-890e-b6f36d1f9eed",
+      "ProductCategoryId": 151,
+      "CategoryName": "SealSkinz",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b15344ae-1e72-41c1-b99d-536da9ed8709",
+      "ProductCategoryId": 66,
+      "CategoryName": "Seasoned Pioneers",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "d4885f3b-a0a9-4d20-8ad6-a541e79111bd",
+      "ProductCategoryId": 358,
+      "CategoryName": "Seed Pantry",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a3abaf01-63ee-4f65-a1a8-ea8def9b1117",
+      "ProductCategoryId": 260,
+      "CategoryName": "Seed Ranch Flavour",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a9106a76-0b1b-46b8-a2db-24ecc219241c",
+      "ProductCategoryId": 299,
+      "CategoryName": "Seedball",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "74f07070-15c3-4a70-8ad8-76c5c9db07b6",
+      "ProductCategoryId": 95,
+      "CategoryName": "Seedlip",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f7b1bb70-0577-4c47-b6b1-d6bb0fd4c234",
+      "ProductCategoryId": 184,
+      "CategoryName": "Selfie Clothing",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "43295bb3-76bc-4330-b2fc-bb45d766fd2c",
+      "ProductCategoryId": 157,
+      "CategoryName": "Sharon Nowlan",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ac174cfb-a474-45f2-ae5c-3b9e49c66162",
+      "ProductCategoryId": 308,
+      "CategoryName": "Shearer Candles",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3afa06bb-8726-4a25-a4a8-973ce300991c",
+      "ProductCategoryId": 293,
+      "CategoryName": "Sic Sock",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "7f3b5e5a-6a60-4983-9c37-db3475cd8369",
+      "ProductCategoryId": 188,
+      "CategoryName": "Sienna Glass",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "dd4f66a1-d255-43e5-8e65-b6c9736b422d",
+      "ProductCategoryId": 325,
+      "CategoryName": "SIGG",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6da9b344-b369-4c7e-a935-b03dcc9d489c",
+      "ProductCategoryId": 400,
+      "CategoryName": "Signare",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "64c007b6-e32e-448c-91c5-94e19ab0d871",
+      "ProductCategoryId": 287,
+      "CategoryName": "SIL Interiors",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "469a2e66-99df-44f2-beeb-4d084831e134",
+      "ProductCategoryId": 378,
+      "CategoryName": "Silva",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": true,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "018a162b-bdd6-4789-8325-010283899e9c",
+      "ProductCategoryId": 391,
+      "CategoryName": "Simmons",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "077d3765-18db-404d-b91c-fb56407f033b",
+      "ProductCategoryId": 218,
+      "CategoryName": "Sixtrees",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "aa7c3a34-4e77-4c61-b790-9011dba62345",
+      "ProductCategoryId": 117,
+      "CategoryName": "SJA",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "228490c8-2b28-4227-8d0d-74908a91b566",
+      "ProductCategoryId": 94,
+      "CategoryName": "Skinny Food",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "63882271-7ff1-42e6-a0d4-40269419a6e0",
+      "ProductCategoryId": 430,
+      "CategoryName": "Slap Ya Mama",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9b986203-4f13-4f13-8996-9d56621d6df0",
+      "ProductCategoryId": 262,
+      "CategoryName": "Smart Garden Products",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9aa377b5-4ed7-4421-ab12-5f676f835865",
+      "ProductCategoryId": 74,
+      "CategoryName": "Smuggle Your Booze",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "beb9bf9d-09b8-4c92-8e00-20e43410178d",
+      "ProductCategoryId": 304,
+      "CategoryName": "Snippers",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c468bb9e-eeab-4cec-87c8-a7172a325b93",
+      "ProductCategoryId": 315,
+      "CategoryName": "SnowTime",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c74dc917-09f7-44e8-9f3c-5b085ab46f19",
+      "ProductCategoryId": 255,
+      "CategoryName": "Soake",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e9e6a8a9-f383-485b-b6d7-6033e0430418",
+      "ProductCategoryId": 286,
+      "CategoryName": "Socksmith",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b8d6463c-a5f2-4423-bacc-4dbc6be05386",
+      "ProductCategoryId": 298,
+      "CategoryName": "Solid Cologne UK",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "59051411-7ec5-4322-bdcc-50dcc337a16b",
+      "ProductCategoryId": 280,
+      "CategoryName": "SOP International",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5a6ebfef-fc80-4c38-b879-cff502f2b8f9",
+      "ProductCategoryId": 176,
+      "CategoryName": "Spaceform",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "785e9ae4-7dc1-4d4b-98ca-ced0583e7b58",
+      "ProductCategoryId": 437,
+      "CategoryName": "Spicy Shark",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f05b273f-5dbd-4c6c-b01f-c5bd366a79ac",
+      "ProductCategoryId": 334,
+      "CategoryName": "Steve-O",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e53b0222-723a-48f6-88ea-d35a83978a8f",
+      "ProductCategoryId": 323,
+      "CategoryName": "Stovax",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3ed7be99-7bfe-44e7-b53d-1ae464bef757",
+      "ProductCategoryId": 431,
+      "CategoryName": "Straits",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f4fba81f-f51b-4321-b309-8cd8413ca0b2",
+      "ProductCategoryId": 112,
+      "CategoryName": "Suck UK",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "6edcb7ae-18af-4b19-a905-15ce06e183f4",
+      "ProductCategoryId": 18,
+      "CategoryName": "Suki Gifts",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "52752be3-e0b1-4e72-a3ba-42ccb1138fe6",
+      "ProductCategoryId": 266,
+      "CategoryName": "SureShot BV",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ec680179-6ed3-4e01-80f8-ae4457069ffb",
+      "ProductCategoryId": 263,
+      "CategoryName": "Swole Panda",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c9891db9-40ea-497a-81d0-a575cece2c03",
+      "ProductCategoryId": 130,
+      "CategoryName": "TableTop Multi Buy",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1d3ed0ac-56b1-4938-b419-d5d49df7fcda",
+      "ProductCategoryId": 328,
+      "CategoryName": "Taylor's Bulbs",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "da597d46-4978-4b65-ad9e-48f7d649ea4a",
+      "ProductCategoryId": 225,
+      "CategoryName": "The Garlic Farm",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f71afa4e-945e-4c51-bf56-64b898af5298",
+      "ProductCategoryId": 81,
+      "CategoryName": "The Grinch",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "50b71c83-866c-4ed2-8f16-01c06e7bc956",
+      "ProductCategoryId": 339,
+      "CategoryName": "The Somerset Toiletry Co",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "02cf7efe-b4c2-42c1-9a26-a40a84a85cbe",
+      "ProductCategoryId": 359,
+      "CategoryName": "The Treat Kitchen",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "72f19458-4711-42ea-b083-1cf645f5381a",
+      "ProductCategoryId": 374,
+      "CategoryName": "The Wheat Bag Company",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "01e4dc10-2d89-4a24-ac30-d40b1a86f185",
+      "ProductCategoryId": 332,
+      "CategoryName": "Toasted Crumpet Designs",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "07ec8148-b786-40f0-ab03-e8bd55486f08",
+      "ProductCategoryId": 206,
+      "CategoryName": "Tobar",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1bc5b65a-cbd8-46d4-87a2-187c4b6a0006",
+      "ProductCategoryId": 395,
+      "CategoryName": "Tom Chambers",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f0c8ac6a-8069-4bee-a2ad-d3d07004c266",
+      "ProductCategoryId": 258,
+      "CategoryName": "Torasan",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "77179919-76fe-4bf2-a7f7-ce3b5d4adeae",
+      "ProductCategoryId": 387,
+      "CategoryName": "Truff",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "9845c8b5-2a60-4c7c-87df-f46378347d18",
+      "ProductCategoryId": 349,
+      "CategoryName": "TWS Trading",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "908b59ab-b527-4e55-bb44-2b8174012857",
+      "ProductCategoryId": 34,
+      "CategoryName": "United Oddsocks",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4627966b-c04b-4af3-8fa1-919c6251f752",
+      "ProductCategoryId": 234,
+      "CategoryName": "University Games",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "abd272bc-6f61-4a76-a5e6-8baa96312672",
+      "ProductCategoryId": 246,
+      "CategoryName": "Unwins",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f6278efe-3bf0-4fb7-ad35-4576f7de213b",
+      "ProductCategoryId": 254,
+      "CategoryName": "Upper Canada",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Danielle Creations",
+        "Yes Studio",
+        "Aroma Home",
+        "Cheesecake",
+        "my iN.gredients",
+        "masque BAR",
+        "Studio Dry",
+        "Wanderflower",
+        "Erase Your Face",
+        "Vintage Cosmetic Company"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "8f482f04-da78-4c08-bbed-8e759de5bcb6",
+      "ProductCategoryId": 114,
+      "CategoryName": "Village Candle",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "5790a1c9-31e9-4866-87ec-7ccb6d7dcad8",
+      "ProductCategoryId": 413,
+      "CategoryName": "Volcanic Dino Sauce",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1d0160bf-b683-4c1f-828e-a8eb5521278d",
+      "ProductCategoryId": 134,
+      "CategoryName": "Walden Farms",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3a5fe219-8767-46eb-9161-7b8fd7699828",
+      "ProductCategoryId": 259,
+      "CategoryName": "Wax Lyrical",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "e6f00828-c888-49bb-834f-4b49428a68d7",
+      "ProductCategoryId": 370,
+      "CategoryName": "Weymouth 51",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "72820749-dcb8-425f-a785-4db505584f11",
+      "ProductCategoryId": 291,
+      "CategoryName": "What A Pickle",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f5cc602d-0b2f-48fc-8dc5-21117a5b79df",
+      "ProductCategoryId": 26,
+      "CategoryName": "Widdop",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0df575d8-e2c4-47cf-9287-89895b6947fc",
+      "ProductCategoryId": 429,
+      "CategoryName": "Wild Things",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cc59cb7e-31b5-40da-8986-6e62eb12bd11",
+      "ProductCategoryId": 335,
+      "CategoryName": "Wilderkitchen",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b5217bbb-b0ac-419f-b5be-34d781971c60",
+      "ProductCategoryId": 43,
+      "CategoryName": "Wildlife World",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ee01604e-5bce-46ec-84a5-1e6b42cbebc7",
+      "ProductCategoryId": 24,
+      "CategoryName": "Willow Tree",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f01a61c1-b12d-4e60-bd07-a885ba982487",
+      "ProductCategoryId": 273,
+      "CategoryName": "Wilton Bradley",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f0d945dd-009b-4dda-80f4-a4af33ad8736",
+      "ProductCategoryId": 129,
+      "CategoryName": "Wiltshire Chilli Farm",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "0a569d3a-01d1-4d32-ae9d-ef0446579804",
+      "ProductCategoryId": 420,
+      "CategoryName": "Wit With Wisdom",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "94f5c2ed-d743-4d4b-944c-7c7ce0921351",
+      "ProductCategoryId": 230,
+      "CategoryName": "Wolf Garten",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "22f9a13d-b6b0-44b1-8c18-835ad8e943c7",
+      "ProductCategoryId": 101,
+      "CategoryName": "Woodbridge",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "365f081d-58bc-4977-b6d0-8e584cc1dc0a",
+      "ProductCategoryId": 245,
+      "CategoryName": "Woodstock Chimes",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "f40ca890-ae02-47eb-8615-fc7e10ac4900",
+      "ProductCategoryId": 363,
+      "CategoryName": "Woodtrick",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "2e49d1d2-efe2-41ec-957b-a6d2e1f6263c",
+      "ProductCategoryId": 132,
+      "CategoryName": "WPL",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "424ad0d5-e95c-4540-b9bf-857131e10da8",
+      "ProductCategoryId": 102,
+      "CategoryName": "Xpressions Gifts",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "11b78059-7c79-4947-b795-d1f92dfb1fdd",
+      "ProductCategoryId": 410,
+      "CategoryName": "Xystos",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "The Naked Bee",
+        "Cello",
+        "Splosh",
+        "di palomo"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "702406ce-6f3f-4283-9a4e-3ebb47936c04",
+      "ProductCategoryId": 49,
+      "CategoryName": "You're An Angel",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c83f6a8a-086d-415f-94e6-c7a5232c2d90",
+      "ProductCategoryId": 169,
+      "CategoryName": "Zaramama",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1015e1ea-74b3-4e04-8736-21b725a2961a",
+      "ProductCategoryId": 417,
+      "CategoryName": "Ziggle Baby",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "aea5d13c-e57e-4d6d-bd1e-3937c269d863",
+      "ProductCategoryId": 44,
+      "CategoryName": "ZZZZ",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": [
+        "Random brands / products mix"
+      ]
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ce10d32e-6b38-4488-a8d3-4b3a97875263",
+      "ProductCategoryId": 454,
+      "CategoryName": "Donis Hot Sauce",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -18,12 +4457,12 @@
       "CategoryId": "e6285509-8e65-42bb-82c8-3eda562eefd2",
       "ProductCategoryId": 440,
       "CategoryName": "Drizzle",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -32,12 +4471,12 @@
       "CategoryId": "4ce27e6f-d572-42e6-8e7d-6c8e891ac777",
       "ProductCategoryId": 442,
       "CategoryName": "Elements of Fragrance",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -46,12 +4485,12 @@
       "CategoryId": "98838983-982d-4e57-bc64-c10715942c61",
       "ProductCategoryId": 446,
       "CategoryName": "Fallen Fruits",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -60,12 +4499,12 @@
       "CategoryId": "dcfc69d7-9fff-4d40-87b3-002059076196",
       "ProductCategoryId": 448,
       "CategoryName": "Flow",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -74,12 +4513,12 @@
       "CategoryId": "a7ce963f-189d-4ca7-b499-95c60635297d",
       "ProductCategoryId": 441,
       "CategoryName": "Mic's Chilli",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -88,12 +4527,12 @@
       "CategoryId": "4fff8b5a-6015-4430-9c0d-acbe712090f7",
       "ProductCategoryId": 444,
       "CategoryName": "Otterdene",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -102,12 +4541,12 @@
       "CategoryId": "8775b8ae-1a42-4963-ae26-db2c4332179b",
       "ProductCategoryId": 449,
       "CategoryName": "Plantworks",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -116,12 +4555,12 @@
       "CategoryId": "c0621b64-a06c-4e5a-8fb2-4c6d07560bd5",
       "ProductCategoryId": 445,
       "CategoryName": "Rad Stuff",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -130,12 +4569,12 @@
       "CategoryId": "b611720a-0c56-4aa4-9d82-9d9e08708ad2",
       "ProductCategoryId": 452,
       "CategoryName": "Rouchette",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -144,12 +4583,12 @@
       "CategoryId": "631ba104-2691-485c-809a-487073346cdf",
       "ProductCategoryId": 443,
       "CategoryName": "Sincere Floral",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -158,12 +4597,12 @@
       "CategoryId": "a0b4cdcf-219a-4994-969d-89c7d575047f",
       "ProductCategoryId": 451,
       "CategoryName": "Solmate Socks",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -172,12 +4611,12 @@
       "CategoryId": "1526052d-e4fb-4315-9e0f-e37cd12a716a",
       "ProductCategoryId": 450,
       "CategoryName": "Wildwash",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -186,12 +4625,12 @@
       "CategoryId": "255cd11f-7292-4868-8df4-ac7350721daa",
       "ProductCategoryId": 453,
       "CategoryName": "Woofpanion",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -200,12 +4639,12 @@
       "CategoryId": "d23690f4-2e91-4bd7-8a54-14b03511b3f3",
       "ProductCategoryId": 456,
       "CategoryName": "Backdoorshoes",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -214,12 +4653,12 @@
       "CategoryId": "cdd55a61-734f-41ac-a141-f7b69d02ccf1",
       "ProductCategoryId": 455,
       "CategoryName": "IGSN",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -228,12 +4667,12 @@
       "CategoryId": "13c247ff-22f0-468d-bab9-61e72e2c8ea3",
       "ProductCategoryId": 462,
       "CategoryName": "Bodylitegear",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -242,12 +4681,12 @@
       "CategoryId": "97af4d8f-85a8-471c-a44c-6ec8aaf8340a",
       "ProductCategoryId": 461,
       "CategoryName": "Global Journey",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -256,12 +4695,12 @@
       "CategoryId": "ffcec5b3-e070-42f4-8b08-469241658186",
       "ProductCategoryId": 459,
       "CategoryName": "Hot-Chip",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -270,12 +4709,12 @@
       "CategoryId": "c13e8379-9d7d-4f8f-a7d9-4d1679344a20",
       "ProductCategoryId": 458,
       "CategoryName": "Mellor & Russel",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -284,12 +4723,12 @@
       "CategoryId": "c0b1b4e8-b4af-4f89-b2d2-7563453e54aa",
       "ProductCategoryId": 460,
       "CategoryName": "Superbobble",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -298,12 +4737,12 @@
       "CategoryId": "3a494b82-2dd1-4e75-9343-94ef8129838b",
       "ProductCategoryId": 457,
       "CategoryName": "Whiz Kid Games",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -312,12 +4751,12 @@
       "CategoryId": "c137af26-8e94-4712-8e35-754aed5bf415",
       "ProductCategoryId": 464,
       "CategoryName": "Bodylite Gear",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
@@ -326,12 +4765,12 @@
       "CategoryId": "dd5a9120-cd36-4663-a368-a2bffd338620",
       "ProductCategoryId": 463,
       "CategoryName": "Buff",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   }
