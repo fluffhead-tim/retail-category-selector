@@ -1,23 +1,9 @@
 [
   {
     "supplier": {
-      "CategoryId": "c137af26-8e94-4712-8e35-754aed5bf415",
-      "ProductCategoryId": 464,
-      "CategoryName": "Bodylite Gear",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
-      "SubBrands": []
-    }
-  },
-  {
-    "supplier": {
-      "CategoryId": "dd5a9120-cd36-4663-a368-a2bffd338620",
-      "ProductCategoryId": 463,
-      "CategoryName": "Buff",
+      "CategoryId": "00000000-0000-0000-0000-000000000000",
+      "ProductCategoryId": 1,
+      "CategoryName": "Default (for items missing or don't have a category listed below)",
       "Tesco": true,
       "BandQ": true,
       "Debenhams": true,
