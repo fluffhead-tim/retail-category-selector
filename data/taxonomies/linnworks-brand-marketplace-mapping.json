@@ -1,14 +1,280 @@
 [
   {
     "supplier": {
-      "CategoryId": "a66eb0a6-4afe-401f-8ef5-abf1deee7697",
-      "ProductCategoryId": 465,
-      "CategoryName": "Jess & Lou",
-      "Tesco": false,
+      "CategoryId": "4ce27e6f-d572-42e6-8e7d-6c8e891ac777",
+      "ProductCategoryId": 442,
+      "CategoryName": "Elements of Fragrance",
+      "Tesco": true,
       "BandQ": false,
-      "Debenhams": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "98838983-982d-4e57-bc64-c10715942c61",
+      "ProductCategoryId": 446,
+      "CategoryName": "Fallen Fruits",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
       "SuperDrug": false,
       "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "dcfc69d7-9fff-4d40-87b3-002059076196",
+      "ProductCategoryId": 448,
+      "CategoryName": "Flow",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "4fff8b5a-6015-4430-9c0d-acbe712090f7",
+      "ProductCategoryId": 444,
+      "CategoryName": "Otterdene",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "8775b8ae-1a42-4963-ae26-db2c4332179b",
+      "ProductCategoryId": 449,
+      "CategoryName": "Plantworks",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c0621b64-a06c-4e5a-8fb2-4c6d07560bd5",
+      "ProductCategoryId": 445,
+      "CategoryName": "Rad Stuff",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "b611720a-0c56-4aa4-9d82-9d9e08708ad2",
+      "ProductCategoryId": 452,
+      "CategoryName": "Rouchette",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "631ba104-2691-485c-809a-487073346cdf",
+      "ProductCategoryId": 443,
+      "CategoryName": "Sincere Floral",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a0b4cdcf-219a-4994-969d-89c7d575047f",
+      "ProductCategoryId": 451,
+      "CategoryName": "Solmate Socks",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "1526052d-e4fb-4315-9e0f-e37cd12a716a",
+      "ProductCategoryId": 450,
+      "CategoryName": "Wildwash",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "255cd11f-7292-4868-8df4-ac7350721daa",
+      "ProductCategoryId": 453,
+      "CategoryName": "Woofpanion",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cdd55a61-734f-41ac-a141-f7b69d02ccf1",
+      "ProductCategoryId": 455,
+      "CategoryName": "IGSN",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "13c247ff-22f0-468d-bab9-61e72e2c8ea3",
+      "ProductCategoryId": 462,
+      "CategoryName": "Bodylitegear",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "97af4d8f-85a8-471c-a44c-6ec8aaf8340a",
+      "ProductCategoryId": 461,
+      "CategoryName": "Global Journey",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "ffcec5b3-e070-42f4-8b08-469241658186",
+      "ProductCategoryId": 459,
+      "CategoryName": "Hot-Chip",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c13e8379-9d7d-4f8f-a7d9-4d1679344a20",
+      "ProductCategoryId": 458,
+      "CategoryName": "Mellor & Russel",
+      "Tesco": true,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c0b1b4e8-b4af-4f89-b2d2-7563453e54aa",
+      "ProductCategoryId": 460,
+      "CategoryName": "Superbobble",
+      "Tesco": false,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": true,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "3a494b82-2dd1-4e75-9343-94ef8129838b",
+      "ProductCategoryId": 457,
+      "CategoryName": "Whiz Kid Games",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "c137af26-8e94-4712-8e35-754aed5bf415",
+      "ProductCategoryId": 464,
+      "CategoryName": "Bodylite Gear",
+      "Tesco": true,
+      "BandQ": true,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
+      "Decathlon": false,
+      "SubBrands": []
+    }
+  },
+  {
+    "supplier": {
+      "CategoryId": "dd5a9120-cd36-4663-a368-a2bffd338620",
+      "ProductCategoryId": 463,
+      "CategoryName": "Buff",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": true,
+      "SuperDrug": false,
+      "MountainWarehouse": true,
       "Decathlon": false,
       "SubBrands": []
     }
