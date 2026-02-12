@@ -40,8 +40,6 @@ from ..config import (
     MODEL_PROVIDER,
     OPENAI_API_KEY,
     OPENAI_MODEL,
-    OPENAI_TEMPERATURE,
-    OPENAI_TOP_P,
     OPENAI_MAX_TOKENS,
     ANTHROPIC_API_KEY,
     ANTHROPIC_MODEL,
@@ -167,10 +165,8 @@ def choose_with_openai(
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_instructions + "\n\n" + json.dumps(payload, ensure_ascii=False)},
         ],
-        temperature=OPENAI_TEMPERATURE,
-        top_p=OPENAI_TOP_P,
         response_format={"type": "json_object"},
-        max_tokens=OPENAI_MAX_TOKENS,
+        max_completion_tokens=OPENAI_MAX_TOKENS,
     )
 
     content = completion.choices[0].message.content or ""
