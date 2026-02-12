@@ -4,12 +4,12 @@
       "CategoryId": "00000000-0000-0000-0000-000000000000",
       "ProductCategoryId": 1,
       "CategoryName": "Default (for items missing or don't have a category listed below)",
-      "Tesco": true,
-      "BandQ": true,
-      "Debenhams": true,
-      "SuperDrug": true,
-      "MountainWarehouse": true,
-      "Decathlon": true,
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
       "SubBrands": []
     }
   },
