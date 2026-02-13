@@ -4815,5 +4815,19 @@
       "Decathlon": false,
       "SubBrands": []
     }
+  },
+  {
+    "supplier": {
+      "CategoryId": "a2610f34-bc0e-4629-afaa-dca0f851c578",
+      "ProductCategoryId": 468,
+      "CategoryName": "Allied Imports Ltd",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
   }
 ]
