@@ -20,6 +20,7 @@ from typing import Any, Dict, List
 
 _TAG = re.compile(r"<[^>]+>")
 
+
 def _strip_html(s: str | None) -> str:
     if not s:
         return ""
@@ -28,10 +29,12 @@ def _strip_html(s: str | None) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
+
 def _get_trim(obj: Dict[str, Any], key: str) -> str:
     if key in obj and obj[key] is not None:
         return str(obj[key]).strip()
     return ""
+
 
 def _collect_images(obj: Dict[str, Any]) -> List[str]:
     imgs: List[str] = []
@@ -43,12 +46,15 @@ def _collect_images(obj: Dict[str, Any]) -> List[str]:
                 imgs.append(val)
     return imgs
 
+
 def _lower(s: str) -> str:
     return s.lower() if isinstance(s, str) else s
 
+
 def _map_external_item_to_iteminput(raw: Dict[str, Any]) -> ItemInput:
     # Required fields
-    sku = _get_trim(raw, "ItemNumber")     # always present per your upstream guarantee
+    sku = _get_trim(raw,
+                    "ItemNumber")  # always present per your upstream guarantee
     name = _get_trim(raw, "ItemTitle")
 
     # Brand may be blank — pass through as empty string
@@ -57,7 +63,9 @@ def _map_external_item_to_iteminput(raw: Dict[str, Any]) -> ItemInput:
     # Description: strip HTML from both descriptions and combine
     desc_html = _get_trim(raw, "Description")
     listing_desc_html = _get_trim(raw, "Listing Description")
-    description = " ".join([_strip_html(desc_html), _strip_html(listing_desc_html)]).strip()
+    description = " ".join(
+        [_strip_html(desc_html),
+         _strip_html(listing_desc_html)]).strip()
 
     # Images: array of up to 10; first one becomes image_url
     images = _collect_images(raw)  # at least one per your upstream guarantee
@@ -88,7 +96,7 @@ def _map_external_item_to_iteminput(raw: Dict[str, Any]) -> ItemInput:
     return ItemInput(
         sku=sku,
         name=name,
-        brand=brand or "",                # keep empty-string passthrough as requested
+        brand=brand or "",  # keep empty-string passthrough as requested
         description=description or "",
         image_url=image_url,
         attributes=attrs,
@@ -100,16 +108,19 @@ app = Flask(__name__)
 # Compute absolute path to UI directory
 ui_dir = Path(__file__).resolve().parents[2] / 'ui'
 
+
 # UI Routes - serve static files from ui/ directory
 @app.route('/')
 def index():
     """Serve the main UI page"""
     return send_file(ui_dir / 'index.html')
 
+
 @app.route('/ui/<path:filename>')
 def ui_static(filename):
     """Serve static files from ui directory"""
     return send_from_directory(ui_dir, filename)
+
 
 @app.get("/health")
 def health():
@@ -119,13 +130,21 @@ def health():
         "marketplaces_file": os.path.abspath(MARKETPLACES_FILE),
     }
 
+
 @app.get("/health/llm")
 def health_llm():
     return {
         "provider": MODEL_PROVIDER,
-        "openai": {"configured": bool(OPENAI_API_KEY), "model": OPENAI_MODEL},
-        "anthropic": {"configured": bool(ANTHROPIC_API_KEY), "model": ANTHROPIC_MODEL},
+        "openai": {
+            "configured": bool(OPENAI_API_KEY),
+            "model": OPENAI_MODEL
+        },
+        "anthropic": {
+            "configured": bool(ANTHROPIC_API_KEY),
+            "model": ANTHROPIC_MODEL
+        },
     }
+
 
 @app.post("/categorize")
 def categorize():
@@ -136,13 +155,17 @@ def categorize():
         return jsonify({"error": "Invalid JSON body", "details": str(e)}), 400
 
     if not isinstance(payload, dict):
-        return jsonify({"error": "Request body must be a single JSON object"}), 400
+        return jsonify({"error":
+                        "Request body must be a single JSON object"}), 400
 
     # Map external → internal
     try:
         item = _map_external_item_to_iteminput(payload)
     except Exception as e:
-        return jsonify({"error": "Invalid item payload", "details": str(e)}), 400
+        return jsonify({
+            "error": "Invalid item payload",
+            "details": str(e)
+        }), 400
 
     # Load marketplaces config
     marketplaces_cfg = load_marketplaces()
@@ -151,7 +174,9 @@ def categorize():
     # Optional query param: ?marketplace=Name (case-insensitive)
     mp_filter = request.args.get("marketplace")
     if mp_filter:
-        target = next((m for m in all_mps if _lower(m.get("name")) == _lower(mp_filter)), None)
+        target = next(
+            (m for m in all_mps if _lower(m.get("name")) == _lower(mp_filter)),
+            None)
         if not target:
             return jsonify({
                 "error": "Invalid marketplace name",
@@ -160,7 +185,7 @@ def categorize():
             }), 400
         mps = [target]
     else:
-        mps = all_mps 
+        mps = all_mps
 
     test_flag = request.args.get("test", "false")
     include_confidence = str(test_flag).lower() in ("1", "true", "yes")
@@ -181,17 +206,17 @@ def categorize():
                 category_name="UNMAPPED",
                 category_id="N/A",
                 category_path="N/A",
-                note=f"Skipped: taxonomy file not found at '{taxonomy_path}'"
-            )
+                note=f"Skipped: taxonomy file not found at '{taxonomy_path}'")
             results.append(missing.model_dump())
             # Track zero usage for skipped marketplaces
             if include_confidence:
-                usage_list.append(UsageInfo(
-                    marketplace=name,
-                    prompt_tokens=0,
-                    completion_tokens=0,
-                    total_tokens=0,
-                ))
+                usage_list.append(
+                    UsageInfo(
+                        marketplace=name,
+                        prompt_tokens=0,
+                        completion_tokens=0,
+                        total_tokens=0,
+                    ))
             continue
 
         taxonomy = load_taxonomy(taxonomy_path)
@@ -207,12 +232,13 @@ def categorize():
         results.append(result.model_dump())
         # Track usage per marketplace when test mode enabled
         if include_confidence:
-            usage_list.append(UsageInfo(
-                marketplace=name,
-                prompt_tokens=usage.get("prompt_tokens", 0),
-                completion_tokens=usage.get("completion_tokens", 0),
-                total_tokens=usage.get("total_tokens", 0),
-            ))
+            usage_list.append(
+                UsageInfo(
+                    marketplace=name,
+                    prompt_tokens=usage.get("prompt_tokens", 0),
+                    completion_tokens=usage.get("completion_tokens", 0),
+                    total_tokens=usage.get("total_tokens", 0),
+                ))
 
     # Transform results to new format
     categories = []
@@ -221,6 +247,7 @@ def categorize():
             "category_code": cat.get("category_id"),
             "category_label": cat.get("category_name"),
             "product_sku": item.sku,
+            "product_id": item.sku,
             "category_path": cat.get("category_path"),
             "marketplace": cat.get("marketplace"),
             "note": cat.get("note")
@@ -228,22 +255,20 @@ def categorize():
         if include_confidence:
             products_obj["confidence"] = cat.get("confidence")
         categories.append({"products": products_obj})
-    
+
     resp = {"categories": categories}
-    
+
     # Add usage array when test mode enabled
     if include_confidence and usage_list:
         resp["usage"] = [u.model_dump() for u in usage_list]
-    
+
     return jsonify(resp), 200
 
 
 # replace your existing block at the very bottom
 if __name__ == "__main__":
     import os
-    app.run(
-        host="0.0.0.0",
-        port=int(os.getenv("PORT", "8000")),
-        debug=False,
-        use_reloader=False
-    )
+    app.run(host="0.0.0.0",
+            port=int(os.getenv("PORT", "8000")),
+            debug=False,
+            use_reloader=False)
