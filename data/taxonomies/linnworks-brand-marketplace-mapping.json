@@ -4829,5 +4829,19 @@
       "Decathlon": false,
       "SubBrands": []
     }
+  },
+  {
+    "supplier": {
+      "CategoryId": "090e92f5-3d9a-4dd9-85f4-80e1d59f732e",
+      "ProductCategoryId": 469,
+      "CategoryName": "Corincraft",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
   }
 ]
