@@ -6,7 +6,13 @@ from ..config import (
     MARKETPLACES_FILE,
     MODEL_PROVIDER,
     OPENAI_MODEL,
+    OPENAI_TEMPERATURE,
+    OPENAI_TOP_P,
+    OPENAI_MAX_TOKENS,
     ANTHROPIC_MODEL,
+    ANTHROPIC_TEMPERATURE,
+    ANTHROPIC_TOP_P,
+    ANTHROPIC_MAX_TOKENS,
     OPENAI_API_KEY,
     ANTHROPIC_API_KEY,
 )
@@ -261,6 +267,20 @@ def categorize():
     # Add usage array when test mode enabled
     if include_confidence and usage_list:
         resp["usage"] = [u.model_dump() for u in usage_list]
+
+    # Add environment config when test mode enabled
+    if include_confidence:
+        resp["env"] = {
+            "MODEL_PROVIDER": MODEL_PROVIDER,
+            "OPENAI_MODEL": OPENAI_MODEL,
+            "OPENAI_TEMPERATURE": OPENAI_TEMPERATURE,
+            "OPENAI_TOP_P": OPENAI_TOP_P,
+            "OPENAI_MAX_TOKENS": OPENAI_MAX_TOKENS,
+            "ANTHROPIC_MODEL": ANTHROPIC_MODEL,
+            "ANTHROPIC_TEMPERATURE": ANTHROPIC_TEMPERATURE,
+            "ANTHROPIC_TOP_P": ANTHROPIC_TOP_P,
+            "ANTHROPIC_MAX_TOKENS": ANTHROPIC_MAX_TOKENS,
+        }
 
     return jsonify(resp), 200
 
