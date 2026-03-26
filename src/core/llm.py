@@ -10,7 +10,7 @@ Behavior:
   and candidate leaves for a single marketplace.
 - Forces JSON responses where supported (OpenAI response_format=json_object).
 - Parses responses robustly (strips code fences, accepts slight variations).
-- Returns (category_id, category_name, confidence, raw_text, usage_dict). 
+- Returns (category_id, category_name, confidence, raw_text, usage_dict).
   If parsing fails, returns (None, None, None, raw_text, usage_dict).
   usage_dict contains {prompt_tokens, completion_tokens, total_tokens}, defaults to zeros if unavailable.
 """
@@ -20,21 +20,25 @@ from __future__ import annotations
 import json
 from typing import Any, Dict, Tuple, Optional
 
+
 def _extract_usage(usage_obj: Any) -> Dict[str, int]:
     """Extract token usage from API response, return zeros if unavailable"""
     try:
-        if hasattr(usage_obj, 'prompt_tokens') and hasattr(usage_obj, 'completion_tokens'):
+        # OpenAI style
+        if hasattr(usage_obj, "prompt_tokens") and hasattr(usage_obj, "completion_tokens"):
             prompt = int(usage_obj.prompt_tokens or 0)
             completion = int(usage_obj.completion_tokens or 0)
-            total = int(getattr(usage_obj, 'total_tokens', prompt + completion))
-            return {
-                "prompt_tokens": prompt,
-                "completion_tokens": completion,
-                "total_tokens": total,
-            }
+            total = int(getattr(usage_obj, "total_tokens", prompt + completion))
+            return {"prompt_tokens": prompt, "completion_tokens": completion, "total_tokens": total}
+        # Anthropic style
+        if hasattr(usage_obj, "input_tokens") and hasattr(usage_obj, "output_tokens"):
+            prompt = int(usage_obj.input_tokens or 0)
+            completion = int(usage_obj.output_tokens or 0)
+            return {"prompt_tokens": prompt, "completion_tokens": completion, "total_tokens": prompt + completion}
     except Exception:
         pass
     return {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+
 
 from ..config import (
     MODEL_PROVIDER,
@@ -52,6 +56,7 @@ from ..config import (
 
 # ------------------------- parsing helpers ------------------------- #
 
+
 def _strip_code_fences(text: str) -> str:
     text = (text or "").strip()
     if text.startswith("```"):
@@ -61,6 +66,7 @@ def _strip_code_fences(text: str) -> str:
         if first_newline != -1:
             text = text[first_newline + 1 :]
     return text.strip()
+
 
 def _try_parse_json(text: str) -> Optional[Dict[str, Any]]:
     text = _strip_code_fences(text)
@@ -78,6 +84,7 @@ def _try_parse_json(text: str) -> Optional[Dict[str, Any]]:
                 pass
         return None
 
+
 def _normalize_confidence(value: Any) -> Optional[float]:
     try:
         if value is None:
@@ -90,7 +97,9 @@ def _normalize_confidence(value: Any) -> Optional[float]:
     return conf
 
 
-def _extract_category(parsed: Dict[str, Any]) -> Tuple[Optional[str], Optional[str], Optional[float]]:
+def _extract_category(
+    parsed: Dict[str, Any],
+) -> Tuple[Optional[str], Optional[str], Optional[float]]:
     """
     Accepts a few common shapes, returns (category_id, category_name, confidence) or (None, None, None).
     Expected/ideal:
@@ -120,7 +129,11 @@ def _extract_category(parsed: Dict[str, Any]) -> Tuple[Optional[str], Optional[s
     sels = parsed.get("selections")
     if isinstance(sels, list) and sels:
         first = sels[0]
-        if isinstance(first, dict) and "category_id" in first and "category_name" in first:
+        if (
+            isinstance(first, dict)
+            and "category_id" in first
+            and "category_name" in first
+        ):
             return (
                 str(first["category_id"]),
                 str(first["category_name"]),
@@ -129,7 +142,9 @@ def _extract_category(parsed: Dict[str, Any]) -> Tuple[Optional[str], Optional[s
 
     return None, None, None
 
+
 # ------------------------- providers ------------------------- #
+
 
 def choose_with_openai(
     system_prompt: str,
@@ -157,16 +172,16 @@ def choose_with_openai(
     if include_confidence:
         user_instructions = (
             "You MUST return ONLY a single JSON object with exactly these keys:\n"
-            '  - \"category_id\": string\n'
-            '  - \"category_name\": string\n'
-            '  - \"confidence\": number between 0 and 1\n'
+            '  - "category_id": string\n'
+            '  - "category_name": string\n'
+            '  - "confidence": number between 0 and 1\n'
             "No markdown, no extra fields, no explanations.\n"
         )
     else:
         user_instructions = (
             "You MUST return ONLY a single JSON object with exactly these keys:\n"
-            '  - \"category_id\": string\n'
-            '  - \"category_name\": string\n'
+            '  - "category_id": string\n'
+            '  - "category_name": string\n'
             "No markdown, no extra fields, no explanations.\n"
         )
 
@@ -174,7 +189,12 @@ def choose_with_openai(
         model=_model,
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_instructions + "\n\n" + json.dumps(payload, ensure_ascii=False)},
+            {
+                "role": "user",
+                "content": user_instructions
+                + "\n\n"
+                + json.dumps(payload, ensure_ascii=False),
+            },
         ],
         response_format={"type": "json_object"},
         temperature=_temperature,
@@ -190,6 +210,7 @@ def choose_with_openai(
         return cat_id, cat_name, confidence, content, usage
     return None, None, None, content, usage
 
+
 def choose_with_anthropic(
     system_prompt: str,
     payload: Dict[str, Any],
@@ -197,7 +218,7 @@ def choose_with_anthropic(
     include_confidence: bool = False,
     model: str = None,
     temperature: float = None,
-    top_p: float = None,
+    # top_p: float = None,
     max_tokens: int = None,
 ) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
@@ -211,19 +232,19 @@ def choose_with_anthropic(
 
     _model = model if model is not None else ANTHROPIC_MODEL
     _temperature = temperature if temperature is not None else ANTHROPIC_TEMPERATURE
-    _top_p = top_p if top_p is not None else ANTHROPIC_TOP_P
+    # _top_p = top_p if top_p is not None else ANTHROPIC_TOP_P
     _max_tokens = max_tokens if max_tokens is not None else ANTHROPIC_MAX_TOKENS
 
     if include_confidence:
         user_instructions = (
             "Return ONLY a JSON object with exactly:\n"
-            '{\"category_id\": \"...\", \"category_name\": \"...\", \"confidence\": number between 0 and 1}\n'
+            '{"category_id": "...", "category_name": "...", "confidence": number between 0 and 1}\n'
             "No prose, no markdown."
         )
     else:
         user_instructions = (
             "Return ONLY a JSON object with exactly:\n"
-            '{\"category_id\": \"...\", \"category_name\": \"...\"}\n'
+            '{"category_id": "...", "category_name": "..."}\n'
             "No prose, no markdown."
         )
 
@@ -231,8 +252,8 @@ def choose_with_anthropic(
         "temperature": _temperature,
         "max_tokens": _max_tokens,
     }
-    if _top_p is not None:
-        anthropic_params["top_p"] = _top_p
+    # if _top_p is not None:
+    # anthropic_params["top_p"] = _top_p
 
     msg = client.messages.create(
         model=_model,
@@ -263,7 +284,9 @@ def choose_with_anthropic(
         return cat_id, cat_name, confidence, content, usage
     return None, None, None, content, usage
 
+
 # ------------------------- public entrypoint ------------------------- #
+
 
 def pick_category_via_llm(
     system_prompt: str,
@@ -294,7 +317,8 @@ def pick_category_via_llm(
         _model = openai_model or OPENAI_MODEL
         print("[LLM] Using OpenAI:", _model)
         return choose_with_openai(
-            system_prompt, payload,
+            system_prompt,
+            payload,
             include_confidence=include_confidence,
             model=openai_model,
             temperature=openai_temperature,
@@ -306,13 +330,20 @@ def pick_category_via_llm(
         _model = anthropic_model or ANTHROPIC_MODEL
         print("[LLM] Using Anthropic:", _model)
         return choose_with_anthropic(
-            system_prompt, payload,
+            system_prompt,
+            payload,
             include_confidence=include_confidence,
             model=anthropic_model,
             temperature=anthropic_temperature,
-            top_p=anthropic_top_p,
+            #top_p=anthropic_top_p,
             max_tokens=anthropic_max_tokens,
         )
 
     # No provider/keys configured
-    return None, None, None, "", {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+    return (
+        None,
+        None,
+        None,
+        "",
+        {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0},
+    )
