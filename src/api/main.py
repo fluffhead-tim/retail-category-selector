@@ -196,6 +196,31 @@ def categorize():
     test_flag = request.args.get("test", "false")
     include_confidence = str(test_flag).lower() in ("1", "true", "yes")
 
+    # Per-request model overrides — fall back to module-level config (Replit secrets) if absent
+    def _float_param(name):
+        v = request.args.get(name)
+        try:
+            return float(v) if v is not None else None
+        except ValueError:
+            return None
+
+    def _int_param(name):
+        v = request.args.get(name)
+        try:
+            return int(v) if v is not None else None
+        except ValueError:
+            return None
+
+    req_provider          = request.args.get("MODEL_PROVIDER")
+    req_openai_model      = request.args.get("OPENAI_MODEL")
+    req_openai_temp       = _float_param("OPENAI_TEMPERATURE")
+    req_openai_top_p      = _float_param("OPENAI_TOP_P")
+    req_openai_max_tokens = _int_param("OPENAI_MAX_TOKENS")
+    req_anthropic_model      = request.args.get("ANTHROPIC_MODEL")
+    req_anthropic_temp       = _float_param("ANTHROPIC_TEMPERATURE")
+    req_anthropic_top_p      = _float_param("ANTHROPIC_TOP_P")
+    req_anthropic_max_tokens = _int_param("ANTHROPIC_MAX_TOKENS")
+
     # For each marketplace: skip missing taxonomy file with a note; otherwise categorize
     results = []
     usage_list = []
@@ -234,6 +259,15 @@ def categorize():
             name_field=name_field,
             children_field=children_field,
             include_confidence=include_confidence,
+            provider=req_provider,
+            openai_model=req_openai_model,
+            openai_temperature=req_openai_temp,
+            openai_top_p=req_openai_top_p,
+            openai_max_tokens=req_openai_max_tokens,
+            anthropic_model=req_anthropic_model,
+            anthropic_temperature=req_anthropic_temp,
+            anthropic_top_p=req_anthropic_top_p,
+            anthropic_max_tokens=req_anthropic_max_tokens,
         )
         results.append(result.model_dump())
         # Track usage per marketplace when test mode enabled
@@ -268,18 +302,18 @@ def categorize():
     if include_confidence and usage_list:
         resp["usage"] = [u.model_dump() for u in usage_list]
 
-    # Add environment config when test mode enabled
+    # Add environment config when test mode enabled (shows effective values used)
     if include_confidence:
         resp["env"] = {
-            "MODEL_PROVIDER": MODEL_PROVIDER,
-            "OPENAI_MODEL": OPENAI_MODEL,
-            "OPENAI_TEMPERATURE": OPENAI_TEMPERATURE,
-            "OPENAI_TOP_P": OPENAI_TOP_P,
-            "OPENAI_MAX_TOKENS": OPENAI_MAX_TOKENS,
-            "ANTHROPIC_MODEL": ANTHROPIC_MODEL,
-            "ANTHROPIC_TEMPERATURE": ANTHROPIC_TEMPERATURE,
-            "ANTHROPIC_TOP_P": ANTHROPIC_TOP_P,
-            "ANTHROPIC_MAX_TOKENS": ANTHROPIC_MAX_TOKENS,
+            "MODEL_PROVIDER": req_provider or MODEL_PROVIDER,
+            "OPENAI_MODEL": req_openai_model or OPENAI_MODEL,
+            "OPENAI_TEMPERATURE": req_openai_temp if req_openai_temp is not None else OPENAI_TEMPERATURE,
+            "OPENAI_TOP_P": req_openai_top_p if req_openai_top_p is not None else OPENAI_TOP_P,
+            "OPENAI_MAX_TOKENS": req_openai_max_tokens if req_openai_max_tokens is not None else OPENAI_MAX_TOKENS,
+            "ANTHROPIC_MODEL": req_anthropic_model or ANTHROPIC_MODEL,
+            "ANTHROPIC_TEMPERATURE": req_anthropic_temp if req_anthropic_temp is not None else ANTHROPIC_TEMPERATURE,
+            "ANTHROPIC_TOP_P": req_anthropic_top_p if req_anthropic_top_p is not None else ANTHROPIC_TOP_P,
+            "ANTHROPIC_MAX_TOKENS": req_anthropic_max_tokens if req_anthropic_max_tokens is not None else ANTHROPIC_MAX_TOKENS,
         }
 
     return jsonify(resp), 200

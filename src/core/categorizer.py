@@ -63,6 +63,15 @@ def choose_category_for_marketplace(
     name_field: str = "name",
     children_field: str = "children",
     include_confidence: bool = False,
+    provider: str = None,
+    openai_model: str = None,
+    openai_temperature: float = None,
+    openai_top_p: float = None,
+    openai_max_tokens: int = None,
+    anthropic_model: str = None,
+    anthropic_temperature: float = None,
+    anthropic_top_p: float = None,
+    anthropic_max_tokens: int = None,
 ) -> Tuple[MarketplaceCategoryResult, Dict[str, int]]:
     system_prompt = load_prompt()
 
@@ -126,6 +135,15 @@ def choose_category_for_marketplace(
         system_prompt,
         payload,
         include_confidence=include_confidence,
+        provider=provider,
+        openai_model=openai_model,
+        openai_temperature=openai_temperature,
+        openai_top_p=openai_top_p,
+        openai_max_tokens=openai_max_tokens,
+        anthropic_model=anthropic_model,
+        anthropic_temperature=anthropic_temperature,
+        anthropic_top_p=anthropic_top_p,
+        anthropic_max_tokens=anthropic_max_tokens,
     )
 
     by_id, by_name = _index_candidates(payload["candidates"])

@@ -40,6 +40,8 @@ from ..config import (
     MODEL_PROVIDER,
     OPENAI_API_KEY,
     OPENAI_MODEL,
+    OPENAI_TEMPERATURE,
+    OPENAI_TOP_P,
     OPENAI_MAX_TOKENS,
     ANTHROPIC_API_KEY,
     ANTHROPIC_MODEL,
@@ -134,6 +136,10 @@ def choose_with_openai(
     payload: Dict[str, Any],
     *,
     include_confidence: bool = False,
+    model: str = None,
+    temperature: float = None,
+    top_p: float = None,
+    max_tokens: int = None,
 ) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
     Call OpenAI Chat Completions with JSON-only response mode where supported.
@@ -142,6 +148,11 @@ def choose_with_openai(
     from openai import OpenAI
 
     client = OpenAI(api_key=OPENAI_API_KEY)
+
+    _model = model if model is not None else OPENAI_MODEL
+    _temperature = temperature if temperature is not None else OPENAI_TEMPERATURE
+    _top_p = top_p if top_p is not None else OPENAI_TOP_P
+    _max_tokens = max_tokens if max_tokens is not None else OPENAI_MAX_TOKENS
 
     if include_confidence:
         user_instructions = (
@@ -160,13 +171,15 @@ def choose_with_openai(
         )
 
     completion = client.chat.completions.create(
-        model=OPENAI_MODEL,
+        model=_model,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_instructions + "\n\n" + json.dumps(payload, ensure_ascii=False)},
         ],
         response_format={"type": "json_object"},
-        max_completion_tokens=OPENAI_MAX_TOKENS,
+        temperature=_temperature,
+        top_p=_top_p,
+        max_completion_tokens=_max_tokens,
     )
 
     content = completion.choices[0].message.content or ""
@@ -182,6 +195,10 @@ def choose_with_anthropic(
     payload: Dict[str, Any],
     *,
     include_confidence: bool = False,
+    model: str = None,
+    temperature: float = None,
+    top_p: float = None,
+    max_tokens: int = None,
 ) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
     Call Anthropic Messages API. Anthropic does not have a strict JSON mode like OpenAI's,
@@ -191,6 +208,11 @@ def choose_with_anthropic(
     from anthropic import Anthropic
 
     client = Anthropic(api_key=ANTHROPIC_API_KEY)
+
+    _model = model if model is not None else ANTHROPIC_MODEL
+    _temperature = temperature if temperature is not None else ANTHROPIC_TEMPERATURE
+    _top_p = top_p if top_p is not None else ANTHROPIC_TOP_P
+    _max_tokens = max_tokens if max_tokens is not None else ANTHROPIC_MAX_TOKENS
 
     if include_confidence:
         user_instructions = (
@@ -206,14 +228,14 @@ def choose_with_anthropic(
         )
 
     anthropic_params = {
-        "temperature": ANTHROPIC_TEMPERATURE,
-        "max_tokens": ANTHROPIC_MAX_TOKENS,
+        "temperature": _temperature,
+        "max_tokens": _max_tokens,
     }
-    if ANTHROPIC_TOP_P is not None:
-        anthropic_params["top_p"] = ANTHROPIC_TOP_P
+    if _top_p is not None:
+        anthropic_params["top_p"] = _top_p
 
     msg = client.messages.create(
-        model=ANTHROPIC_MODEL,
+        model=_model,
         system=system_prompt,
         messages=[
             {
@@ -248,22 +270,49 @@ def pick_category_via_llm(
     payload: Dict[str, Any],
     *,
     include_confidence: bool = False,
+    provider: str = None,
+    openai_model: str = None,
+    openai_temperature: float = None,
+    openai_top_p: float = None,
+    openai_max_tokens: int = None,
+    anthropic_model: str = None,
+    anthropic_temperature: float = None,
+    anthropic_top_p: float = None,
+    anthropic_max_tokens: int = None,
 ) -> Tuple[Optional[str], Optional[str], Optional[float], str, Dict[str, int]]:
     """
     Returns (category_id, category_name, confidence, raw_text, usage_dict) for a SINGLE marketplace,
-    using whichever provider is configured via env (MODEL_PROVIDER).
+    using whichever provider is configured via env (MODEL_PROVIDER) or the override params.
 
     - If MODEL_PROVIDER=openai and OPENAI_API_KEY is set → OpenAI path.
     - If MODEL_PROVIDER=anthropic and ANTHROPIC_API_KEY is set → Anthropic path.
     - If neither, returns (None, None, None, "", {prompt_tokens:0, completion_tokens:0, total_tokens:0}).
     """
-    if MODEL_PROVIDER == "openai" and OPENAI_API_KEY:
-        print("[LLM] Using OpenAI:", OPENAI_MODEL)
-        return choose_with_openai(system_prompt, payload, include_confidence=include_confidence)
+    _provider = (provider or MODEL_PROVIDER).lower()
 
-    if MODEL_PROVIDER == "anthropic" and ANTHROPIC_API_KEY:
-        print("[LLM] Using Anthropic:", ANTHROPIC_MODEL)
-        return choose_with_anthropic(system_prompt, payload, include_confidence=include_confidence)
+    if _provider == "openai" and OPENAI_API_KEY:
+        _model = openai_model or OPENAI_MODEL
+        print("[LLM] Using OpenAI:", _model)
+        return choose_with_openai(
+            system_prompt, payload,
+            include_confidence=include_confidence,
+            model=openai_model,
+            temperature=openai_temperature,
+            top_p=openai_top_p,
+            max_tokens=openai_max_tokens,
+        )
+
+    if _provider == "anthropic" and ANTHROPIC_API_KEY:
+        _model = anthropic_model or ANTHROPIC_MODEL
+        print("[LLM] Using Anthropic:", _model)
+        return choose_with_anthropic(
+            system_prompt, payload,
+            include_confidence=include_confidence,
+            model=anthropic_model,
+            temperature=anthropic_temperature,
+            top_p=anthropic_top_p,
+            max_tokens=anthropic_max_tokens,
+        )
 
     # No provider/keys configured
     return None, None, None, "", {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
