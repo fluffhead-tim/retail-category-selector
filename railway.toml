@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "gunicorn \"src.api.main:app\" --bind \"0.0.0.0:$PORT\" --workers 2 --timeout 120"
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
