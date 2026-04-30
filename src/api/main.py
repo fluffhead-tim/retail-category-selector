@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, send_from_directory, send_file
 from pydantic import ValidationError
 from pathlib import Path
 from ..config import (
+    API_KEY,
     DATA_DIR,
     MARKETPLACES_FILE,
     MODEL_PROVIDER,
@@ -154,6 +155,10 @@ def health_llm():
 
 @app.post("/categorize")
 def categorize():
+    # Require API key when one is configured
+    if API_KEY and request.headers.get("X-API-Key") != API_KEY:
+        return jsonify({"error": "Unauthorized"}), 401
+
     # Body must be a single JSON object (not an array)
     try:
         payload = request.get_json(force=True)

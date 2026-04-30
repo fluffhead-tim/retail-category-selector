@@ -35,6 +35,8 @@ ANTHROPIC_TEMPERATURE = _get_float_env("ANTHROPIC_TEMPERATURE", 0.0)
 ANTHROPIC_TOP_P = _get_float_env("ANTHROPIC_TOP_P")
 ANTHROPIC_MAX_TOKENS = _get_int_env("ANTHROPIC_MAX_TOKENS", 300)
 
+API_KEY = os.getenv("API_KEY")
+
 DATA_DIR = os.getenv("DATA_DIR", "./data")
 MARKETPLACES_FILE = os.path.join(DATA_DIR, "marketplaces.json")
 PROMPT_FILE = os.path.join(DATA_DIR, "prompts", "category_prompt.md")

@@ -148,6 +148,7 @@ All configuration is through environment variables. Set them in `.env` for local
 | `MODEL_PROVIDER` | LLM to use: `openai` or `anthropic` (default: `openai`) |
 | `OPENAI_API_KEY` | Required when `MODEL_PROVIDER=openai` |
 | `ANTHROPIC_API_KEY` | Required when `MODEL_PROVIDER=anthropic` |
+| `API_KEY` | Secret key that callers must supply in the `X-API-Key` request header. When unset (e.g. local dev), authentication is skipped. |
 
 ### Optional — model tuning
 
@@ -213,6 +214,16 @@ Returns the active LLM provider and whether each provider's API key is configure
 ### `POST /categorize`
 
 Categorise a product across all configured marketplaces (or a single one).
+
+#### Authentication
+
+When `API_KEY` is set on the server, include the key in every request:
+
+```
+X-API-Key: <your-api-key>
+```
+
+Requests missing the header, or supplying the wrong value, receive `401 Unauthorized`. The `/health` and `/health/llm` endpoints do not require authentication.
 
 #### Request body
 
