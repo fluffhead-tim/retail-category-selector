@@ -4843,5 +4843,19 @@
       "Decathlon": false,
       "SubBrands": []
     }
+  },
+  {
+    "supplier": {
+      "CategoryId": "60e412e9-465d-43e9-b8cb-a71a35721199",
+      "ProductCategoryId": 470,
+      "CategoryName": "Huggle Pets",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
   }
 ]
