@@ -4857,5 +4857,19 @@
       "Decathlon": false,
       "SubBrands": []
     }
+  },
+  {
+    "supplier": {
+      "CategoryId": "326018e4-ffa4-488c-912f-fcee692e38ee",
+      "ProductCategoryId": 471,
+      "CategoryName": "Vitax",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
   }
 ]
