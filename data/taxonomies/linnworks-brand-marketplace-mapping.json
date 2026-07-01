@@ -4871,5 +4871,19 @@
       "Decathlon": false,
       "SubBrands": []
     }
+  },
+  {
+    "supplier": {
+      "CategoryId": "cf90e566-1cf4-45c8-9271-dc719b4434b0",
+      "ProductCategoryId": 472,
+      "CategoryName": "Eco Bath London",
+      "Tesco": false,
+      "BandQ": false,
+      "Debenhams": false,
+      "SuperDrug": false,
+      "MountainWarehouse": false,
+      "Decathlon": false,
+      "SubBrands": []
+    }
   }
 ]
